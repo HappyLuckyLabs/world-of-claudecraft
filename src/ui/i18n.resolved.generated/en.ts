@@ -5243,13 +5243,13 @@ export const en: EnTranslations = {
     "statusShareUnsupported": "Sharing is not supported on this device."
   },
   "classes": {
-    "warrior": "Warrior",
+    "warrior": "Fighter",
     "paladin": "Paladin",
     "hunter": "Hunter",
     "rogue": "Rogue",
     "priest": "Priest",
     "shaman": "Shaman",
-    "mage": "Mage",
+    "mage": "Wizard",
     "warlock": "Warlock",
     "druid": "Druid",
     "warriorAria": "Warrior class",
@@ -11752,11 +11752,11 @@ export const en: EnTranslations = {
       },
       "q_greyjaw": {
         "title": "The Unowned Ring",
-        "text": "One old sprite in the deep meadow will not flicker out: Greyjaw, the hunters call it. It has been digging - and it guards what it dug up. A ring, they say. Odd - no one remembers burying anything there. Bring me what it carries.",
+        "text": "One old sprite will not flicker out: Greyjaw, the hunters call it. It has taken to Mirror Lake - circles the shallows off the fishing dock, and will not be parted from something it dredged off the lakebed. A ring, they say. Odd - no one remembers losing one. Bring me what it carries.",
         "completion": "So the old thing is gone at last. And this ring... warm, is it not? As if something inside were still running. Keep it. It clearly means to be kept.",
         "objectives": {
           "0": {
-            "label": "Old Greyjaw's Fang"
+            "label": "The ring Greyjaw dredged up"
           }
         }
       },
