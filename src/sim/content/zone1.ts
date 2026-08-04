@@ -883,11 +883,11 @@ export const ZONE1_QUESTS: Record<string, QuestDef> = {
     name: 'The Unowned Ring',
     giverNpcId: 'marshal_redbrook',
     turnInNpcId: 'marshal_redbrook',
-    text: "One old sprite in the deep meadow will not flicker out: Greyjaw, the hunters call it. It has been digging - and it guards what it dug up. A ring, they say. Odd - no one remembers burying anything there. Bring me what it carries.",
+    text: "One old sprite will not flicker out: Greyjaw, the hunters call it. It has taken to Mirror Lake - circles the shallows off the fishing dock, and will not be parted from something it dredged off the lakebed. A ring, they say. Odd - no one remembers losing one. Bring me what it carries.",
     completionText:
       'So the old thing is gone at last. And this ring... warm, is it not? As if something inside were still running. Keep it. It clearly means to be kept.',
     objectives: [
-      { type: 'collect', itemId: 'greyjaw_fang', count: 1, label: "Old Greyjaw's Fang" },
+      { type: 'collect', itemId: 'greyjaw_fang', count: 1, label: 'The ring Greyjaw dredged up' },
     ],
     xpReward: 450,
     copperReward: 150,
@@ -1523,7 +1523,7 @@ export const ZONE1_CAMPS: CampDef[] = [
   { mobId: 'forest_wolf', center: { x: 24, z: 70 }, radius: 26, count: 5 },
   // Nudged north to stay ahead of the widened wolf runs (q_greyjaw sends the
   // player to "the deep woods north of the wolf runs").
-  { mobId: 'old_greyjaw', center: { x: 0, z: 100 }, radius: 8, count: 1 },
+  { mobId: 'old_greyjaw', center: { x: -76, z: 78 }, radius: 8, count: 1 },
   // Boars: east meadow
   { mobId: 'wild_boar', center: { x: 63, z: 16 }, radius: 26, count: 5 },
   { mobId: 'wild_boar', center: { x: 84, z: -27 }, radius: 23.5, count: 4 },

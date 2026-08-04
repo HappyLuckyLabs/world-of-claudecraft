@@ -1587,7 +1587,7 @@ export const BASE_ITEMS: Record<string, ItemDef> = {
   },
   greyjaw_fang: {
     id: 'greyjaw_fang',
-    name: "Old Greyjaw's Fang",
+    name: 'The Unowned Ring',
     kind: 'quest',
     sellValue: 0,
     questId: 'q_greyjaw',
