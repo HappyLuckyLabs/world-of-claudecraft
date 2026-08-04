@@ -743,8 +743,10 @@ describe('client HTML shell', () => {
     expect(html).toContain(
       '<meta name="robots" content="index, follow, max-image-preview:large" />',
     );
-    expect(html).toContain('<link rel="canonical" href="https://worldofclaudecraft.com/" />');
-    expect(html).toContain('<meta property="og:site_name" content="World of ClaudeCraft" />');
+    // Fork policy: no canonical/hreflang on the app shell until Claude of the
+    // Rings owns a domain (see issue #2). Static pages keep upstream urls for now.
+    expect(html).not.toContain('rel="canonical"');
+    expect(html).toContain('<meta property="og:site_name" content="Claude of the Rings" />');
     expect(html).toContain('"alternateName": "World of Claudecraft"');
     expect(html).toContain('"https://github.com/levy-street/world-of-claudecraft"');
     expect(mainTs).toContain("alternateName: 'World of Claudecraft'");

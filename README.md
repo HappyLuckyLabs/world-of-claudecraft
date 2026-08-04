@@ -1,3 +1,8 @@
+> **This is [Claude of the Rings](https://github.com/HappyLuckyLabs/world-of-claudecraft)** — a parody fork of
+> [World of ClaudeCraft](https://github.com/levy-street/world-of-claudecraft). It comments on AI-generated
+> worlds and "vibe coding" culture. Claude of the Rings is a parody; it is not affiliated with or endorsed
+> by the Tolkien Estate, nor by the upstream World of ClaudeCraft project.
+
 <div align="center">
 
 # World of ClaudeCraft

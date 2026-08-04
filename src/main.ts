@@ -6203,7 +6203,7 @@ function updateSeoMetadata(lang: SupportedLanguage): void {
           {
             '@type': 'WebSite',
             '@id': 'https://worldofclaudecraft.com/#website',
-            name: 'World of ClaudeCraft',
+            name: 'Claude of the Rings',
             alternateName: 'World of Claudecraft',
             url: canonicalHref,
             inLanguage: languageTag(lang),
@@ -6215,7 +6215,7 @@ function updateSeoMetadata(lang: SupportedLanguage): void {
           {
             '@type': 'Organization',
             '@id': 'https://worldofclaudecraft.com/#organization',
-            name: 'World of ClaudeCraft',
+            name: 'Claude of the Rings',
             url: 'https://worldofclaudecraft.com/',
             logo: 'https://worldofclaudecraft.com/woc_logo_square.webp',
             sameAs,
@@ -6223,7 +6223,7 @@ function updateSeoMetadata(lang: SupportedLanguage): void {
           {
             '@type': 'VideoGame',
             '@id': 'https://worldofclaudecraft.com/#game',
-            name: 'World of ClaudeCraft',
+            name: 'Claude of the Rings',
             alternateName: 'World of Claudecraft',
             genre: t('seo.genre'),
             playMode: t('seo.playMode'),
