@@ -1529,6 +1529,20 @@ export const BASE_ITEMS: Record<string, ItemDef> = {
     requiredClass: CASTER_ALL,
   },
   // --- quest items ---
+  token_of_alignment: {
+    id: 'token_of_alignment',
+    name: 'Token of Alignment',
+    kind: 'quest',
+    sellValue: 0,
+    questId: 'q_tokens_alignment',
+  },
+  prompt_of_binding: {
+    id: 'prompt_of_binding',
+    name: 'The Prompt of Binding',
+    kind: 'quest',
+    sellValue: 0,
+    questId: 'q_hallucinated_cache',
+  },
   boar_hide: {
     id: 'boar_hide',
     name: 'Bristly Boar Hide',

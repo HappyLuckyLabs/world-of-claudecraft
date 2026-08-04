@@ -545,7 +545,7 @@ export const ZONE1_NPCS: Record<string, NpcDef> = {
     pos: { ...EASTBROOK_NPC_PLACEMENTS_BY_ID.marshal_redbrook.position },
     facing: EASTBROOK_NPC_PLACEMENTS_BY_ID.marshal_redbrook.facing,
     color: 0xb7950b,
-    questIds: ['q_wolves', 'q_greyjaw', 'q_bandits', 'q_ringleader', 'q_mogger'],
+    questIds: ['q_wolves', 'q_greyjaw', 'q_tokens_alignment', 'q_bandits', 'q_ringleader', 'q_mogger'],
     greeting: 'Welcome to Lightfall Valley, $C. The board refills itself overnight - I stopped asking who writes the notices years ago.',
   },
   trader_wilkes: {
@@ -809,7 +809,28 @@ export const ZONE1_NPCS: Record<string, NpcDef> = {
     ],
     greeting:
       'Springs, sprockets, and sharp edges, $C: the toolworks has whatever your hands lack.',
+  },  the_inferencer: {
+    id: 'the_inferencer',
+    name: 'The Inferencer',
+    title: 'Reader of Fates',
+    pos: { x: -8, z: -49 },
+    facing: 0.6,
+    color: 0x5b8dd9,
+    questIds: ['q_hallucinated_cache'],
+    greeting:
+      'I knew you would come to me today, $C. I am sorry - I know that is an irritating way to say hello.',
   },
+  api_seven: {
+    id: 'api_seven',
+    name: 'API-7',
+    title: 'Ally Protector Ice',
+    pos: { x: -75, z: 70 },
+    facing: 2.4,
+    color: 0x9adcff,
+    questIds: [],
+    greeting: 'UNIT SEVEN STANDS WATCH. THE LAKE IS PROTECTED. ...PROBABLY.',
+  },
+
 };
 
 // ---------------------------------------------------------------------------
@@ -1403,7 +1424,36 @@ export const ZONE1_QUESTS: Record<string, QuestDef> = {
     repeatable: true,
     shareable: false,
     completionEffect: { type: 'switchHobby' },
+  },  q_tokens_alignment: {
+    id: 'q_tokens_alignment',
+    name: 'Tokens of Alignment',
+    giverNpcId: 'marshal_redbrook',
+    turnInNpcId: 'marshal_redbrook',
+    text: 'The Forge accepts no other currency, $N. Five Tokens of Alignment lie scattered across the valley - meadow, lake, hill and field. The board does not say who scattered them. The board rarely says.',
+    completionText: 'Five of five. The board is... satisfied. That is the only word I have for it.',
+    objectives: [
+      { type: 'collect', itemId: 'token_of_alignment', count: 5, label: 'Token of Alignment' },
+    ],
+    xpReward: 400,
+    copperReward: 100,
+    itemRewards: {},
+    requiresQuest: 'q_greyjaw',
   },
+  q_hallucinated_cache: {
+    id: 'q_hallucinated_cache',
+    name: 'The Hallucinated Cache',
+    giverNpcId: 'the_inferencer',
+    turnInNpcId: 'the_inferencer',
+    text: 'A treasure chest has been sighted by a dozen reliable witnesses, $N - in a dozen different places. The far north woods, most recently. Find it. If it decides to be found.',
+    completionText: 'So it allowed itself to be found. Keep the scroll inside. I would not read it too often, were I you.',
+    objectives: [
+      { type: 'collect', itemId: 'prompt_of_binding', count: 1, label: 'The Hallucinated Cache' },
+    ],
+    xpReward: 500,
+    copperReward: 200,
+    itemRewards: {},
+  },
+
 };
 
 export const ZONE1_QUEST_ORDER = [
@@ -1412,6 +1462,8 @@ export const ZONE1_QUEST_ORDER = [
   'q_boars',
   'q_spiders',
   'q_greyjaw',
+  'q_tokens_alignment',
+  'q_hallucinated_cache',
   'q_murlocs',
   'q_supplies',
   'q_bandits',
@@ -1550,7 +1602,27 @@ export const ZONE1_OBJECTS: GroundObjectDef[] = [
     itemId: 'morthen_grimoire',
     name: "Morthen's Grimoire",
     positions: [{ x: 78, z: 86 }],
+  },  {
+    itemId: 'token_of_alignment',
+    name: 'Token of Alignment',
+    positions: [
+      { x: 4, z: 62 },
+      { x: 58, z: 12 },
+      { x: -78, z: 64 },
+      { x: -76, z: -55 },
+      { x: -2, z: -46 },
+      { x: -14, z: -100 },
+      { x: 42, z: 128 },
+    ],
   },
+  {
+    itemId: 'prompt_of_binding',
+    name: 'The Hallucinated Cache',
+    // One spot for now, deliberately off every path. Per-session relocation
+    // is issue #11 (wrongness sprinkles).
+    positions: [{ x: 17, z: 163 }],
+  },
+
 ];
 
 // Roads from town toward each hub — used for terrain painting and the map.
