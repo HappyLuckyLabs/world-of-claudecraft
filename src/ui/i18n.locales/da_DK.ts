@@ -10868,16 +10868,21 @@ export const da_DK: Partial<Record<TranslationKey, string>> = {
   'entities.items.prompt_of_binding.name': 'Bindingsrullen',
   'entities.npcs.the_inferencer.name': 'Udlederen',
   'entities.npcs.the_inferencer.title': 'Skaebnelaeserske',
-  'entities.npcs.the_inferencer.greeting': 'Jeg vidste, du ville komme i dag, {className}. Undskyld - jeg ved, det er en irriterende made at hilse pa.',
+  'entities.npcs.the_inferencer.greeting':
+    'Jeg vidste, du ville komme i dag, {className}. Undskyld - jeg ved, det er en irriterende made at hilse pa.',
   'entities.npcs.api_seven.name': 'API-7',
   'entities.npcs.api_seven.title': 'Allieret Isbeskytter',
   'entities.npcs.api_seven.greeting': 'ENHED SYV HOLDER VAGT. SOEN ER BESKYTTET. ...FORMENTLIG.',
   'entities.quests.q_tokens_alignment.title': 'Retningstegn',
-  'entities.quests.q_tokens_alignment.text': 'Essen tager ikke imod anden valuta, {playerName}. Fem Retningstegn ligger spredt i dalen - eng, so, bakke og mark. Tavlen siger ikke, hvem der spredte dem. Tavlen siger sjaeldent noget.',
-  'entities.quests.q_tokens_alignment.completion': 'Fem ud af fem. Tavlen er... tilfreds. Jeg har ikke andre ord for det.',
+  'entities.quests.q_tokens_alignment.text':
+    'Essen tager ikke imod anden valuta, {playerName}. Fem Retningstegn ligger spredt i dalen - eng, so, bakke og mark. Tavlen siger ikke, hvem der spredte dem. Tavlen siger sjaeldent noget.',
+  'entities.quests.q_tokens_alignment.completion':
+    'Fem ud af fem. Tavlen er... tilfreds. Jeg har ikke andre ord for det.',
   'entities.quests.q_tokens_alignment.objectives.0.label': 'Retningstegn',
   'entities.quests.q_hallucinated_cache.title': 'Den Hallucinerede Skat',
-  'entities.quests.q_hallucinated_cache.text': 'En skattekiste er set af et dusin palidelige vidner, {playerName} - tolv forskellige steder. Senest i skovene hojt mod nord. Find den. Hvis den beslutter sig for at lade sig finde.',
-  'entities.quests.q_hallucinated_cache.completion': 'Sa den lod sig finde. Behold rullen indeni. Jeg ville ikke laese den for tit, hvis jeg var dig.',
+  'entities.quests.q_hallucinated_cache.text':
+    'En skattekiste er set af et dusin palidelige vidner, {playerName} - tolv forskellige steder. Senest i skovene hojt mod nord. Find den. Hvis den beslutter sig for at lade sig finde.',
+  'entities.quests.q_hallucinated_cache.completion':
+    'Sa den lod sig finde. Behold rullen indeni. Jeg ville ikke laese den for tit, hvis jeg var dig.',
   'entities.quests.q_hallucinated_cache.objectives.0.label': 'Den Hallucinerede Skat',
 };

@@ -364,16 +364,22 @@ export const es_ES: Partial<Record<TranslationKey, string>> = {
   'entities.items.prompt_of_binding.name': 'El Pergamino de Atadura',
   'entities.npcs.the_inferencer.name': 'La Inferidora',
   'entities.npcs.the_inferencer.title': 'Lectora de Destinos',
-  'entities.npcs.the_inferencer.greeting': 'Sabia que vendrias a verme hoy, {className}. Lo siento - se que es una forma irritante de saludar.',
+  'entities.npcs.the_inferencer.greeting':
+    'Sabia que vendrias a verme hoy, {className}. Lo siento - se que es una forma irritante de saludar.',
   'entities.npcs.api_seven.name': 'API-7',
   'entities.npcs.api_seven.title': 'Protector Aliado de Hielo',
-  'entities.npcs.api_seven.greeting': 'LA UNIDAD SIETE MONTA GUARDIA. EL LAGO ESTA PROTEGIDO. ...PROBABLEMENTE.',
+  'entities.npcs.api_seven.greeting':
+    'LA UNIDAD SIETE MONTA GUARDIA. EL LAGO ESTA PROTEGIDO. ...PROBABLEMENTE.',
   'entities.quests.q_tokens_alignment.title': 'Fichas de Alineacion',
-  'entities.quests.q_tokens_alignment.text': 'La Forja no acepta otra moneda, {playerName}. Cinco Fichas de Alineacion yacen esparcidas por el valle - pradera, lago, colina y campo. El tablon no dice quien las esparcio. El tablon rara vez dice algo.',
-  'entities.quests.q_tokens_alignment.completion': 'Cinco de cinco. El tablon esta... satisfecho. No tengo otra palabra para eso.',
+  'entities.quests.q_tokens_alignment.text':
+    'La Forja no acepta otra moneda, {playerName}. Cinco Fichas de Alineacion yacen esparcidas por el valle - pradera, lago, colina y campo. El tablon no dice quien las esparcio. El tablon rara vez dice algo.',
+  'entities.quests.q_tokens_alignment.completion':
+    'Cinco de cinco. El tablon esta... satisfecho. No tengo otra palabra para eso.',
   'entities.quests.q_tokens_alignment.objectives.0.label': 'Ficha de Alineacion',
   'entities.quests.q_hallucinated_cache.title': 'El Alijo Alucinado',
-  'entities.quests.q_hallucinated_cache.text': 'Una docena de testigos fiables ha visto un cofre del tesoro, {playerName} - en una docena de lugares distintos. En los bosques del norte, la ultima vez. Encuentralo. Si decide dejarse encontrar.',
-  'entities.quests.q_hallucinated_cache.completion': 'Asi que se dejo encontrar. Guarda el pergamino de dentro. Yo no lo leeria demasiado a menudo, en tu lugar.',
+  'entities.quests.q_hallucinated_cache.text':
+    'Una docena de testigos fiables ha visto un cofre del tesoro, {playerName} - en una docena de lugares distintos. En los bosques del norte, la ultima vez. Encuentralo. Si decide dejarse encontrar.',
+  'entities.quests.q_hallucinated_cache.completion':
+    'Asi que se dejo encontrar. Guarda el pergamino de dentro. Yo no lo leeria demasiado a menudo, en tu lugar.',
   'entities.quests.q_hallucinated_cache.objectives.0.label': 'El Alijo Alucinado',
 };

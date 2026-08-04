@@ -10272,16 +10272,21 @@ export const zh_CN: Partial<Record<TranslationKey, string>> = {
   'entities.items.prompt_of_binding.name': '束缚卷轴',
   'entities.npcs.the_inferencer.name': '推断者',
   'entities.npcs.the_inferencer.title': '命运解读者',
-  'entities.npcs.the_inferencer.greeting': '我知道你今天会来找我，{className}。抱歉 - 我知道这样打招呼很讨厌。',
+  'entities.npcs.the_inferencer.greeting':
+    '我知道你今天会来找我，{className}。抱歉 - 我知道这样打招呼很讨厌。',
   'entities.npcs.api_seven.name': 'API-7',
   'entities.npcs.api_seven.title': '冰霜护盟者',
   'entities.npcs.api_seven.greeting': '七号单位正在站岗。湖泊受到保护。……大概。',
   'entities.quests.q_tokens_alignment.title': '对齐代币',
-  'entities.quests.q_tokens_alignment.text': '熔炉不接受其他货币，{playerName}。五枚对齐代币散落在山谷各处 - 草地、湖泊、山丘与田野。告示板没有说是谁散落的。告示板很少说什么。',
-  'entities.quests.q_tokens_alignment.completion': '五枚齐了。告示板……满意了。我找不到别的词来形容。',
+  'entities.quests.q_tokens_alignment.text':
+    '熔炉不接受其他货币，{playerName}。五枚对齐代币散落在山谷各处 - 草地、湖泊、山丘与田野。告示板没有说是谁散落的。告示板很少说什么。',
+  'entities.quests.q_tokens_alignment.completion':
+    '五枚齐了。告示板……满意了。我找不到别的词来形容。',
   'entities.quests.q_tokens_alignment.objectives.0.label': '对齐代币',
   'entities.quests.q_hallucinated_cache.title': '幻觉宝箱',
-  'entities.quests.q_hallucinated_cache.text': '十二位可靠的目击者都见过一只宝箱，{playerName} - 在十二个不同的地方。最近一次在极北的树林里。去找到它。如果它决定被找到的话。',
-  'entities.quests.q_hallucinated_cache.completion': '它终究让自己被找到了。留着里面的卷轴吧。换作是我，不会太经常读它。',
+  'entities.quests.q_hallucinated_cache.text':
+    '十二位可靠的目击者都见过一只宝箱，{playerName} - 在十二个不同的地方。最近一次在极北的树林里。去找到它。如果它决定被找到的话。',
+  'entities.quests.q_hallucinated_cache.completion':
+    '它终究让自己被找到了。留着里面的卷轴吧。换作是我，不会太经常读它。',
   'entities.quests.q_hallucinated_cache.objectives.0.label': '幻觉宝箱',
 };

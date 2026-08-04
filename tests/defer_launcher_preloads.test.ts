@@ -10,8 +10,9 @@
 // The deferred lane holds those fetches until world entry. The safety property is
 // ORDER: beginDeferredPreloads() must run before the assetsReady() that gates the
 // Renderer, or placement could outrun a load and re-open the v0.16.0 farmCrate P0.
-import { fileURLToPath } from 'node:url';
+
 import { readFileSync } from 'node:fs';
+import { fileURLToPath } from 'node:url';
 import { beforeEach, describe, expect, it } from 'vitest';
 import {
   assetsReady,

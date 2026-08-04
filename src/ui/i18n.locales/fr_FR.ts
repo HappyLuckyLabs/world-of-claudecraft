@@ -11147,20 +11147,26 @@ export const fr_FR: Partial<Record<TranslationKey, string>> = {
   'hudChrome.riftTracker.closesIn': 'Se ferme dans {time}',
   'hudChrome.riftTracker.clockMs': '{minutes}:{seconds}',
   'hudChrome.riftTracker.clockHms': '{hours}:{minutes}:{seconds}',
-  'entities.items.token_of_alignment.name': 'Jeton d\'Alignement',
-  'entities.items.prompt_of_binding.name': 'Le Parchemin d\'Entrave',
-  'entities.npcs.the_inferencer.name': 'L\'Inferente',
+  'entities.items.token_of_alignment.name': "Jeton d'Alignement",
+  'entities.items.prompt_of_binding.name': "Le Parchemin d'Entrave",
+  'entities.npcs.the_inferencer.name': "L'Inferente",
   'entities.npcs.the_inferencer.title': 'Liseuse de Destins',
-  'entities.npcs.the_inferencer.greeting': 'Je savais que tu viendrais me voir aujourd\'hui, {className}. Pardon - je sais que c\'est une facon agacante de dire bonjour.',
+  'entities.npcs.the_inferencer.greeting':
+    "Je savais que tu viendrais me voir aujourd'hui, {className}. Pardon - je sais que c'est une facon agacante de dire bonjour.",
   'entities.npcs.api_seven.name': 'API-7',
   'entities.npcs.api_seven.title': 'Protecteur Allie de Glace',
-  'entities.npcs.api_seven.greeting': 'L\'UNITE SEPT MONTE LA GARDE. LE LAC EST PROTEGE. ...PROBABLEMENT.',
-  'entities.quests.q_tokens_alignment.title': 'Jetons d\'Alignement',
-  'entities.quests.q_tokens_alignment.text': 'La Forge n\'accepte aucune autre monnaie, {playerName}. Cinq Jetons d\'Alignement sont disperses dans la vallee - pre, lac, colline et champ. Le tableau ne dit pas qui les a disperses. Le tableau dit rarement quoi que ce soit.',
-  'entities.quests.q_tokens_alignment.completion': 'Cinq sur cinq. Le tableau est... satisfait. Je n\'ai pas d\'autre mot.',
-  'entities.quests.q_tokens_alignment.objectives.0.label': 'Jeton d\'Alignement',
+  'entities.npcs.api_seven.greeting':
+    "L'UNITE SEPT MONTE LA GARDE. LE LAC EST PROTEGE. ...PROBABLEMENT.",
+  'entities.quests.q_tokens_alignment.title': "Jetons d'Alignement",
+  'entities.quests.q_tokens_alignment.text':
+    "La Forge n'accepte aucune autre monnaie, {playerName}. Cinq Jetons d'Alignement sont disperses dans la vallee - pre, lac, colline et champ. Le tableau ne dit pas qui les a disperses. Le tableau dit rarement quoi que ce soit.",
+  'entities.quests.q_tokens_alignment.completion':
+    "Cinq sur cinq. Le tableau est... satisfait. Je n'ai pas d'autre mot.",
+  'entities.quests.q_tokens_alignment.objectives.0.label': "Jeton d'Alignement",
   'entities.quests.q_hallucinated_cache.title': 'La Cache Hallucinee',
-  'entities.quests.q_hallucinated_cache.text': 'Un coffre au tresor a ete apercu par une douzaine de temoins fiables, {playerName} - a une douzaine d\'endroits differents. Dans les bois du grand nord, dernierement. Trouve-le. S\'il decide de se laisser trouver.',
-  'entities.quests.q_hallucinated_cache.completion': 'Il s\'est donc laisse trouver. Garde le parchemin qu\'il contient. Je ne le lirais pas trop souvent, a ta place.',
+  'entities.quests.q_hallucinated_cache.text':
+    "Un coffre au tresor a ete apercu par une douzaine de temoins fiables, {playerName} - a une douzaine d'endroits differents. Dans les bois du grand nord, dernierement. Trouve-le. S'il decide de se laisser trouver.",
+  'entities.quests.q_hallucinated_cache.completion':
+    "Il s'est donc laisse trouver. Garde le parchemin qu'il contient. Je ne le lirais pas trop souvent, a ta place.",
   'entities.quests.q_hallucinated_cache.objectives.0.label': 'La Cache Hallucinee',
 };

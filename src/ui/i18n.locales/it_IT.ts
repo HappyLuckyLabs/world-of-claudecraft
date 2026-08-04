@@ -11065,18 +11065,24 @@ export const it_IT: Partial<Record<TranslationKey, string>> = {
   'hudChrome.riftTracker.clockHms': '{hours}:{minutes}:{seconds}',
   'entities.items.token_of_alignment.name': 'Gettone di Allineamento',
   'entities.items.prompt_of_binding.name': 'La Pergamena del Vincolo',
-  'entities.npcs.the_inferencer.name': 'L\'Inferente',
+  'entities.npcs.the_inferencer.name': "L'Inferente",
   'entities.npcs.the_inferencer.title': 'Lettrice dei Destini',
-  'entities.npcs.the_inferencer.greeting': 'Sapevo che oggi saresti venuto da me, {className}. Scusa - so che e un modo irritante di salutare.',
+  'entities.npcs.the_inferencer.greeting':
+    'Sapevo che oggi saresti venuto da me, {className}. Scusa - so che e un modo irritante di salutare.',
   'entities.npcs.api_seven.name': 'API-7',
   'entities.npcs.api_seven.title': 'Protettore Alleato di Ghiaccio',
-  'entities.npcs.api_seven.greeting': 'L\'UNITA SETTE MONTA LA GUARDIA. IL LAGO E PROTETTO. ...PROBABILMENTE.',
+  'entities.npcs.api_seven.greeting':
+    "L'UNITA SETTE MONTA LA GUARDIA. IL LAGO E PROTETTO. ...PROBABILMENTE.",
   'entities.quests.q_tokens_alignment.title': 'Gettoni di Allineamento',
-  'entities.quests.q_tokens_alignment.text': 'La Forgia non accetta altra valuta, {playerName}. Cinque Gettoni di Allineamento giacciono sparsi per la valle - prato, lago, collina e campo. La bacheca non dice chi li abbia sparsi. La bacheca dice raramente qualcosa.',
-  'entities.quests.q_tokens_alignment.completion': 'Cinque su cinque. La bacheca e... soddisfatta. Non ho altra parola.',
+  'entities.quests.q_tokens_alignment.text':
+    'La Forgia non accetta altra valuta, {playerName}. Cinque Gettoni di Allineamento giacciono sparsi per la valle - prato, lago, collina e campo. La bacheca non dice chi li abbia sparsi. La bacheca dice raramente qualcosa.',
+  'entities.quests.q_tokens_alignment.completion':
+    'Cinque su cinque. La bacheca e... soddisfatta. Non ho altra parola.',
   'entities.quests.q_tokens_alignment.objectives.0.label': 'Gettone di Allineamento',
   'entities.quests.q_hallucinated_cache.title': 'Il Tesoro Allucinato',
-  'entities.quests.q_hallucinated_cache.text': 'Una dozzina di testimoni affidabili ha avvistato un forziere, {playerName} - in una dozzina di luoghi diversi. Nei boschi del profondo nord, di recente. Trovalo. Se decidera di farsi trovare.',
-  'entities.quests.q_hallucinated_cache.completion': 'Quindi si e lasciato trovare. Tieni la pergamena che contiene. Io non la leggerei troppo spesso, al posto tuo.',
+  'entities.quests.q_hallucinated_cache.text':
+    'Una dozzina di testimoni affidabili ha avvistato un forziere, {playerName} - in una dozzina di luoghi diversi. Nei boschi del profondo nord, di recente. Trovalo. Se decidera di farsi trovare.',
+  'entities.quests.q_hallucinated_cache.completion':
+    'Quindi si e lasciato trovare. Tieni la pergamena che contiene. Io non la leggerei troppo spesso, al posto tuo.',
   'entities.quests.q_hallucinated_cache.objectives.0.label': 'Il Tesoro Allucinato',
 };

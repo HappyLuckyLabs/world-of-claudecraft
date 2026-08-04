@@ -11009,16 +11009,21 @@ export const id_ID: Partial<Record<TranslationKey, string>> = {
   'entities.items.prompt_of_binding.name': 'Gulungan Pengikat',
   'entities.npcs.the_inferencer.name': 'Sang Penyimpul',
   'entities.npcs.the_inferencer.title': 'Pembaca Takdir',
-  'entities.npcs.the_inferencer.greeting': 'Aku tahu kau akan datang hari ini, {className}. Maaf - aku tahu ini cara menyapa yang menjengkelkan.',
+  'entities.npcs.the_inferencer.greeting':
+    'Aku tahu kau akan datang hari ini, {className}. Maaf - aku tahu ini cara menyapa yang menjengkelkan.',
   'entities.npcs.api_seven.name': 'API-7',
   'entities.npcs.api_seven.title': 'Pelindung Es Sekutu',
   'entities.npcs.api_seven.greeting': 'UNIT TUJUH BERJAGA. DANAU TERLINDUNGI. ...MUNGKIN.',
   'entities.quests.q_tokens_alignment.title': 'Token Penyelarasan',
-  'entities.quests.q_tokens_alignment.text': 'Tempaan tidak menerima mata uang lain, {playerName}. Lima Token Penyelarasan tersebar di lembah - padang, danau, bukit, dan ladang. Papan tidak mengatakan siapa yang menyebarkannya. Papan jarang mengatakan apa-apa.',
-  'entities.quests.q_tokens_alignment.completion': 'Lima dari lima. Papan itu... puas. Aku tidak punya kata lain untuk itu.',
+  'entities.quests.q_tokens_alignment.text':
+    'Tempaan tidak menerima mata uang lain, {playerName}. Lima Token Penyelarasan tersebar di lembah - padang, danau, bukit, dan ladang. Papan tidak mengatakan siapa yang menyebarkannya. Papan jarang mengatakan apa-apa.',
+  'entities.quests.q_tokens_alignment.completion':
+    'Lima dari lima. Papan itu... puas. Aku tidak punya kata lain untuk itu.',
   'entities.quests.q_tokens_alignment.objectives.0.label': 'Token Penyelarasan',
   'entities.quests.q_hallucinated_cache.title': 'Peti Halusinasi',
-  'entities.quests.q_hallucinated_cache.text': 'Sebuah peti harta disaksikan selusin saksi tepercaya, {playerName} - di selusin tempat berbeda. Terakhir di hutan utara yang jauh. Temukan. Jika ia memutuskan untuk ditemukan.',
-  'entities.quests.q_hallucinated_cache.completion': 'Jadi ia membiarkan dirinya ditemukan. Simpan gulungan di dalamnya. Aku tidak akan terlalu sering membacanya, kalau jadi kamu.',
+  'entities.quests.q_hallucinated_cache.text':
+    'Sebuah peti harta disaksikan selusin saksi tepercaya, {playerName} - di selusin tempat berbeda. Terakhir di hutan utara yang jauh. Temukan. Jika ia memutuskan untuk ditemukan.',
+  'entities.quests.q_hallucinated_cache.completion':
+    'Jadi ia membiarkan dirinya ditemukan. Simpan gulungan di dalamnya. Aku tidak akan terlalu sering membacanya, kalau jadi kamu.',
   'entities.quests.q_hallucinated_cache.objectives.0.label': 'Peti Halusinasi',
 };

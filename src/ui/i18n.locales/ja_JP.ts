@@ -10757,16 +10757,21 @@ export const ja_JP: Partial<Record<TranslationKey, string>> = {
   'entities.items.prompt_of_binding.name': '束縛の巻物',
   'entities.npcs.the_inferencer.name': '推察師',
   'entities.npcs.the_inferencer.title': '運命を読む者',
-  'entities.npcs.the_inferencer.greeting': '今日あなたが来ることは分かっていました、{className}。ごめんなさい - こういう挨拶が苛立たしいのは承知しています。',
+  'entities.npcs.the_inferencer.greeting':
+    '今日あなたが来ることは分かっていました、{className}。ごめんなさい - こういう挨拶が苛立たしいのは承知しています。',
   'entities.npcs.api_seven.name': 'API-7',
   'entities.npcs.api_seven.title': '同盟の氷護衛',
   'entities.npcs.api_seven.greeting': '第七ユニット、監視中。湖は保護されている。……おそらく。',
   'entities.quests.q_tokens_alignment.title': 'アラインメントの代価',
-  'entities.quests.q_tokens_alignment.text': '炉は他の通貨を受け付けません、{playerName}。五つのアラインメントの代価が谷のあちこちに散らばっています - 草原、湖、丘、畑。誰が散らしたのか、掲示板は語りません。掲示板はめったに語らないのです。',
-  'entities.quests.q_tokens_alignment.completion': '五つ全部ですね。掲示板は……満足しています。他に言葉が見つかりません。',
+  'entities.quests.q_tokens_alignment.text':
+    '炉は他の通貨を受け付けません、{playerName}。五つのアラインメントの代価が谷のあちこちに散らばっています - 草原、湖、丘、畑。誰が散らしたのか、掲示板は語りません。掲示板はめったに語らないのです。',
+  'entities.quests.q_tokens_alignment.completion':
+    '五つ全部ですね。掲示板は……満足しています。他に言葉が見つかりません。',
   'entities.quests.q_tokens_alignment.objectives.0.label': 'アラインメントの代価',
   'entities.quests.q_hallucinated_cache.title': '幻視の宝箱',
-  'entities.quests.q_hallucinated_cache.text': '十二人の確かな目撃者が宝箱を見ました、{playerName} - 十二の異なる場所で。直近は北の奥の森です。見つけてください。宝箱が見つかる気になれば、ですが。',
-  'entities.quests.q_hallucinated_cache.completion': '見つけられることを選んだのですね。中の巻物は持っておきなさい。私なら、あまり頻繁には読みません。',
+  'entities.quests.q_hallucinated_cache.text':
+    '十二人の確かな目撃者が宝箱を見ました、{playerName} - 十二の異なる場所で。直近は北の奥の森です。見つけてください。宝箱が見つかる気になれば、ですが。',
+  'entities.quests.q_hallucinated_cache.completion':
+    '見つけられることを選んだのですね。中の巻物は持っておきなさい。私なら、あまり頻繁には読みません。',
   'entities.quests.q_hallucinated_cache.objectives.0.label': '幻視の宝箱',
 };

@@ -11100,16 +11100,22 @@ export const de_DE: Partial<Record<TranslationKey, string>> = {
   'entities.items.prompt_of_binding.name': 'Die Schriftrolle der Bindung',
   'entities.npcs.the_inferencer.name': 'Die Deuterin',
   'entities.npcs.the_inferencer.title': 'Leserin der Schicksale',
-  'entities.npcs.the_inferencer.greeting': 'Ich wusste, dass du heute zu mir kommen wuerdest, {className}. Verzeih - ich weiss, dass das eine aergerliche Begruessung ist.',
+  'entities.npcs.the_inferencer.greeting':
+    'Ich wusste, dass du heute zu mir kommen wuerdest, {className}. Verzeih - ich weiss, dass das eine aergerliche Begruessung ist.',
   'entities.npcs.api_seven.name': 'API-7',
   'entities.npcs.api_seven.title': 'Verbuendeter Eisbeschuetzer',
-  'entities.npcs.api_seven.greeting': 'EINHEIT SIEBEN HAELT WACHE. DER SEE IST GESCHUETZT. ...WAHRSCHEINLICH.',
+  'entities.npcs.api_seven.greeting':
+    'EINHEIT SIEBEN HAELT WACHE. DER SEE IST GESCHUETZT. ...WAHRSCHEINLICH.',
   'entities.quests.q_tokens_alignment.title': 'Zeichen der Ausrichtung',
-  'entities.quests.q_tokens_alignment.text': 'Die Schmiede nimmt keine andere Waehrung an, {playerName}. Fuenf Zeichen der Ausrichtung liegen im Tal verstreut - Wiese, See, Huegel und Feld. Die Tafel sagt nicht, wer sie verstreut hat. Die Tafel sagt selten etwas.',
-  'entities.quests.q_tokens_alignment.completion': 'Fuenf von fuenf. Die Tafel ist... zufrieden. Ein anderes Wort habe ich dafuer nicht.',
+  'entities.quests.q_tokens_alignment.text':
+    'Die Schmiede nimmt keine andere Waehrung an, {playerName}. Fuenf Zeichen der Ausrichtung liegen im Tal verstreut - Wiese, See, Huegel und Feld. Die Tafel sagt nicht, wer sie verstreut hat. Die Tafel sagt selten etwas.',
+  'entities.quests.q_tokens_alignment.completion':
+    'Fuenf von fuenf. Die Tafel ist... zufrieden. Ein anderes Wort habe ich dafuer nicht.',
   'entities.quests.q_tokens_alignment.objectives.0.label': 'Zeichen der Ausrichtung',
   'entities.quests.q_hallucinated_cache.title': 'Der halluzinierte Schatz',
-  'entities.quests.q_hallucinated_cache.text': 'Eine Schatztruhe wurde von einem Dutzend verlaesslicher Zeugen gesichtet, {playerName} - an einem Dutzend verschiedener Orte. Zuletzt im hohen Nordwald. Finde sie. Wenn sie gefunden werden will.',
-  'entities.quests.q_hallucinated_cache.completion': 'Sie hat sich also finden lassen. Behalte die Schriftrolle darin. Ich wuerde sie nicht zu oft lesen, an deiner Stelle.',
+  'entities.quests.q_hallucinated_cache.text':
+    'Eine Schatztruhe wurde von einem Dutzend verlaesslicher Zeugen gesichtet, {playerName} - an einem Dutzend verschiedener Orte. Zuletzt im hohen Nordwald. Finde sie. Wenn sie gefunden werden will.',
+  'entities.quests.q_hallucinated_cache.completion':
+    'Sie hat sich also finden lassen. Behalte die Schriftrolle darin. Ich wuerde sie nicht zu oft lesen, an deiner Stelle.',
   'entities.quests.q_hallucinated_cache.objectives.0.label': 'Der halluzinierte Schatz',
 };

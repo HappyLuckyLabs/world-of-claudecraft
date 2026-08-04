@@ -11005,16 +11005,22 @@ export const nl_NL: Partial<Record<TranslationKey, string>> = {
   'entities.items.prompt_of_binding.name': 'De Bindingsrol',
   'entities.npcs.the_inferencer.name': 'De Afleider',
   'entities.npcs.the_inferencer.title': 'Lezeres van Lotsbestemmingen',
-  'entities.npcs.the_inferencer.greeting': 'Ik wist dat je vandaag zou komen, {className}. Sorry - ik weet dat dit een irritante manier van begroeten is.',
+  'entities.npcs.the_inferencer.greeting':
+    'Ik wist dat je vandaag zou komen, {className}. Sorry - ik weet dat dit een irritante manier van begroeten is.',
   'entities.npcs.api_seven.name': 'API-7',
   'entities.npcs.api_seven.title': 'Geallieerde IJsbeschermer',
-  'entities.npcs.api_seven.greeting': 'EENHEID ZEVEN HOUDT DE WACHT. HET MEER IS BESCHERMD. ...WAARSCHIJNLIJK.',
+  'entities.npcs.api_seven.greeting':
+    'EENHEID ZEVEN HOUDT DE WACHT. HET MEER IS BESCHERMD. ...WAARSCHIJNLIJK.',
   'entities.quests.q_tokens_alignment.title': 'Tekens van Uitlijning',
-  'entities.quests.q_tokens_alignment.text': 'De Smidse accepteert geen andere valuta, {playerName}. Vijf Tekens van Uitlijning liggen verspreid door de vallei - weide, meer, heuvel en akker. Het bord zegt niet wie ze verspreid heeft. Het bord zegt zelden iets.',
-  'entities.quests.q_tokens_alignment.completion': 'Vijf van de vijf. Het bord is... tevreden. Een ander woord heb ik er niet voor.',
+  'entities.quests.q_tokens_alignment.text':
+    'De Smidse accepteert geen andere valuta, {playerName}. Vijf Tekens van Uitlijning liggen verspreid door de vallei - weide, meer, heuvel en akker. Het bord zegt niet wie ze verspreid heeft. Het bord zegt zelden iets.',
+  'entities.quests.q_tokens_alignment.completion':
+    'Vijf van de vijf. Het bord is... tevreden. Een ander woord heb ik er niet voor.',
   'entities.quests.q_tokens_alignment.objectives.0.label': 'Teken van Uitlijning',
   'entities.quests.q_hallucinated_cache.title': 'De Gehallucineerde Schat',
-  'entities.quests.q_hallucinated_cache.text': 'Een schatkist is gezien door een dozijn betrouwbare getuigen, {playerName} - op een dozijn verschillende plekken. Onlangs nog in de verre noorderbossen. Vind hem. Als hij besluit gevonden te worden.',
-  'entities.quests.q_hallucinated_cache.completion': 'Dus hij liet zich vinden. Houd de rol erin. Ik zou hem niet te vaak lezen, als ik jou was.',
+  'entities.quests.q_hallucinated_cache.text':
+    'Een schatkist is gezien door een dozijn betrouwbare getuigen, {playerName} - op een dozijn verschillende plekken. Onlangs nog in de verre noorderbossen. Vind hem. Als hij besluit gevonden te worden.',
+  'entities.quests.q_hallucinated_cache.completion':
+    'Dus hij liet zich vinden. Houd de rol erin. Ik zou hem niet te vaak lezen, als ik jou was.',
   'entities.quests.q_hallucinated_cache.objectives.0.label': 'De Gehallucineerde Schat',
 };
