@@ -2171,6 +2171,20 @@
       "sourcePack": "greaves",
       "sourceFile": "22.png",
       "confidence": "medium"
+    },
+    {
+      "itemId": "token_of_alignment",
+      "name": "Token of Alignment",
+      "sourcePack": "generic100c",
+      "sourceFile": "derived: color-shifted event_skin_token.webp (same pack). Claude of the Rings placeholder; replace with bespoke art before public release.",
+      "confidence": "high"
+    },
+    {
+      "itemId": "prompt_of_binding",
+      "name": "The Prompt of Binding",
+      "sourcePack": "generic100c",
+      "sourceFile": "derived: hue-shifted gravecaller_sigil.webp (skill 81.png, same pack). Claude of the Rings placeholder; replace with bespoke art before public release.",
+      "confidence": "high"
     }
   ],
   "generatedBatches": [

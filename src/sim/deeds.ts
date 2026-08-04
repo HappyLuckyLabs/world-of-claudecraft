@@ -95,6 +95,8 @@ export const GROUND_PICKUP_PROVING_QUESTS: readonly string[] = [
   'q_wyrm_sigils',
   'q_sanctum_gate',
   'q_glimmermere_light',
+  'q_tokens_alignment',
+  'q_hallucinated_cache',
 ];
 
 // The highest level any giantslayer-creditable mob can ever spawn at: S-rank

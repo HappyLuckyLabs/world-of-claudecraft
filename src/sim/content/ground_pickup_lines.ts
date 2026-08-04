@@ -9,6 +9,14 @@ export interface GroundPickupLines {
 }
 
 export const GROUND_PICKUP_LINES: Record<string, GroundPickupLines> = {
+  token_of_alignment: {
+    deny: 'The token ignores you. Perhaps it was not scattered for you yet.',
+    enough: 'You already carry enough Tokens of Alignment.',
+  },
+  prompt_of_binding: {
+    deny: 'The cache is here. It seems surprised that you are too.',
+    enough: 'You already carry what the cache held.',
+  },
   supply_crate: {
     deny: 'The crate is nailed shut.',
     enough: 'You already have enough supply crates.',

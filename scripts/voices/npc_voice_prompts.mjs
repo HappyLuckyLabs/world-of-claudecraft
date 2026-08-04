@@ -1041,6 +1041,9 @@ export const VOICE_PROMPTS = [
 // Recurring NPC records → the base voice that speaks for them. gen_npc_lines.mjs
 // consults this so every Aldric/Maren/Halven zone variant reuses one designed voice.
 export const VOICE_ALIAS = {
+  // Claude of the Rings placeholders: bespoke voices are a later design pass.
+  the_inferencer: 'loremaster_caddis',
+  api_seven: 'warden_fenwick',
   brother_aldric_fen: 'brother_aldric',
   brother_aldric_highwatch: 'brother_aldric',
   brother_aldric_raid: 'brother_aldric',
