@@ -71,6 +71,11 @@ const PENDING_LOCALE_KEYS = new Set<string>([
   'groundPickup.wreckfieldFlotsamCrateEnough',
   'groundPickup.gullhavenWatchbellDeny',
   'groundPickup.gullhavenWatchbellEnough',
+  // Claude of the Rings Lightfall pass (same contributor-English model).
+  'groundPickup.tokenOfAlignmentDeny',
+  'groundPickup.tokenOfAlignmentEnough',
+  'groundPickup.promptOfBindingDeny',
+  'groundPickup.promptOfBindingEnough',
 ]);
 
 describe('ground-pickup line localization (the S3-invisible surface)', () => {
@@ -81,10 +86,10 @@ describe('ground-pickup line localization (the S3-invisible surface)', () => {
     }
   });
 
-  it('covers 82 distinct lines with groundPickup.* keys', () => {
+  it('covers 86 distinct lines with groundPickup.* keys', () => {
     // 42 through the Veiled Hollow merge, plus 40 (20 deny/enough pairs) from
     // the new-realm quest pass.
-    expect(GROUND_PICKUP_KEYS.length).toBe(82);
+    expect(GROUND_PICKUP_KEYS.length).toBe(86);
   });
 
   it('pins a known literal per representative locale', () => {

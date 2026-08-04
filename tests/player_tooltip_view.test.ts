@@ -28,7 +28,7 @@ describe('playerTooltipHtml', () => {
 
     expect(html).toContain('<div class="tt-title" style="color:#33c1f1">Aldwin</div>');
     expect(html).toContain(
-      '<div class="tt-sub">itemUi.equipment.levelClass(level=12,className=Mage)</div>',
+      '<div class="tt-sub">itemUi.equipment.levelClass(level=12,className=Wizard)</div>',
     );
   });
 

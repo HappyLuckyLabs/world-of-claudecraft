@@ -145,6 +145,9 @@ const baseEnTable = {
   // Emitted via def.pickupDeny/def.pickupEnough (variable-routed, so the S3 guard
   // cannot see them); values must stay byte-identical to that table for the EXACT
   // matcher to recognize them. The three grave_* deny lines share one string/key.
+  'groundPickup.tokenOfAlignmentDeny':
+    'The token ignores you. Perhaps it was not scattered for you yet.',
+  'groundPickup.promptOfBindingDeny': 'The cache is here. It seems surprised that you are too.',
   'groundPickup.supplyCrateDeny': 'The crate is nailed shut.',
   'groundPickup.gravecallerSigilDeny': 'The sigil repels your touch.',
   'groundPickup.ledgerPageDeny': 'The ledger pages are bound too tightly to take.',
@@ -164,6 +167,8 @@ const baseEnTable = {
   'groundPickup.graveSealedDeny':
     'The grave is sealed against the living until the dead call you to it.',
   'groundPickup.cryptRitualCircleDeny': 'The ritual circle lies cold and dormant.',
+  'groundPickup.tokenOfAlignmentEnough': 'You already carry enough Tokens of Alignment.',
+  'groundPickup.promptOfBindingEnough': 'You already carry what the cache held.',
   'groundPickup.supplyCrateEnough': 'You already have enough supply crates.',
   'groundPickup.gravecallerSigilEnough': "You already carry a Gravecaller's Sigil.",
   'groundPickup.ledgerPageEnough': 'You already have enough ledger pages.',
