@@ -194,9 +194,9 @@ describe('worklist assembly (deterministic + blocked-prose segregation, end to e
     'loading.world': 'Loading world...',
     'loading.worldProgress': 'Loading world... {done}/{total}',
     'loading.enteringWorld': 'Entering world...',
-    'classes.mage': 'Wizard',
-    'classes.warrior': 'Fighter',
-    'entities.quests.q_wolves.title': 'Routine #1: Clear the Meadow',
+    'classes.mage': 'Mage',
+    'classes.warrior': 'Warrior',
+    'entities.quests.q_wolves.title': 'Wolves at the Door',
     'nav.home': 'Home',
   };
   const dictEn = {
@@ -301,7 +301,7 @@ describe('worklist assembly (deterministic + blocked-prose segregation, end to e
       'Krieger',
     );
     // classes.mage has no de_DE overlay value -> falls through to English (not invented)
-    expect(de.glossary.terms.find((t: any) => t.key === 'classes.mage').localized).toBe('Wizard');
+    expect(de.glossary.terms.find((t: any) => t.key === 'classes.mage').localized).toBe('Mage');
   });
 
   it('the belt-and-suspenders stopping-rule assertion bites if a prose key is in autoFillable', () => {

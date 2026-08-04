@@ -123,7 +123,7 @@ describe('generated chunk geometry is stable', () => {
     // terrain_vertex_pipeline contract proves the ordered triangles and every
     // vertex attribute are unchanged; only triangle submission order and
     // index transport width moved.
-    expect(digestOf(inRect)).toBe('281ffff64f8dc230e75fe29a0bf6f34c');
+    expect(digestOf(inRect)).toBe('79c79fa3732d4c2e235db0a8bca13f67');
     // The gap super-chunks take the same index-only migration.
     expect(digestOf(gapFill)).toBe('b13f0ba61280f097b30d31904eb73415');
 
