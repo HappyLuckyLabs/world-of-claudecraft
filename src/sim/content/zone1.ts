@@ -1532,7 +1532,7 @@ export const ZONE1_CAMPS: CampDef[] = [
   { mobId: 'forest_wolf', center: { x: 24, z: 70 }, radius: 26, count: 5 },
   // Nudged north to stay ahead of the widened wolf runs (q_greyjaw sends the
   // player to "the deep woods north of the wolf runs").
-  { mobId: 'old_greyjaw', center: { x: -76, z: 78 }, radius: 8, count: 1 },
+  { mobId: 'old_greyjaw', center: { x: -64, z: 64 }, radius: 8, count: 1 },
   // Boars: east meadow
   { mobId: 'wild_boar', center: { x: 63, z: 16 }, radius: 26, count: 5 },
   { mobId: 'wild_boar', center: { x: 84, z: -27 }, radius: 23.5, count: 4 },

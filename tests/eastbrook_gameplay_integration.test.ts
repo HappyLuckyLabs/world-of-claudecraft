@@ -330,9 +330,11 @@ describe('Eastbrook authored gameplay data integration', () => {
       'cook_marlow',
       'weaver_ottilie',
       'tinker_gizzel',
+      'the_inferencer',
+      'api_seven',
     ]);
     expect(createHash('sha256').update(JSON.stringify(stableTownNpcPayload())).digest('hex')).toBe(
-      '92c37779f6a29982ec3541169d995fc4365c9696a9b7a0e2fd32713094073db1',
+      '977598d02ab3af161315004a955066e561117e2206874808f2836639618357b9',
     );
     expect(ZONE1_TOWN_NPC_IDS).toHaveLength(15);
     for (const id of ZONE1_TOWN_NPC_IDS) {
