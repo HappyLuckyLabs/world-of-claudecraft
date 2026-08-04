@@ -1,6 +1,6 @@
-// Zone 1 — Eastbrook Vale (levels 1-7). The starter zone: town of Eastbrook,
-// wolves and boars, the bandit camp, and Brother Aldric's Gravecaller chain
-// leading to the Hollow Crypt.
+// Zone 1 — Lightfall Valley (levels 1-7). The Light's starter zone (Claude of
+// the Rings port over Eastbrook Vale; ids unchanged, display layer reskinned),
+// glitch sprites and boars, the bandit camp, and the crypt chain.
 
 import { EASTBROOK_GRAND_ARMOURY } from '../building_layout';
 import {
@@ -27,17 +27,17 @@ export const LAKE = { x: -92, z: 88, radius: 30 };
 
 export const ZONE1_ZONE: ZoneDef = {
   id: 'eastbrook_vale',
-  name: 'Eastbrook Vale',
+  name: 'Lightfall Valley',
   zMin: -180,
   zMax: 180,
   levelRange: [1, 7],
   biome: 'vale',
-  hub: { x: 0, z: 0, radius: TOWN_RADIUS, name: 'Eastbrook' },
+  hub: { x: 0, z: 0, radius: TOWN_RADIUS, name: 'Lightfall' },
   graveyard: GRAVEYARD_POS,
   lakes: [LAKE],
   pois: [
-    { x: 0, z: -3, label: 'Eastbrook', id: 'eastbrook' },
-    { x: -2, z: 70, label: 'Wolf Run', id: 'wolf_run' },
+    { x: 0, z: -3, label: 'Lightfall', id: 'eastbrook' },
+    { x: -2, z: 70, label: 'Sprite Meadow', id: 'wolf_run' },
     { x: 65, z: 0, label: 'Boar Meadow', id: 'boar_meadow' },
     { x: -88, z: 82, label: 'Mirror Lake', id: 'mirror_lake' },
     { x: -60, z: 4, label: 'Sableweb', id: 'sableweb' },
@@ -49,7 +49,7 @@ export const ZONE1_ZONE: ZoneDef = {
     { x: -11, z: -112, label: 'The Sowfield', id: 'the_sowfield' },
     { x: 150, z: -46, label: 'The Farshore Causeway', id: 'the_farshore_causeway' },
   ],
-  welcome: 'Find Marshal Redbrook in town - he has work for you.',
+  welcome: 'Find Dispatcher Elowen in town - all work in the valley is routed through her board.',
   welcomeQuestId: 'q_wolves',
 };
 
@@ -99,7 +99,7 @@ export const ZONE1_MOBS: Record<string, MobTemplate> = {
   },
   forest_wolf: {
     id: 'forest_wolf',
-    name: 'Forest Wolf',
+    name: 'Glitch Sprite',
     minLevel: 1,
     maxLevel: 2,
     family: 'beast',
@@ -540,13 +540,13 @@ export const ZONE1_NPCS: Record<string, NpcDef> = {
   },
   marshal_redbrook: {
     id: 'marshal_redbrook',
-    name: 'Marshal Redbrook',
-    title: 'Town Marshal',
+    name: 'Dispatcher Elowen',
+    title: 'The Dispatch Board',
     pos: { ...EASTBROOK_NPC_PLACEMENTS_BY_ID.marshal_redbrook.position },
     facing: EASTBROOK_NPC_PLACEMENTS_BY_ID.marshal_redbrook.facing,
     color: 0xb7950b,
     questIds: ['q_wolves', 'q_greyjaw', 'q_bandits', 'q_ringleader', 'q_mogger'],
-    greeting: 'Keep your blade close, $C. The Vale is not what it was.',
+    greeting: 'Welcome to Lightfall Valley, $C. The board refills itself overnight - I stopped asking who writes the notices years ago.',
   },
   trader_wilkes: {
     id: 'trader_wilkes',
@@ -845,13 +845,13 @@ export const ZONE1_QUESTS: Record<string, QuestDef> = {
   },
   q_wolves: {
     id: 'q_wolves',
-    name: 'Wolves at the Door',
+    name: 'Routine #1: Clear the Meadow',
     giverNpcId: 'marshal_redbrook',
     turnInNpcId: 'marshal_redbrook',
-    text: 'The forest wolves grow bold, snapping at travelers on the north road. Thin their numbers, $N. Slay 8 Forest Wolves and Eastbrook will breathe easier.',
-    completionText: 'Fine work. The road feels safer already.',
+    text: 'Glitch Sprites are flickering in and out of the north meadow - there one blink, gone the next. The board requests you remove 8 of them, $N, and Lightfall will breathe easier.',
+    completionText: 'Fine work. The board will have more for you tomorrow. It always does.',
     objectives: [
-      { type: 'kill', targetMobId: 'forest_wolf', count: 8, label: 'Forest Wolf slain' },
+      { type: 'kill', targetMobId: 'forest_wolf', count: 8, label: 'Glitch Sprite removed' },
     ],
     xpReward: 250,
     copperReward: 75,
@@ -859,12 +859,12 @@ export const ZONE1_QUESTS: Record<string, QuestDef> = {
   },
   q_greyjaw: {
     id: 'q_greyjaw',
-    name: 'The Old Wolf',
+    name: 'The Unowned Ring',
     giverNpcId: 'marshal_redbrook',
     turnInNpcId: 'marshal_redbrook',
-    text: "There is one wolf no trap has held: Old Greyjaw. He has taken three hounds and a stable boy's arm. He prowls the deep woods north of the wolf runs. Bring me his fang.",
+    text: "One old sprite in the deep meadow will not flicker out: Greyjaw, the hunters call it. It has been digging - and it guards what it dug up. A ring, they say. Odd - no one remembers burying anything there. Bring me what it carries.",
     completionText:
-      'So the old devil is dead at last. The stable boy will sleep easier — and so will I.',
+      'So the old thing is gone at last. And this ring... warm, is it not? As if something inside were still running. Keep it. It clearly means to be kept.',
     objectives: [
       { type: 'collect', itemId: 'greyjaw_fang', count: 1, label: "Old Greyjaw's Fang" },
     ],
