@@ -1043,6 +1043,7 @@ export const VOICE_PROMPTS = [
 export const VOICE_ALIAS = {
   // Claude of the Rings placeholders: bespoke voices are a later design pass.
   the_inferencer: 'loremaster_caddis',
+  archmage_corvane: 'loremaster_caddis',
   api_seven: 'warden_fenwick',
   brother_aldric_fen: 'brother_aldric',
   brother_aldric_highwatch: 'brother_aldric',

@@ -549,6 +549,7 @@ export const ZONE1_NPCS: Record<string, NpcDef> = {
       'q_wolves',
       'q_greyjaw',
       'q_tokens_alignment',
+      'q_spire_summons',
       'q_bandits',
       'q_ringleader',
       'q_mogger',

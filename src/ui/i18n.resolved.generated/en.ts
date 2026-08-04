@@ -11284,6 +11284,11 @@ export const en: EnTranslations = {
       }
     },
     "npcs": {
+      "archmage_corvane": {
+        "name": "Archmage Corvane",
+        "title": "Keeper of the Corpus",
+        "greeting": "The Corpus holds nine thousand volumes, {className}. I have read every one. Ask me anything: I will very likely be wrong."
+      },
       "the_inferencer": {
         "name": "The Inferencer",
         "title": "Reader of Fates",
@@ -11746,6 +11751,25 @@ export const en: EnTranslations = {
       }
     },
     "quests": {
+      "q_spire_summons": {
+        "title": "A Reading of the Ring",
+        "text": "That ring the hunters dredged out of the lake, {playerName}. I have had three clerks look at it and not one can name the metal. There is a man who can read it: the Archmage of the Spire, north up the causeway where the valley gives way to marsh. Take it to him. Take it before it settles on what it is.",
+        "completion": "So this is what came up out of the water. Warm, is it not. Sit down, {playerName}. This will take longer than you would like, and at the end of it I will still not be certain.",
+        "objectives": {}
+      },
+      "q_spire_reading": {
+        "title": "What the Corpus Does Not Hold",
+        "text": "A reading needs a still lamp and a bound page, and the marsh has taken both from me this season. Widow silk for the binding, {playerName}, and the fat of the bog bloats for the oil. Bring them and I will put your ring against the Corpus itself.",
+        "completion": "Nine thousand volumes. Not one of them describes your ring. That is not the same as it being unknown to me, you understand. I have the strangest sense that I have written about it. I simply cannot find where.",
+        "objectives": {
+          "0": {
+            "label": "Mire Widow silk taken"
+          },
+          "1": {
+            "label": "Bog Bloat fat rendered"
+          }
+        }
+      },
       "q_tokens_alignment": {
         "title": "Tokens of Alignment",
         "text": "The Forge accepts no other currency, {playerName}. Five Tokens of Alignment lie scattered across the valley - meadow, lake, hill and field. The board does not say who scattered them. The board rarely says.",
@@ -13922,21 +13946,24 @@ export const en: EnTranslations = {
             "label": "Prowler Reeds"
           },
           "2": {
-            "label": "Deepfen Shallows"
+            "label": "The Inference Spire"
           },
           "3": {
-            "label": "Widow Thicket"
+            "label": "Deepfen Shallows"
           },
           "4": {
-            "label": "Drowned Chapel"
+            "label": "Widow Thicket"
           },
           "5": {
-            "label": "Troll Mounds"
+            "label": "Drowned Chapel"
           },
           "6": {
-            "label": "Gravecaller Encampment"
+            "label": "Troll Mounds"
           },
           "7": {
+            "label": "Gravecaller Encampment"
+          },
+          "8": {
             "label": "The Sunken Bastion"
           }
         }

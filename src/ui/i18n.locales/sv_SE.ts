@@ -10905,4 +10905,20 @@ export const sv_SE: Partial<Record<TranslationKey, string>> = {
   'entities.quests.q_hallucinated_cache.completion':
     'Sa den lat sig hittas. Behall rullen inuti. Jag skulle inte lasa den for ofta, i ditt stalle.',
   'entities.quests.q_hallucinated_cache.objectives.0.label': 'Den Hallucinerade Skatten',
+  'entities.npcs.archmage_corvane.name': 'Ärkemagikern Corvane',
+  'entities.npcs.archmage_corvane.title': 'Korpus vaktare',
+  'entities.npcs.archmage_corvane.greeting':
+    'Korpus rymmer niotusen band, {className}. Jag har last dem alla. Fraga mig vad som helst: jag kommer hogst troligt att ha fel.',
+  'entities.quests.q_spire_summons.title': 'En lasning av ringen',
+  'entities.quests.q_spire_summons.text':
+    'Den dar ringen som jagarna drog upp ur vattnet, {playerName}. Tre skrivare har sett pa den och ingen kan namnge metallen. Det finns en man som kan lasa den: Arkemagikern i Spiran, norrut langs vagbanken dar dalen viker for karret. Bar den dit. Bar den innan den bestammer sig for vad den ar.',
+  'entities.quests.q_spire_summons.completion':
+    'Sa detta kom upp ur vattnet. Varm, eller hur. Satt dig, {playerName}. Det har tar langre tid an du onskar, och i slutet kommer jag anda inte vara saker.',
+  'entities.quests.q_spire_reading.title': 'Det Korpus inte rymmer',
+  'entities.quests.q_spire_reading.text':
+    'En lasning kraver en stilla lampa och ett bundet blad, och karret har tagit bada ifran mig i ar. Ankesilke till bindningen, {playerName}, och fettet fran karrsvallarna till oljan. Ta hit dem sa haller jag din ring mot sjalva Korpus.',
+  'entities.quests.q_spire_reading.completion':
+    'Niotusen band. Inte ett enda beskriver din ring. Vilket inte ar samma sak som att den vore mig okand, forstar du. Jag har den underligaste kanslan av att jag har skrivit om den. Jag kan bara inte hitta var.',
+  'entities.quests.q_spire_reading.objectives.0.label': 'Ankesilke taget',
+  'entities.quests.q_spire_reading.objectives.1.label': 'Svallfett smalt',
 };

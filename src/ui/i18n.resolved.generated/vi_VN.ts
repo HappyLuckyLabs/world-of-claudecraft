@@ -11284,6 +11284,11 @@ export const vi_VN: EnTranslations = {
       }
     },
     "npcs": {
+      "archmage_corvane": {
+        "name": "Dai Phap Su Corvane",
+        "title": "Nguoi Giu Thu Tich",
+        "greeting": "Thu Tich co chin nghin quyen, {className}. Ta da doc het. Hoi gi cung duoc: rat co the ta se tra loi sai."
+      },
       "the_inferencer": {
         "name": "Nguoi Suy Luan",
         "title": "Nguoi Doc Van Menh",
@@ -11746,6 +11751,25 @@ export const vi_VN: EnTranslations = {
       }
     },
     "quests": {
+      "q_spire_summons": {
+        "title": "Doc Chiec Nhan",
+        "text": "Chiec nhan ma tho san vot len tu duoi nuoc ay, {playerName}. Ba vien thu lai da xem qua va khong ai goi duoc ten kim loai. Co mot nguoi doc duoc no: Dai Phap Su o Thap Nhon, di ve phia bac theo con duong dap, noi thung lung nhuong cho cho dam lay. Mang no den do. Mang di truoc khi no quyet dinh minh la gi.",
+        "completion": "Vay day la thu da tu duoi nuoc len. Am, phai khong. Ngoi xuong di, {playerName}. Viec nay se lau hon nguoi muon, va den cuoi ta van se khong chac chan.",
+        "objectives": {}
+      },
+      "q_spire_reading": {
+        "title": "Dieu Thu Tich Khong Chep",
+        "text": "Mot lan doc can mot ngon den dung yen va mot trang giay dong bia, ma mua nay dam lay da lay mat ca hai cua ta. To goa phu de dong bia, {playerName}, va mo cua nhung con phinh dam de lam dau. Mang chung den va ta se dat chiec nhan cua nguoi doi chieu voi chinh Thu Tich.",
+        "completion": "Chin nghin quyen. Khong quyen nao mo ta chiec nhan cua nguoi. Dieu do khong dong nghia voi viec ta khong biet no, nguoi hieu chu. Ta co cam giac ky la nhat rang ta da tung viet ve no. Chi la ta khong tim ra o dau.",
+        "objectives": {
+          "0": {
+            "label": "Da lay to goa phu"
+          },
+          "1": {
+            "label": "Da thang mo con phinh"
+          }
+        }
+      },
       "q_tokens_alignment": {
         "title": "Tin Vat Can Chinh",
         "text": "Lo Ren khong nhan loai tien nao khac, {playerName}. Nam Tin Vat Can Chinh nam rai rac khap thung lung - dong co, ho, doi va canh dong. Bang tin khong noi ai da rai chung. Bang tin hiem khi noi gi.",
@@ -13938,6 +13962,9 @@ export const vi_VN: EnTranslations = {
           },
           "7": {
             "label": "Pháo Đài Chìm"
+          },
+          "8": {
+            "label": "The Sunken Bastion"
           }
         }
       },

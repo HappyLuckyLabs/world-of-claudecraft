@@ -10764,4 +10764,20 @@ export const ko_KR: Partial<Record<TranslationKey, string>> = {
   'entities.quests.q_hallucinated_cache.completion':
     '결국 발견되기로 했군요. 안의 두루마리는 간직하세요. 저라면 너무 자주 읽지는 않겠어요.',
   'entities.quests.q_hallucinated_cache.objectives.0.label': '환각의 보물상자',
+  'entities.npcs.archmage_corvane.name': '대마법사 코베인',
+  'entities.npcs.archmage_corvane.title': '전적의 수호자',
+  'entities.npcs.archmage_corvane.greeting':
+    '전적에는 구천 권이 있소, {className}. 전부 읽었지. 무엇이든 물어보시오. 십중팔구 내가 틀릴 테지만.',
+  'entities.quests.q_spire_summons.title': '반지를 읽다',
+  'entities.quests.q_spire_summons.text':
+    '사냥꾼들이 물에서 건져 올린 그 반지 말이오, {playerName}. 서기 셋이 살펴봤지만 아무도 그 금속의 이름을 대지 못했소. 그걸 읽어낼 수 있는 사람이 하나 있소. 첨탑의 대마법사요. 둑길을 따라 북쪽, 골짜기가 늪에 자리를 내주는 곳이오. 가져가시오. 반지가 스스로 무엇인지 정하기 전에.',
+  'entities.quests.q_spire_summons.completion':
+    '이것이 물에서 나온 것이로군. 따뜻하지 않소. 앉으시오, {playerName}. 이건 그대가 바라는 것보다 오래 걸릴 테고, 끝나고도 나는 여전히 확신하지 못할 거요.',
+  'entities.quests.q_spire_reading.title': '전적에 없는 것',
+  'entities.quests.q_spire_reading.text':
+    '읽으려면 흔들리지 않는 등불과 제본된 종이가 필요한데, 이번 철에 늪이 둘 다 앗아갔소. 제본에는 과부거미의 실을, {playerName}, 등유로는 수렁부푸리의 기름을. 가져오면 그대의 반지를 전적 그 자체에 대어 보겠소.',
+  'entities.quests.q_spire_reading.completion':
+    '구천 권이오. 그중 어느 것도 그대의 반지를 기술하지 않소. 그것이 내게 알려지지 않았다는 뜻은 아니오, 알겠소. 내가 그것에 대해 쓴 적이 있다는 아주 기묘한 느낌이 드오. 다만 어디에 썼는지를 못 찾겠소.',
+  'entities.quests.q_spire_reading.objectives.0.label': '과부거미 실 확보',
+  'entities.quests.q_spire_reading.objectives.1.label': '수렁부푸리 기름 정제',
 };

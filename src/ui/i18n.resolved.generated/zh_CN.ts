@@ -11284,6 +11284,11 @@ export const zh_CN: EnTranslations = {
       }
     },
     "npcs": {
+      "archmage_corvane": {
+        "name": "大法师科尔文",
+        "title": "典籍守护者",
+        "greeting": "典籍收藏九千卷，{className}。我全都读过。随便问我什么：我很可能会答错。"
+      },
       "the_inferencer": {
         "name": "推断者",
         "title": "命运解读者",
@@ -11746,6 +11751,25 @@ export const zh_CN: EnTranslations = {
       }
     },
     "quests": {
+      "q_spire_summons": {
+        "title": "解读指环",
+        "text": "猎人们从水里捞上来的那枚指环，{playerName}。三位书记官看过了，没有一个能说出那是什么金属。有一个人能解读它：尖塔的大法师，沿堤道往北，山谷让位给沼泽的地方。把它带去。趁它还没决定自己是什么之前带去。",
+        "completion": "原来这就是从水里出来的东西。是温的，对吧。坐下，{playerName}。这会比你希望的更久，而到最后我仍然不能确定。",
+        "objectives": {}
+      },
+      "q_spire_reading": {
+        "title": "典籍中所没有的",
+        "text": "解读需要一盏静止的灯和一页装订好的纸，而这个季节沼泽把两样都夺走了。装订要寡妇丝，{playerName}，灯油要沼泡的脂。把它们带来，我就把你的指环与典籍本身对照。",
+        "completion": "九千卷。没有一卷描述你的指环。这和我对它一无所知并不是一回事，你要明白。我有种极古怪的感觉，我曾写过它。只是找不到写在哪里。",
+        "objectives": {
+          "0": {
+            "label": "已取得寡妇丝"
+          },
+          "1": {
+            "label": "已炼出沼泡脂"
+          }
+        }
+      },
       "q_tokens_alignment": {
         "title": "对齐代币",
         "text": "熔炉不接受其他货币，{playerName}。五枚对齐代币散落在山谷各处 - 草地、湖泊、山丘与田野。告示板没有说是谁散落的。告示板很少说什么。",
@@ -13938,6 +13962,9 @@ export const zh_CN: EnTranslations = {
           },
           "7": {
             "label": "沉没堡垒"
+          },
+          "8": {
+            "label": "The Sunken Bastion"
           }
         }
       },

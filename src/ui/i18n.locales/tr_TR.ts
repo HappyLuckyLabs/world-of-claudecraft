@@ -10918,4 +10918,20 @@ export const tr_TR: Partial<Record<TranslationKey, string>> = {
   'entities.quests.q_hallucinated_cache.completion':
     'Demek bulunmaya izin verdi. Icindeki parsomeni sakla. Yerinde olsam onu cok sik okumazdim.',
   'entities.quests.q_hallucinated_cache.objectives.0.label': 'Sanri Sandigi',
+  'entities.npcs.archmage_corvane.name': 'Basbuyucu Corvane',
+  'entities.npcs.archmage_corvane.title': 'Külliyatın Bekçisi',
+  'entities.npcs.archmage_corvane.greeting':
+    'Külliyat dokuz bin cilt tutar, {className}. Hepsini okudum. Ne istersen sor: buyuk ihtimalle yanilacagim.',
+  'entities.quests.q_spire_summons.title': 'Yuzugun Okunmasi',
+  'entities.quests.q_spire_summons.text':
+    "Avcilarin sudan cikardigi su yuzuk, {playerName}. Uc katip inceledi, hicbiri madenin adini koyamadi. Onu okuyabilecek bir adam var: Kule'nin Basbuyucusu, setten kuzeye, vadinin batakliga birakildigi yerde. Goturur musun. Yuzuk ne oldugunu kararlastirmadan once goturur musun.",
+  'entities.quests.q_spire_summons.completion':
+    'Demek sudan cikan buymus. Ilik, degil mi. Otur, {playerName}. Bu isteyecegin sureden uzun surer ve sonunda yine de emin olamayacagim.',
+  'entities.quests.q_spire_reading.title': "Külliyat'ta Bulunmayan",
+  'entities.quests.q_spire_reading.text':
+    "Bir okuma icin duragan bir kandil ve ciltli bir sayfa gerekir; bataklik bu mevsim ikisini de aldi benden. Cilt icin dul ipegi, {playerName}, yag icin de bataklik sismelerinin donyagi. Getir bana, yuzugunu bizzat Külliyat'in karsisina koyayim.",
+  'entities.quests.q_spire_reading.completion':
+    'Dokuz bin cilt. Hicbiri senin yuzugunu tarif etmiyor. Bu, onu bilmiyorum demek degil, anliyor musun. Onun hakkinda yazmis oldugum gibi cok tuhaf bir hisse kapiliyorum. Sadece nerede yazdigimi bulamiyorum.',
+  'entities.quests.q_spire_reading.objectives.0.label': 'Dul ipegi alindi',
+  'entities.quests.q_spire_reading.objectives.1.label': 'Sisme donyagi eritildi',
 };

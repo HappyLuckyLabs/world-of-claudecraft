@@ -10885,4 +10885,20 @@ export const da_DK: Partial<Record<TranslationKey, string>> = {
   'entities.quests.q_hallucinated_cache.completion':
     'Sa den lod sig finde. Behold rullen indeni. Jeg ville ikke laese den for tit, hvis jeg var dig.',
   'entities.quests.q_hallucinated_cache.objectives.0.label': 'Den Hallucinerede Skat',
+  'entities.npcs.archmage_corvane.name': 'Ærkemageren Corvane',
+  'entities.npcs.archmage_corvane.title': 'Korpussets vogter',
+  'entities.npcs.archmage_corvane.greeting':
+    'Korpusset rummer ni tusind bind, {className}. Jeg har laest dem alle. Spoerg mig om hvad som helst: jeg tager hojst sandsynligt fejl.',
+  'entities.quests.q_spire_summons.title': 'En laesning af ringen',
+  'entities.quests.q_spire_summons.text':
+    'Den ring, jaegerne trak op af vandet, {playerName}. Tre skrivere har set paa den, og ingen kan navngive metallet. Der er en mand, som kan laese den: Aerkemageren i Spiret, mod nord ad daemningsvejen, hvor dalen viger for mosen. Bring den derhen. Bring den, for den bestemmer sig for, hvad den er.',
+  'entities.quests.q_spire_summons.completion':
+    'Saa det var dette, der kom op af vandet. Lunt, ikke sandt. Saet dig, {playerName}. Det her tager laengere tid, end du bryder dig om, og til sidst vil jeg stadig ikke vaere sikker.',
+  'entities.quests.q_spire_reading.title': 'Det Korpusset ikke rummer',
+  'entities.quests.q_spire_reading.text':
+    'En laesning kraever en stille lampe og et indbundet blad, og mosen har taget begge dele fra mig i denne saeson. Enkesilke til indbindingen, {playerName}, og fedtet fra mosepusterne til olien. Bring mig dem, saa holder jeg din ring op mod selve Korpusset.',
+  'entities.quests.q_spire_reading.completion':
+    'Ni tusind bind. Ikke et eneste beskriver din ring. Hvilket ikke er det samme som, at den er mig ukendt, forstaar du. Jeg har den saerreste fornemmelse af, at jeg har skrevet om den. Jeg kan bare ikke finde hvor.',
+  'entities.quests.q_spire_reading.objectives.0.label': 'Enkesilke taget',
+  'entities.quests.q_spire_reading.objectives.1.label': 'Mosepusterfedt smeltet',
 };

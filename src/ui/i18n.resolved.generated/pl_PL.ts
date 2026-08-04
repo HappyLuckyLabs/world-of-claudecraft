@@ -11284,6 +11284,11 @@ export const pl_PL: EnTranslations = {
       }
     },
     "npcs": {
+      "archmage_corvane": {
+        "name": "Arcymag Corvane",
+        "title": "Straznik Korpusu",
+        "greeting": "Korpus liczy dziewiec tysiecy tomow, {className}. Przeczytalem kazdy. Pytaj o cokolwiek: bardzo prawdopodobne, ze sie pomyle."
+      },
       "the_inferencer": {
         "name": "Wnioskujaca",
         "title": "Czytajaca Losy",
@@ -11746,6 +11751,25 @@ export const pl_PL: EnTranslations = {
       }
     },
     "quests": {
+      "q_spire_summons": {
+        "title": "Odczytanie pierscienia",
+        "text": "Ten pierscien, ktory mysliwi wyciagneli z wody, {playerName}. Trzej skrybowie go ogladali i zaden nie potrafi nazwac kruszcu. Jest czlowiek, ktory potrafi go odczytac: Arcymag z Iglicy, na polnoc grobla, tam gdzie dolina ustepuje bagnu. Zanies mu go. Zanies, zanim zdecyduje, czym jest.",
+        "completion": "A wiec to wyszlo z wody. Cieply, prawda. Usiadz, {playerName}. Potrwa to dluzej, niz bys chcial, a na koncu i tak nie bede pewien.",
+        "objectives": {}
+      },
+      "q_spire_reading": {
+        "title": "Czego Korpus nie zawiera",
+        "text": "Odczyt wymaga spokojnej lampy i oprawnej karty, a bagno zabralo mi tej pory obie rzeczy. Wdowi jedwab na oprawe, {playerName}, i tluszcz blotnych wzdec na oliwe. Przynies je, a przylozy twoj pierscien do samego Korpusu.",
+        "completion": "Dziewiec tysiecy tomow. Ani jeden nie opisuje twojego pierscienia. To nie to samo, co byc mi nieznanym, rozumiesz. Mam najdziwniejsze wrazenie, ze o nim pisalem. Tylko nie moge znalezc gdzie.",
+        "objectives": {
+          "0": {
+            "label": "Wdowi jedwab zebrany"
+          },
+          "1": {
+            "label": "Tluszcz wzdec wytopiony"
+          }
+        }
+      },
       "q_tokens_alignment": {
         "title": "Znaki Wyrownania",
         "text": "Kuznia nie przyjmuje innej waluty, {playerName}. Piec Znakow Wyrownania lezy rozrzuconych po dolinie - laka, jezioro, wzgorze i pole. Tablica nie mowi, kto je rozrzucil. Tablica rzadko cokolwiek mowi.",
@@ -13938,6 +13962,9 @@ export const pl_PL: EnTranslations = {
           },
           "7": {
             "label": "Zatopiony Bastion"
+          },
+          "8": {
+            "label": "The Sunken Bastion"
           }
         }
       },

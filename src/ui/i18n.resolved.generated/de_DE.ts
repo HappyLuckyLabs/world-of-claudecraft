@@ -11284,6 +11284,11 @@ export const de_DE: EnTranslations = {
       }
     },
     "npcs": {
+      "archmage_corvane": {
+        "name": "Erzmagier Corvane",
+        "title": "Hueter des Korpus",
+        "greeting": "Der Korpus umfasst neuntausend Baende, {className}. Ich habe jeden einzelnen gelesen. Frag mich, was du willst: ich werde mich hoechstwahrscheinlich irren."
+      },
       "the_inferencer": {
         "name": "Die Deuterin",
         "title": "Leserin der Schicksale",
@@ -11746,6 +11751,25 @@ export const de_DE: EnTranslations = {
       }
     },
     "quests": {
+      "q_spire_summons": {
+        "title": "Eine Lesung des Rings",
+        "text": "Der Ring, den die Jaeger aus dem Wasser gezogen haben, {playerName}. Drei Schreiber haben ihn begutachtet, und keiner kann das Metall benennen. Es gibt einen, der ihn lesen kann: den Erzmagier der Spitze, den Damm hinauf im Norden, wo das Tal ins Moor uebergeht. Bring ihn zu ihm. Bring ihn hin, bevor er sich entscheidet, was er ist.",
+        "completion": "Das also kam aus dem Wasser. Warm, nicht wahr. Setz dich, {playerName}. Das dauert laenger, als dir lieb ist, und am Ende werde ich noch immer nicht sicher sein.",
+        "objectives": {}
+      },
+      "q_spire_reading": {
+        "title": "Was der Korpus nicht enthaelt",
+        "text": "Eine Lesung braucht eine ruhige Lampe und eine gebundene Seite, und das Moor hat mir in dieser Jahreszeit beides genommen. Witwenseide fuer die Bindung, {playerName}, und das Fett der Sumpfblasen fuer das Oel. Bring mir beides, und ich halte deinen Ring gegen den Korpus selbst.",
+        "completion": "Neuntausend Baende. Nicht einer beschreibt deinen Ring. Das ist nicht dasselbe, wie mir unbekannt zu sein, verstehst du. Ich habe das seltsame Gefuehl, darueber geschrieben zu haben. Ich finde nur nicht, wo.",
+        "objectives": {
+          "0": {
+            "label": "Witwenseide genommen"
+          },
+          "1": {
+            "label": "Sumpfblasenfett ausgelassen"
+          }
+        }
+      },
       "q_tokens_alignment": {
         "title": "Zeichen der Ausrichtung",
         "text": "Die Schmiede nimmt keine andere Waehrung an, {playerName}. Fuenf Zeichen der Ausrichtung liegen im Tal verstreut - Wiese, See, Huegel und Feld. Die Tafel sagt nicht, wer sie verstreut hat. Die Tafel sagt selten etwas.",
@@ -13938,6 +13962,9 @@ export const de_DE: EnTranslations = {
           },
           "7": {
             "label": "Die versunkene Bastion"
+          },
+          "8": {
+            "label": "The Sunken Bastion"
           }
         }
       },

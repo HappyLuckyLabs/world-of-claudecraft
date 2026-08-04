@@ -11169,4 +11169,20 @@ export const fr_FR: Partial<Record<TranslationKey, string>> = {
   'entities.quests.q_hallucinated_cache.completion':
     "Il s'est donc laisse trouver. Garde le parchemin qu'il contient. Je ne le lirais pas trop souvent, a ta place.",
   'entities.quests.q_hallucinated_cache.objectives.0.label': 'La Cache Hallucinee',
+  'entities.npcs.archmage_corvane.name': 'Archimage Corvane',
+  'entities.npcs.archmage_corvane.title': 'Gardien du Corpus',
+  'entities.npcs.archmage_corvane.greeting':
+    'Le Corpus compte neuf mille volumes, {className}. Je les ai tous lus. Demande-moi ce que tu veux: je me tromperai tres probablement.',
+  'entities.quests.q_spire_summons.title': "Une lecture de l'anneau",
+  'entities.quests.q_spire_summons.text':
+    "Cet anneau que les chasseurs ont tire de l'eau, {playerName}. Trois clercs l'ont examine et aucun ne sait nommer le metal. Il existe un homme capable de le lire: l'Archimage de la Fleche, au nord par la chaussee, la ou la vallee cede au marais. Porte-le lui. Porte-le avant qu'il ne decide de ce qu'il est.",
+  'entities.quests.q_spire_summons.completion':
+    "Voila donc ce qui est sorti de l'eau. Tiede, n'est-ce pas. Assieds-toi, {playerName}. Cela prendra plus de temps que tu ne le voudrais, et je n'en serai toujours pas certain a la fin.",
+  'entities.quests.q_spire_reading.title': 'Ce que le Corpus ne contient pas',
+  'entities.quests.q_spire_reading.text':
+    "Une lecture exige une lampe immobile et une page reliee, et le marais m'a pris les deux cette saison. De la soie de veuve pour la reliure, {playerName}, et la graisse des enfles des tourbieres pour l'huile. Apporte-les moi et je confronterai ton anneau au Corpus lui-meme.",
+  'entities.quests.q_spire_reading.completion':
+    "Neuf mille volumes. Pas un seul ne decrit ton anneau. Ce n'est pas la meme chose que de m'etre inconnu, comprends-le. J'ai l'etrange sentiment d'avoir ecrit a son sujet. Simplement, je ne trouve pas ou.",
+  'entities.quests.q_spire_reading.objectives.0.label': 'Soie de veuve prelevee',
+  'entities.quests.q_spire_reading.objectives.1.label': "Graisse d'enfle fondue",
 };

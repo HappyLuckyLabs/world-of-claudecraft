@@ -11284,6 +11284,11 @@ export const sv_SE: EnTranslations = {
       }
     },
     "npcs": {
+      "archmage_corvane": {
+        "name": "Ärkemagikern Corvane",
+        "title": "Korpus vaktare",
+        "greeting": "Korpus rymmer niotusen band, {className}. Jag har last dem alla. Fraga mig vad som helst: jag kommer hogst troligt att ha fel."
+      },
       "the_inferencer": {
         "name": "Slutledaren",
         "title": "Odeslaserska",
@@ -11746,6 +11751,25 @@ export const sv_SE: EnTranslations = {
       }
     },
     "quests": {
+      "q_spire_summons": {
+        "title": "En lasning av ringen",
+        "text": "Den dar ringen som jagarna drog upp ur vattnet, {playerName}. Tre skrivare har sett pa den och ingen kan namnge metallen. Det finns en man som kan lasa den: Arkemagikern i Spiran, norrut langs vagbanken dar dalen viker for karret. Bar den dit. Bar den innan den bestammer sig for vad den ar.",
+        "completion": "Sa detta kom upp ur vattnet. Varm, eller hur. Satt dig, {playerName}. Det har tar langre tid an du onskar, och i slutet kommer jag anda inte vara saker.",
+        "objectives": {}
+      },
+      "q_spire_reading": {
+        "title": "Det Korpus inte rymmer",
+        "text": "En lasning kraver en stilla lampa och ett bundet blad, och karret har tagit bada ifran mig i ar. Ankesilke till bindningen, {playerName}, och fettet fran karrsvallarna till oljan. Ta hit dem sa haller jag din ring mot sjalva Korpus.",
+        "completion": "Niotusen band. Inte ett enda beskriver din ring. Vilket inte ar samma sak som att den vore mig okand, forstar du. Jag har den underligaste kanslan av att jag har skrivit om den. Jag kan bara inte hitta var.",
+        "objectives": {
+          "0": {
+            "label": "Ankesilke taget"
+          },
+          "1": {
+            "label": "Svallfett smalt"
+          }
+        }
+      },
       "q_tokens_alignment": {
         "title": "Riktningstecken",
         "text": "Smedjan tar inte emot nagon annan valuta, {playerName}. Fem Riktningstecken ligger utspridda i dalen - ang, sjo, kulle och faelt. Tavlan sager inte vem som spred dem. Tavlan sager sallan nagot.",
@@ -13938,6 +13962,9 @@ export const sv_SE: EnTranslations = {
           },
           "7": {
             "label": "Den sjunkna bastionen"
+          },
+          "8": {
+            "label": "The Sunken Bastion"
           }
         }
       },

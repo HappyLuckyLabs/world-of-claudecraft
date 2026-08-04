@@ -10840,4 +10840,20 @@ export const cs_CZ: Partial<Record<TranslationKey, string>> = {
   'entities.quests.q_hallucinated_cache.completion':
     'Takze se nechala najit. Svitek uvnitr si nech. Na tvem miste bych ho necetla prilis casto.',
   'entities.quests.q_hallucinated_cache.objectives.0.label': 'Halucinovany Poklad',
+  'entities.npcs.archmage_corvane.name': 'Arcimag Corvane',
+  'entities.npcs.archmage_corvane.title': 'Strazce Korpusu',
+  'entities.npcs.archmage_corvane.greeting':
+    'Korpus cita devet tisic svazku, {className}. Precetl jsem je vsechny. Zeptej se na cokoli: velmi pravdepodobne se zmylim.',
+  'entities.quests.q_spire_summons.title': 'Cteni prstenu',
+  'entities.quests.q_spire_summons.text':
+    'Ten prsten, co lovci vytahli z vody, {playerName}. Tri pisari si jej prohledli a ani jeden nedokaze pojmenovat ten kov. Je jeden, kdo jej dokaze precist: Arcimag ze Spice, na sever po hrazi, kde udoli ustupuje bazine. Odnes mu jej. Odnes jej driv, nez se rozhodne, cim je.',
+  'entities.quests.q_spire_summons.completion':
+    'Tak tohle vyslo z vody. Tepla vec, ze. Posad se, {playerName}. Potrva to dele, nez by se ti libilo, a na konci si stejne nebudu jisty.',
+  'entities.quests.q_spire_reading.title': 'Co Korpus neobsahuje',
+  'entities.quests.q_spire_reading.text':
+    'Cteni potrebuje klidnou lampu a vazanou stranku, a bazina mi letos vzala oboji. Vdovi hedvabi na vazbu, {playerName}, a tuk bahennich nadmutcu na olej. Prines mi je a polozim tvuj prsten proti samotnemu Korpusu.',
+  'entities.quests.q_spire_reading.completion':
+    'Devet tisic svazku. Ani jediny nepopisuje tvuj prsten. Coz neni totez jako ze by mi byl neznamy, rozumis. Mam podivny pocit, ze jsem o nem psal. Jen nemohu najit kde.',
+  'entities.quests.q_spire_reading.objectives.0.label': 'Vdovi hedvabi ziskano',
+  'entities.quests.q_spire_reading.objectives.1.label': 'Tuk nadmutcu vyskvaren',
 };

@@ -11284,6 +11284,11 @@ export const cs_CZ: EnTranslations = {
       }
     },
     "npcs": {
+      "archmage_corvane": {
+        "name": "Arcimag Corvane",
+        "title": "Strazce Korpusu",
+        "greeting": "Korpus cita devet tisic svazku, {className}. Precetl jsem je vsechny. Zeptej se na cokoli: velmi pravdepodobne se zmylim."
+      },
       "the_inferencer": {
         "name": "Vyvozovatelka",
         "title": "Ctenarka Osudu",
@@ -11746,6 +11751,25 @@ export const cs_CZ: EnTranslations = {
       }
     },
     "quests": {
+      "q_spire_summons": {
+        "title": "Cteni prstenu",
+        "text": "Ten prsten, co lovci vytahli z vody, {playerName}. Tri pisari si jej prohledli a ani jeden nedokaze pojmenovat ten kov. Je jeden, kdo jej dokaze precist: Arcimag ze Spice, na sever po hrazi, kde udoli ustupuje bazine. Odnes mu jej. Odnes jej driv, nez se rozhodne, cim je.",
+        "completion": "Tak tohle vyslo z vody. Tepla vec, ze. Posad se, {playerName}. Potrva to dele, nez by se ti libilo, a na konci si stejne nebudu jisty.",
+        "objectives": {}
+      },
+      "q_spire_reading": {
+        "title": "Co Korpus neobsahuje",
+        "text": "Cteni potrebuje klidnou lampu a vazanou stranku, a bazina mi letos vzala oboji. Vdovi hedvabi na vazbu, {playerName}, a tuk bahennich nadmutcu na olej. Prines mi je a polozim tvuj prsten proti samotnemu Korpusu.",
+        "completion": "Devet tisic svazku. Ani jediny nepopisuje tvuj prsten. Coz neni totez jako ze by mi byl neznamy, rozumis. Mam podivny pocit, ze jsem o nem psal. Jen nemohu najit kde.",
+        "objectives": {
+          "0": {
+            "label": "Vdovi hedvabi ziskano"
+          },
+          "1": {
+            "label": "Tuk nadmutcu vyskvaren"
+          }
+        }
+      },
       "q_tokens_alignment": {
         "title": "Znamky Souladu",
         "text": "Kovarna neprijima jinou menu, {playerName}. Pet Znamek Souladu lezi rozeseto po udoli - louka, jezero, kopec i pole. Tabule nerika, kdo je rozesel. Tabule toho rika malo.",
@@ -13938,6 +13962,9 @@ export const cs_CZ: EnTranslations = {
           },
           "7": {
             "label": "Potopená bašta"
+          },
+          "8": {
+            "label": "The Sunken Bastion"
           }
         }
       },

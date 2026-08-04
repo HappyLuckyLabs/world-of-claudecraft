@@ -11023,4 +11023,20 @@ export const nl_NL: Partial<Record<TranslationKey, string>> = {
   'entities.quests.q_hallucinated_cache.completion':
     'Dus hij liet zich vinden. Houd de rol erin. Ik zou hem niet te vaak lezen, als ik jou was.',
   'entities.quests.q_hallucinated_cache.objectives.0.label': 'De Gehallucineerde Schat',
+  'entities.npcs.archmage_corvane.name': 'Aartsmagier Corvane',
+  'entities.npcs.archmage_corvane.title': 'Hoeder van het Corpus',
+  'entities.npcs.archmage_corvane.greeting':
+    'Het Corpus telt negenduizend delen, {className}. Ik heb ze allemaal gelezen. Vraag me wat je wilt: ik zal me hoogstwaarschijnlijk vergissen.',
+  'entities.quests.q_spire_summons.title': 'Een lezing van de ring',
+  'entities.quests.q_spire_summons.text':
+    'Die ring die de jagers uit het water haalden, {playerName}. Drie klerken hebben ernaar gekeken en geen van hen kan het metaal benoemen. Er is een man die hem kan lezen: de Aartsmagier van de Spits, noordwaarts over de dijkweg, waar het dal plaatsmaakt voor moeras. Breng hem daarheen. Breng hem voordat hij besluit wat hij is.',
+  'entities.quests.q_spire_summons.completion':
+    'Dus dit is wat uit het water kwam. Warm, nietwaar. Ga zitten, {playerName}. Dit duurt langer dan je lief is, en aan het eind zal ik het nog steeds niet zeker weten.',
+  'entities.quests.q_spire_reading.title': 'Wat het Corpus niet bevat',
+  'entities.quests.q_spire_reading.text':
+    'Een lezing vraagt een stille lamp en een gebonden blad, en het moeras heeft me dit seizoen beide ontnomen. Weduwzijde voor de band, {playerName}, en het vet van de moerasbultens voor de olie. Breng ze me en ik leg je ring naast het Corpus zelf.',
+  'entities.quests.q_spire_reading.completion':
+    'Negenduizend delen. Niet een ervan beschrijft jouw ring. Dat is niet hetzelfde als dat hij mij onbekend is, begrijp je. Ik heb het vreemdste gevoel dat ik erover geschreven heb. Ik kan alleen niet vinden waar.',
+  'entities.quests.q_spire_reading.objectives.0.label': 'Weduwzijde genomen',
+  'entities.quests.q_spire_reading.objectives.1.label': 'Bultenvet uitgesmolten',
 };

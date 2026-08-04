@@ -11284,6 +11284,11 @@ export const id_ID: EnTranslations = {
       }
     },
     "npcs": {
+      "archmage_corvane": {
+        "name": "Arkimagus Corvane",
+        "title": "Penjaga Korpus",
+        "greeting": "Korpus menyimpan sembilan ribu jilid, {className}. Aku telah membaca semuanya. Tanyakan apa saja: kemungkinan besar aku akan keliru."
+      },
       "the_inferencer": {
         "name": "Sang Penyimpul",
         "title": "Pembaca Takdir",
@@ -11746,6 +11751,25 @@ export const id_ID: EnTranslations = {
       }
     },
     "quests": {
+      "q_spire_summons": {
+        "title": "Pembacaan Cincin",
+        "text": "Cincin yang diangkat para pemburu dari air itu, {playerName}. Tiga juru tulis telah memeriksanya dan tak satu pun bisa menyebut nama logamnya. Ada satu orang yang bisa membacanya: Arkimagus Menara, ke utara lewat jalan tanggul, tempat lembah menyerah pada rawa. Bawalah ke sana. Bawa sebelum cincin itu memutuskan dirinya apa.",
+        "completion": "Jadi ini yang keluar dari air. Hangat, bukan. Duduklah, {playerName}. Ini akan lebih lama dari yang kau inginkan, dan pada akhirnya aku tetap tidak akan yakin.",
+        "objectives": {}
+      },
+      "q_spire_reading": {
+        "title": "Yang Tidak Ada dalam Korpus",
+        "text": "Sebuah pembacaan butuh lampu yang tenang dan halaman terjilid, dan musim ini rawa mengambil keduanya dariku. Sutra janda untuk jilidannya, {playerName}, dan lemak si kembung rawa untuk minyaknya. Bawakan padaku dan akan kuhadapkan cincinmu pada Korpus itu sendiri.",
+        "completion": "Sembilan ribu jilid. Tak satu pun menjelaskan cincinmu. Itu tidak sama dengan cincin itu tak kukenal, kau paham. Aku punya perasaan yang teramat ganjil bahwa aku pernah menulis tentangnya. Aku hanya tidak bisa menemukan di mana.",
+        "objectives": {
+          "0": {
+            "label": "Sutra janda diambil"
+          },
+          "1": {
+            "label": "Lemak kembung dilelehkan"
+          }
+        }
+      },
       "q_tokens_alignment": {
         "title": "Token Penyelarasan",
         "text": "Tempaan tidak menerima mata uang lain, {playerName}. Lima Token Penyelarasan tersebar di lembah - padang, danau, bukit, dan ladang. Papan tidak mengatakan siapa yang menyebarkannya. Papan jarang mengatakan apa-apa.",
@@ -13938,6 +13962,9 @@ export const id_ID: EnTranslations = {
           },
           "7": {
             "label": "Benteng Karam"
+          },
+          "8": {
+            "label": "The Sunken Bastion"
           }
         }
       },

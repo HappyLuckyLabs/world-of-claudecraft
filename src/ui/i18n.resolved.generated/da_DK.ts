@@ -11284,6 +11284,11 @@ export const da_DK: EnTranslations = {
       }
     },
     "npcs": {
+      "archmage_corvane": {
+        "name": "Ærkemageren Corvane",
+        "title": "Korpussets vogter",
+        "greeting": "Korpusset rummer ni tusind bind, {className}. Jeg har laest dem alle. Spoerg mig om hvad som helst: jeg tager hojst sandsynligt fejl."
+      },
       "the_inferencer": {
         "name": "Udlederen",
         "title": "Skaebnelaeserske",
@@ -11746,6 +11751,25 @@ export const da_DK: EnTranslations = {
       }
     },
     "quests": {
+      "q_spire_summons": {
+        "title": "En laesning af ringen",
+        "text": "Den ring, jaegerne trak op af vandet, {playerName}. Tre skrivere har set paa den, og ingen kan navngive metallet. Der er en mand, som kan laese den: Aerkemageren i Spiret, mod nord ad daemningsvejen, hvor dalen viger for mosen. Bring den derhen. Bring den, for den bestemmer sig for, hvad den er.",
+        "completion": "Saa det var dette, der kom op af vandet. Lunt, ikke sandt. Saet dig, {playerName}. Det her tager laengere tid, end du bryder dig om, og til sidst vil jeg stadig ikke vaere sikker.",
+        "objectives": {}
+      },
+      "q_spire_reading": {
+        "title": "Det Korpusset ikke rummer",
+        "text": "En laesning kraever en stille lampe og et indbundet blad, og mosen har taget begge dele fra mig i denne saeson. Enkesilke til indbindingen, {playerName}, og fedtet fra mosepusterne til olien. Bring mig dem, saa holder jeg din ring op mod selve Korpusset.",
+        "completion": "Ni tusind bind. Ikke et eneste beskriver din ring. Hvilket ikke er det samme som, at den er mig ukendt, forstaar du. Jeg har den saerreste fornemmelse af, at jeg har skrevet om den. Jeg kan bare ikke finde hvor.",
+        "objectives": {
+          "0": {
+            "label": "Enkesilke taget"
+          },
+          "1": {
+            "label": "Mosepusterfedt smeltet"
+          }
+        }
+      },
       "q_tokens_alignment": {
         "title": "Retningstegn",
         "text": "Essen tager ikke imod anden valuta, {playerName}. Fem Retningstegn ligger spredt i dalen - eng, so, bakke og mark. Tavlen siger ikke, hvem der spredte dem. Tavlen siger sjaeldent noget.",
@@ -13938,6 +13962,9 @@ export const da_DK: EnTranslations = {
           },
           "7": {
             "label": "Den Sunkne Bastion"
+          },
+          "8": {
+            "label": "The Sunken Bastion"
           }
         }
       },

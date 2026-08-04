@@ -11034,4 +11034,20 @@ export const pt_BR: Partial<Record<TranslationKey, string>> = {
   'entities.quests.q_hallucinated_cache.completion':
     'Entao ele se deixou encontrar. Guarde o pergaminho de dentro. Eu nao o leria com muita frequencia, no seu lugar.',
   'entities.quests.q_hallucinated_cache.objectives.0.label': 'O Esconderijo Alucinado',
+  'entities.npcs.archmage_corvane.name': 'Arquimago Corvane',
+  'entities.npcs.archmage_corvane.title': 'Guardiao do Corpus',
+  'entities.npcs.archmage_corvane.greeting':
+    'O Corpus guarda nove mil volumes, {className}. Li todos eles. Pergunte-me o que quiser: e muito provavel que eu esteja errado.',
+  'entities.quests.q_spire_summons.title': 'Uma leitura do anel',
+  'entities.quests.q_spire_summons.text':
+    'Aquele anel que os cacadores tiraram da agua, {playerName}. Tres escrivaes o examinaram e nenhum sabe nomear o metal. Ha um homem capaz de le-lo: o Arquimago da Agulha, ao norte pela calcada, onde o vale cede ao pantano. Leve-o ate ele. Leve antes que o anel decida o que e.',
+  'entities.quests.q_spire_summons.completion':
+    'Entao foi isto que saiu da agua. Morno, nao e. Sente-se, {playerName}. Isto vai demorar mais do que voce gostaria, e ao final eu ainda nao terei certeza.',
+  'entities.quests.q_spire_reading.title': 'O que o Corpus nao contem',
+  'entities.quests.q_spire_reading.text':
+    'Uma leitura exige uma lampada firme e uma pagina encadernada, e o pantano levou as duas nesta estacao. Seda de viuva para a encadernacao, {playerName}, e a gordura dos inchados do brejo para o oleo. Traga-as e porei seu anel diante do proprio Corpus.',
+  'entities.quests.q_spire_reading.completion':
+    'Nove mil volumes. Nenhum descreve o seu anel. O que nao e o mesmo que me ser desconhecido, entenda. Tenho a estranhissima sensacao de ter escrito sobre ele. Apenas nao consigo encontrar onde.',
+  'entities.quests.q_spire_reading.objectives.0.label': 'Seda de viuva recolhida',
+  'entities.quests.q_spire_reading.objectives.1.label': 'Gordura de inchado derretida',
 };

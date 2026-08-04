@@ -11284,6 +11284,11 @@ export const fr_CA: EnTranslations = {
       }
     },
     "npcs": {
+      "archmage_corvane": {
+        "name": "Archimage Corvane",
+        "title": "Gardien du Corpus",
+        "greeting": "Le Corpus compte neuf mille volumes, {className}. Je les ai tous lus. Demande-moi ce que tu veux: je me tromperai tres probablement."
+      },
       "the_inferencer": {
         "name": "L'Inferente",
         "title": "Liseuse de Destins",
@@ -11746,6 +11751,25 @@ export const fr_CA: EnTranslations = {
       }
     },
     "quests": {
+      "q_spire_summons": {
+        "title": "Une lecture de l'anneau",
+        "text": "Cet anneau que les chasseurs ont tire de l'eau, {playerName}. Trois clercs l'ont examine et aucun ne sait nommer le metal. Il existe un homme capable de le lire: l'Archimage de la Fleche, au nord par la chaussee, la ou la vallee cede au marais. Porte-le lui. Porte-le avant qu'il ne decide de ce qu'il est.",
+        "completion": "Voila donc ce qui est sorti de l'eau. Tiede, n'est-ce pas. Assieds-toi, {playerName}. Cela prendra plus de temps que tu ne le voudrais, et je n'en serai toujours pas certain a la fin.",
+        "objectives": {}
+      },
+      "q_spire_reading": {
+        "title": "Ce que le Corpus ne contient pas",
+        "text": "Une lecture exige une lampe immobile et une page reliee, et le marais m'a pris les deux cette saison. De la soie de veuve pour la reliure, {playerName}, et la graisse des enfles des tourbieres pour l'huile. Apporte-les moi et je confronterai ton anneau au Corpus lui-meme.",
+        "completion": "Neuf mille volumes. Pas un seul ne decrit ton anneau. Ce n'est pas la meme chose que de m'etre inconnu, comprends-le. J'ai l'etrange sentiment d'avoir ecrit a son sujet. Simplement, je ne trouve pas ou.",
+        "objectives": {
+          "0": {
+            "label": "Soie de veuve prelevee"
+          },
+          "1": {
+            "label": "Graisse d'enfle fondue"
+          }
+        }
+      },
       "q_tokens_alignment": {
         "title": "Jetons d'Alignement",
         "text": "La Forge n'accepte aucune autre monnaie, {playerName}. Cinq Jetons d'Alignement sont disperses dans la vallee - pre, lac, colline et champ. Le tableau ne dit pas qui les a disperses. Le tableau dit rarement quoi que ce soit.",
@@ -13938,6 +13962,9 @@ export const fr_CA: EnTranslations = {
           },
           "7": {
             "label": "Le Bastion englouti"
+          },
+          "8": {
+            "label": "The Sunken Bastion"
           }
         }
       },

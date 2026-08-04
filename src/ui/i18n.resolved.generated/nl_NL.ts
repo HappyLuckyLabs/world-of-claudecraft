@@ -11284,6 +11284,11 @@ export const nl_NL: EnTranslations = {
       }
     },
     "npcs": {
+      "archmage_corvane": {
+        "name": "Aartsmagier Corvane",
+        "title": "Hoeder van het Corpus",
+        "greeting": "Het Corpus telt negenduizend delen, {className}. Ik heb ze allemaal gelezen. Vraag me wat je wilt: ik zal me hoogstwaarschijnlijk vergissen."
+      },
       "the_inferencer": {
         "name": "De Afleider",
         "title": "Lezeres van Lotsbestemmingen",
@@ -11746,6 +11751,25 @@ export const nl_NL: EnTranslations = {
       }
     },
     "quests": {
+      "q_spire_summons": {
+        "title": "Een lezing van de ring",
+        "text": "Die ring die de jagers uit het water haalden, {playerName}. Drie klerken hebben ernaar gekeken en geen van hen kan het metaal benoemen. Er is een man die hem kan lezen: de Aartsmagier van de Spits, noordwaarts over de dijkweg, waar het dal plaatsmaakt voor moeras. Breng hem daarheen. Breng hem voordat hij besluit wat hij is.",
+        "completion": "Dus dit is wat uit het water kwam. Warm, nietwaar. Ga zitten, {playerName}. Dit duurt langer dan je lief is, en aan het eind zal ik het nog steeds niet zeker weten.",
+        "objectives": {}
+      },
+      "q_spire_reading": {
+        "title": "Wat het Corpus niet bevat",
+        "text": "Een lezing vraagt een stille lamp en een gebonden blad, en het moeras heeft me dit seizoen beide ontnomen. Weduwzijde voor de band, {playerName}, en het vet van de moerasbultens voor de olie. Breng ze me en ik leg je ring naast het Corpus zelf.",
+        "completion": "Negenduizend delen. Niet een ervan beschrijft jouw ring. Dat is niet hetzelfde als dat hij mij onbekend is, begrijp je. Ik heb het vreemdste gevoel dat ik erover geschreven heb. Ik kan alleen niet vinden waar.",
+        "objectives": {
+          "0": {
+            "label": "Weduwzijde genomen"
+          },
+          "1": {
+            "label": "Bultenvet uitgesmolten"
+          }
+        }
+      },
       "q_tokens_alignment": {
         "title": "Tekens van Uitlijning",
         "text": "De Smidse accepteert geen andere valuta, {playerName}. Vijf Tekens van Uitlijning liggen verspreid door de vallei - weide, meer, heuvel en akker. Het bord zegt niet wie ze verspreid heeft. Het bord zegt zelden iets.",
@@ -13938,6 +13962,9 @@ export const nl_NL: EnTranslations = {
           },
           "7": {
             "label": "Het Verzonken Bastion"
+          },
+          "8": {
+            "label": "The Sunken Bastion"
           }
         }
       },

@@ -32,6 +32,7 @@ export const ZONE2_ZONE: ZoneDef = {
   pois: [
     { x: 0, z: 300, label: 'Fenbridge', id: 'fenbridge' },
     { x: -40, z: 230, label: 'Prowler Reeds', id: 'prowler_reeds' },
+    { x: 62, z: 236, label: 'The Inference Spire', id: 'inference_spire' },
     { x: -105, z: 300, label: 'Deepfen Shallows', id: 'deepfen_shallows' },
     { x: 80, z: 315, label: 'Widow Thicket', id: 'widow_thicket' },
     { x: 100, z: 435, label: 'Drowned Chapel', id: 'drowned_chapel' },
@@ -604,6 +605,17 @@ export const ZONE2_MOBS: Record<string, MobTemplate> = {
 // ---------------------------------------------------------------------------
 
 export const ZONE2_NPCS: Record<string, NpcDef> = {
+  archmage_corvane: {
+    id: 'archmage_corvane',
+    name: 'Archmage Corvane',
+    title: 'Keeper of the Corpus',
+    pos: { x: 66, z: 232 },
+    facing: -2.2,
+    color: 0x6f5bd0,
+    questIds: ['q_spire_summons', 'q_spire_reading'],
+    greeting:
+      'The Corpus holds nine thousand volumes, {className}. I have read every one. Ask me anything: I will very likely be wrong.',
+  },
   warden_fenwick: {
     id: 'warden_fenwick',
     name: 'Warden Fenwick',
@@ -758,6 +770,39 @@ export const ZONE2_NPCS: Record<string, NpcDef> = {
 // ---------------------------------------------------------------------------
 
 export const ZONE2_QUESTS: Record<string, QuestDef> = {
+  q_spire_summons: {
+    id: 'q_spire_summons',
+    name: 'A Reading of the Ring',
+    giverNpcId: 'marshal_redbrook',
+    turnInNpcId: 'archmage_corvane',
+    text:
+      'That ring the hunters dredged out of the lake, {playerName}. I have had three clerks look at it and not one can name the metal. There is a man who can read it: the Archmage of the Spire, north up the causeway where the valley gives way to marsh. Take it to him. Take it before it settles on what it is.',
+    completionText:
+      'So this is what came up out of the water. Warm, is it not. Sit down, {playerName}. This will take longer than you would like, and at the end of it I will still not be certain.',
+    objectives: [],
+    xpReward: 550,
+    copperReward: 250,
+    itemRewards: {},
+    requiresQuest: 'q_greyjaw',
+  },
+  q_spire_reading: {
+    id: 'q_spire_reading',
+    name: 'What the Corpus Does Not Hold',
+    giverNpcId: 'archmage_corvane',
+    turnInNpcId: 'archmage_corvane',
+    text:
+      'A reading needs a still lamp and a bound page, and the marsh has taken both from me this season. Widow silk for the binding, {playerName}, and the fat of the bog bloats for the oil. Bring them and I will put your ring against the Corpus itself.',
+    completionText:
+      'Nine thousand volumes. Not one of them describes your ring. That is not the same as it being unknown to me, you understand. I have the strangest sense that I have written about it. I simply cannot find where.',
+    objectives: [
+      { type: 'kill', targetMobId: 'mire_widow', count: 8, label: 'Mire Widow silk taken' },
+      { type: 'kill', targetMobId: 'bog_bloat', count: 6, label: 'Bog Bloat fat rendered' },
+    ],
+    xpReward: 800,
+    copperReward: 400,
+    itemRewards: {},
+    requiresQuest: 'q_spire_summons',
+  },
   q_fenbridge_muster: {
     id: 'q_fenbridge_muster',
     name: 'Muster at Fenbridge',
@@ -1206,6 +1251,8 @@ export const ZONE2_QUESTS: Record<string, QuestDef> = {
 };
 
 export const ZONE2_QUEST_ORDER = [
+  'q_spire_summons',
+  'q_spire_reading',
   'q_fenbridge_muster',
   'q_prowlers',
   'q_prowler_pelts',
@@ -2191,6 +2238,12 @@ export const ZONE2_PROPS: ZonePropsDef = {
     { kind: 'house', x: -13, z: 308, w: 7, d: 6, rot: 0.5 },
     { kind: 'house', x: -12, z: 291, w: 6, d: 5, rot: 2.6 },
     { kind: 'house', x: 11, z: 316, w: 6, d: 5, rot: 0.3 },
+  ],
+  decorProps: [
+    // The Inference Spire: the first landmark north of the valley, set on
+    // the dry rise east of the causeway so it reads against the sky long
+    // before the road reaches Fenbridge.
+    { key: 'bellTower', x: 62, z: 236, rot: -0.4, scale: 3.2, r: 5, h: 22 },
   ],
   wells: [{ x: 0, z: 302, r: 1.5 }],
   stalls: [{ x: -5, z: 310.5, rot: Math.PI / 2, r: 1.7 }],

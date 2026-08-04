@@ -9,25 +9,65 @@
 // Reproducibility is checked by tests/i18n_resolved_equivalence.test.ts.
 
 export const pending: Record<string, readonly string[]> = {
-  "es": [],
-  "es_ES": [],
-  "fr_FR": [],
-  "fr_CA": [],
+  "es": [
+    "entities.zones.mirefen_marsh.pois.8.label"
+  ],
+  "es_ES": [
+    "entities.zones.mirefen_marsh.pois.8.label"
+  ],
+  "fr_FR": [
+    "entities.zones.mirefen_marsh.pois.8.label"
+  ],
+  "fr_CA": [
+    "entities.zones.mirefen_marsh.pois.8.label"
+  ],
   "en_CA": [],
-  "it_IT": [],
-  "de_DE": [],
-  "zh_CN": [],
-  "zh_TW": [],
-  "ko_KR": [],
-  "ja_JP": [],
-  "pt_BR": [],
-  "ru_RU": [],
-  "cs_CZ": [],
-  "nl_NL": [],
-  "pl_PL": [],
-  "id_ID": [],
-  "tr_TR": [],
-  "sv_SE": [],
-  "vi_VN": [],
-  "da_DK": []
+  "it_IT": [
+    "entities.zones.mirefen_marsh.pois.8.label"
+  ],
+  "de_DE": [
+    "entities.zones.mirefen_marsh.pois.8.label"
+  ],
+  "zh_CN": [
+    "entities.zones.mirefen_marsh.pois.8.label"
+  ],
+  "zh_TW": [
+    "entities.zones.mirefen_marsh.pois.8.label"
+  ],
+  "ko_KR": [
+    "entities.zones.mirefen_marsh.pois.8.label"
+  ],
+  "ja_JP": [
+    "entities.zones.mirefen_marsh.pois.8.label"
+  ],
+  "pt_BR": [
+    "entities.zones.mirefen_marsh.pois.8.label"
+  ],
+  "ru_RU": [
+    "entities.zones.mirefen_marsh.pois.8.label"
+  ],
+  "cs_CZ": [
+    "entities.zones.mirefen_marsh.pois.8.label"
+  ],
+  "nl_NL": [
+    "entities.zones.mirefen_marsh.pois.8.label"
+  ],
+  "pl_PL": [
+    "entities.zones.mirefen_marsh.pois.8.label"
+  ],
+  "id_ID": [
+    "entities.zones.mirefen_marsh.pois.8.label"
+  ],
+  "tr_TR": [
+    "entities.zones.mirefen_marsh.pois.8.label"
+  ],
+  "sv_SE": [
+    "entities.zones.mirefen_marsh.pois.8.label"
+  ],
+  "vi_VN": [
+    "entities.zones.mirefen_marsh.pois.8.label"
+  ],
+  "da_DK": [
+    "entities.zones.mirefen_marsh.pois.8.label"
+  ]
 };

@@ -10968,4 +10968,20 @@ export const pl_PL: Partial<Record<TranslationKey, string>> = {
   'entities.quests.q_hallucinated_cache.completion':
     'A wiec dala sie znalezc. Zatrzymaj zwoj ze srodka. Na twoim miejscu nie czytalabym go zbyt czesto.',
   'entities.quests.q_hallucinated_cache.objectives.0.label': 'Halucynowany Skarb',
+  'entities.npcs.archmage_corvane.name': 'Arcymag Corvane',
+  'entities.npcs.archmage_corvane.title': 'Straznik Korpusu',
+  'entities.npcs.archmage_corvane.greeting':
+    'Korpus liczy dziewiec tysiecy tomow, {className}. Przeczytalem kazdy. Pytaj o cokolwiek: bardzo prawdopodobne, ze sie pomyle.',
+  'entities.quests.q_spire_summons.title': 'Odczytanie pierscienia',
+  'entities.quests.q_spire_summons.text':
+    'Ten pierscien, ktory mysliwi wyciagneli z wody, {playerName}. Trzej skrybowie go ogladali i zaden nie potrafi nazwac kruszcu. Jest czlowiek, ktory potrafi go odczytac: Arcymag z Iglicy, na polnoc grobla, tam gdzie dolina ustepuje bagnu. Zanies mu go. Zanies, zanim zdecyduje, czym jest.',
+  'entities.quests.q_spire_summons.completion':
+    'A wiec to wyszlo z wody. Cieply, prawda. Usiadz, {playerName}. Potrwa to dluzej, niz bys chcial, a na koncu i tak nie bede pewien.',
+  'entities.quests.q_spire_reading.title': 'Czego Korpus nie zawiera',
+  'entities.quests.q_spire_reading.text':
+    'Odczyt wymaga spokojnej lampy i oprawnej karty, a bagno zabralo mi tej pory obie rzeczy. Wdowi jedwab na oprawe, {playerName}, i tluszcz blotnych wzdec na oliwe. Przynies je, a przylozy twoj pierscien do samego Korpusu.',
+  'entities.quests.q_spire_reading.completion':
+    'Dziewiec tysiecy tomow. Ani jeden nie opisuje twojego pierscienia. To nie to samo, co byc mi nieznanym, rozumiesz. Mam najdziwniejsze wrazenie, ze o nim pisalem. Tylko nie moge znalezc gdzie.',
+  'entities.quests.q_spire_reading.objectives.0.label': 'Wdowi jedwab zebrany',
+  'entities.quests.q_spire_reading.objectives.1.label': 'Tluszcz wzdec wytopiony',
 };

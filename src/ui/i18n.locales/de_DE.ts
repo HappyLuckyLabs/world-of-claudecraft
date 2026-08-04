@@ -11118,4 +11118,20 @@ export const de_DE: Partial<Record<TranslationKey, string>> = {
   'entities.quests.q_hallucinated_cache.completion':
     'Sie hat sich also finden lassen. Behalte die Schriftrolle darin. Ich wuerde sie nicht zu oft lesen, an deiner Stelle.',
   'entities.quests.q_hallucinated_cache.objectives.0.label': 'Der halluzinierte Schatz',
+  'entities.npcs.archmage_corvane.name': 'Erzmagier Corvane',
+  'entities.npcs.archmage_corvane.title': 'Hueter des Korpus',
+  'entities.npcs.archmage_corvane.greeting':
+    'Der Korpus umfasst neuntausend Baende, {className}. Ich habe jeden einzelnen gelesen. Frag mich, was du willst: ich werde mich hoechstwahrscheinlich irren.',
+  'entities.quests.q_spire_summons.title': 'Eine Lesung des Rings',
+  'entities.quests.q_spire_summons.text':
+    'Der Ring, den die Jaeger aus dem Wasser gezogen haben, {playerName}. Drei Schreiber haben ihn begutachtet, und keiner kann das Metall benennen. Es gibt einen, der ihn lesen kann: den Erzmagier der Spitze, den Damm hinauf im Norden, wo das Tal ins Moor uebergeht. Bring ihn zu ihm. Bring ihn hin, bevor er sich entscheidet, was er ist.',
+  'entities.quests.q_spire_summons.completion':
+    'Das also kam aus dem Wasser. Warm, nicht wahr. Setz dich, {playerName}. Das dauert laenger, als dir lieb ist, und am Ende werde ich noch immer nicht sicher sein.',
+  'entities.quests.q_spire_reading.title': 'Was der Korpus nicht enthaelt',
+  'entities.quests.q_spire_reading.text':
+    'Eine Lesung braucht eine ruhige Lampe und eine gebundene Seite, und das Moor hat mir in dieser Jahreszeit beides genommen. Witwenseide fuer die Bindung, {playerName}, und das Fett der Sumpfblasen fuer das Oel. Bring mir beides, und ich halte deinen Ring gegen den Korpus selbst.',
+  'entities.quests.q_spire_reading.completion':
+    'Neuntausend Baende. Nicht einer beschreibt deinen Ring. Das ist nicht dasselbe, wie mir unbekannt zu sein, verstehst du. Ich habe das seltsame Gefuehl, darueber geschrieben zu haben. Ich finde nur nicht, wo.',
+  'entities.quests.q_spire_reading.objectives.0.label': 'Witwenseide genommen',
+  'entities.quests.q_spire_reading.objectives.1.label': 'Sumpfblasenfett ausgelassen',
 };

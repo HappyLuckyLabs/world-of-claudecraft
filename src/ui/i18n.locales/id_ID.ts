@@ -11026,4 +11026,20 @@ export const id_ID: Partial<Record<TranslationKey, string>> = {
   'entities.quests.q_hallucinated_cache.completion':
     'Jadi ia membiarkan dirinya ditemukan. Simpan gulungan di dalamnya. Aku tidak akan terlalu sering membacanya, kalau jadi kamu.',
   'entities.quests.q_hallucinated_cache.objectives.0.label': 'Peti Halusinasi',
+  'entities.npcs.archmage_corvane.name': 'Arkimagus Corvane',
+  'entities.npcs.archmage_corvane.title': 'Penjaga Korpus',
+  'entities.npcs.archmage_corvane.greeting':
+    'Korpus menyimpan sembilan ribu jilid, {className}. Aku telah membaca semuanya. Tanyakan apa saja: kemungkinan besar aku akan keliru.',
+  'entities.quests.q_spire_summons.title': 'Pembacaan Cincin',
+  'entities.quests.q_spire_summons.text':
+    'Cincin yang diangkat para pemburu dari air itu, {playerName}. Tiga juru tulis telah memeriksanya dan tak satu pun bisa menyebut nama logamnya. Ada satu orang yang bisa membacanya: Arkimagus Menara, ke utara lewat jalan tanggul, tempat lembah menyerah pada rawa. Bawalah ke sana. Bawa sebelum cincin itu memutuskan dirinya apa.',
+  'entities.quests.q_spire_summons.completion':
+    'Jadi ini yang keluar dari air. Hangat, bukan. Duduklah, {playerName}. Ini akan lebih lama dari yang kau inginkan, dan pada akhirnya aku tetap tidak akan yakin.',
+  'entities.quests.q_spire_reading.title': 'Yang Tidak Ada dalam Korpus',
+  'entities.quests.q_spire_reading.text':
+    'Sebuah pembacaan butuh lampu yang tenang dan halaman terjilid, dan musim ini rawa mengambil keduanya dariku. Sutra janda untuk jilidannya, {playerName}, dan lemak si kembung rawa untuk minyaknya. Bawakan padaku dan akan kuhadapkan cincinmu pada Korpus itu sendiri.',
+  'entities.quests.q_spire_reading.completion':
+    'Sembilan ribu jilid. Tak satu pun menjelaskan cincinmu. Itu tidak sama dengan cincin itu tak kukenal, kau paham. Aku punya perasaan yang teramat ganjil bahwa aku pernah menulis tentangnya. Aku hanya tidak bisa menemukan di mana.',
+  'entities.quests.q_spire_reading.objectives.0.label': 'Sutra janda diambil',
+  'entities.quests.q_spire_reading.objectives.1.label': 'Lemak kembung dilelehkan',
 };

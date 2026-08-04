@@ -10289,4 +10289,20 @@ export const zh_CN: Partial<Record<TranslationKey, string>> = {
   'entities.quests.q_hallucinated_cache.completion':
     '它终究让自己被找到了。留着里面的卷轴吧。换作是我，不会太经常读它。',
   'entities.quests.q_hallucinated_cache.objectives.0.label': '幻觉宝箱',
+  'entities.npcs.archmage_corvane.name': '大法师科尔文',
+  'entities.npcs.archmage_corvane.title': '典籍守护者',
+  'entities.npcs.archmage_corvane.greeting':
+    '典籍收藏九千卷，{className}。我全都读过。随便问我什么：我很可能会答错。',
+  'entities.quests.q_spire_summons.title': '解读指环',
+  'entities.quests.q_spire_summons.text':
+    '猎人们从水里捞上来的那枚指环，{playerName}。三位书记官看过了，没有一个能说出那是什么金属。有一个人能解读它：尖塔的大法师，沿堤道往北，山谷让位给沼泽的地方。把它带去。趁它还没决定自己是什么之前带去。',
+  'entities.quests.q_spire_summons.completion':
+    '原来这就是从水里出来的东西。是温的，对吧。坐下，{playerName}。这会比你希望的更久，而到最后我仍然不能确定。',
+  'entities.quests.q_spire_reading.title': '典籍中所没有的',
+  'entities.quests.q_spire_reading.text':
+    '解读需要一盏静止的灯和一页装订好的纸，而这个季节沼泽把两样都夺走了。装订要寡妇丝，{playerName}，灯油要沼泡的脂。把它们带来，我就把你的指环与典籍本身对照。',
+  'entities.quests.q_spire_reading.completion':
+    '九千卷。没有一卷描述你的指环。这和我对它一无所知并不是一回事，你要明白。我有种极古怪的感觉，我曾写过它。只是找不到写在哪里。',
+  'entities.quests.q_spire_reading.objectives.0.label': '已取得寡妇丝',
+  'entities.quests.q_spire_reading.objectives.1.label': '已炼出沼泡脂',
 };

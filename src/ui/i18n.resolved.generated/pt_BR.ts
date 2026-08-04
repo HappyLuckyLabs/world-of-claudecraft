@@ -11284,6 +11284,11 @@ export const pt_BR: EnTranslations = {
       }
     },
     "npcs": {
+      "archmage_corvane": {
+        "name": "Arquimago Corvane",
+        "title": "Guardiao do Corpus",
+        "greeting": "O Corpus guarda nove mil volumes, {className}. Li todos eles. Pergunte-me o que quiser: e muito provavel que eu esteja errado."
+      },
       "the_inferencer": {
         "name": "A Inferidora",
         "title": "Leitora de Destinos",
@@ -11746,6 +11751,25 @@ export const pt_BR: EnTranslations = {
       }
     },
     "quests": {
+      "q_spire_summons": {
+        "title": "Uma leitura do anel",
+        "text": "Aquele anel que os cacadores tiraram da agua, {playerName}. Tres escrivaes o examinaram e nenhum sabe nomear o metal. Ha um homem capaz de le-lo: o Arquimago da Agulha, ao norte pela calcada, onde o vale cede ao pantano. Leve-o ate ele. Leve antes que o anel decida o que e.",
+        "completion": "Entao foi isto que saiu da agua. Morno, nao e. Sente-se, {playerName}. Isto vai demorar mais do que voce gostaria, e ao final eu ainda nao terei certeza.",
+        "objectives": {}
+      },
+      "q_spire_reading": {
+        "title": "O que o Corpus nao contem",
+        "text": "Uma leitura exige uma lampada firme e uma pagina encadernada, e o pantano levou as duas nesta estacao. Seda de viuva para a encadernacao, {playerName}, e a gordura dos inchados do brejo para o oleo. Traga-as e porei seu anel diante do proprio Corpus.",
+        "completion": "Nove mil volumes. Nenhum descreve o seu anel. O que nao e o mesmo que me ser desconhecido, entenda. Tenho a estranhissima sensacao de ter escrito sobre ele. Apenas nao consigo encontrar onde.",
+        "objectives": {
+          "0": {
+            "label": "Seda de viuva recolhida"
+          },
+          "1": {
+            "label": "Gordura de inchado derretida"
+          }
+        }
+      },
       "q_tokens_alignment": {
         "title": "Fichas de Alinhamento",
         "text": "A Forja nao aceita outra moeda, {playerName}. Cinco Fichas de Alinhamento estao espalhadas pelo vale - campina, lago, colina e campo. O quadro nao diz quem as espalhou. O quadro raramente diz.",
@@ -13938,6 +13962,9 @@ export const pt_BR: EnTranslations = {
           },
           "7": {
             "label": "O Bastião Submerso"
+          },
+          "8": {
+            "label": "The Sunken Bastion"
           }
         }
       },

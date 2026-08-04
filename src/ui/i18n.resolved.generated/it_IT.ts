@@ -11284,6 +11284,11 @@ export const it_IT: EnTranslations = {
       }
     },
     "npcs": {
+      "archmage_corvane": {
+        "name": "Arcimago Corvane",
+        "title": "Custode del Corpus",
+        "greeting": "Il Corpus conta novemila volumi, {className}. Li ho letti tutti. Chiedimi qualsiasi cosa: molto probabilmente sbagliero."
+      },
       "the_inferencer": {
         "name": "L'Inferente",
         "title": "Lettrice dei Destini",
@@ -11746,6 +11751,25 @@ export const it_IT: EnTranslations = {
       }
     },
     "quests": {
+      "q_spire_summons": {
+        "title": "Una lettura dell'anello",
+        "text": "Quell'anello che i cacciatori hanno tirato fuori dall'acqua, {playerName}. Tre scrivani lo hanno esaminato e nessuno sa dare un nome al metallo. C'e un uomo che sa leggerlo: l'Arcimago della Guglia, a nord lungo la strada rialzata, dove la valle cede alla palude. Portaglielo. Portaglielo prima che decida cosa essere.",
+        "completion": "Ecco dunque cosa e uscito dall'acqua. Tiepido, non e vero. Siediti, {playerName}. Ci vorra piu di quanto vorresti, e alla fine non ne saro comunque certo.",
+        "objectives": {}
+      },
+      "q_spire_reading": {
+        "title": "Cio che il Corpus non contiene",
+        "text": "Una lettura richiede una lampada ferma e una pagina rilegata, e la palude quest'anno mi ha preso entrambe. Seta di vedova per la rilegatura, {playerName}, e il grasso dei gonfi di palude per l'olio. Portameli e mettero il tuo anello a confronto con il Corpus stesso.",
+        "completion": "Novemila volumi. Nessuno descrive il tuo anello. Il che non equivale a dire che mi sia ignoto, capisci. Ho la stranissima sensazione di averne scritto. Solo che non riesco a trovare dove.",
+        "objectives": {
+          "0": {
+            "label": "Seta di vedova raccolta"
+          },
+          "1": {
+            "label": "Grasso di gonfio fuso"
+          }
+        }
+      },
       "q_tokens_alignment": {
         "title": "Gettoni di Allineamento",
         "text": "La Forgia non accetta altra valuta, {playerName}. Cinque Gettoni di Allineamento giacciono sparsi per la valle - prato, lago, collina e campo. La bacheca non dice chi li abbia sparsi. La bacheca dice raramente qualcosa.",
@@ -13938,6 +13962,9 @@ export const it_IT: EnTranslations = {
           },
           "7": {
             "label": "Il Bastione Sommerso"
+          },
+          "8": {
+            "label": "The Sunken Bastion"
           }
         }
       },

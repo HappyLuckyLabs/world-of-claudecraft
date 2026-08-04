@@ -11095,4 +11095,20 @@ export const es: Partial<Record<TranslationKey, string>> = {
   'entities.quests.q_hallucinated_cache.completion':
     'Asi que se dejo encontrar. Guarda el pergamino de dentro. Yo no lo leeria demasiado a menudo, en tu lugar.',
   'entities.quests.q_hallucinated_cache.objectives.0.label': 'El Alijo Alucinado',
+  'entities.npcs.archmage_corvane.name': 'Archimago Corvane',
+  'entities.npcs.archmage_corvane.title': 'Guardian del Corpus',
+  'entities.npcs.archmage_corvane.greeting':
+    'El Corpus guarda nueve mil volumenes, {className}. Los he leido todos. Preguntame lo que quieras: es muy probable que me equivoque.',
+  'entities.quests.q_spire_summons.title': 'Una lectura del anillo',
+  'entities.quests.q_spire_summons.text':
+    'Ese anillo que los cazadores sacaron del agua, {playerName}. Tres escribanos lo han mirado y ninguno sabe nombrar el metal. Hay alguien que puede leerlo: el Archimago de la Aguja, al norte por la calzada, donde el valle cede ante la marisma. Llevaselo. Llevaselo antes de que decida lo que es.',
+  'entities.quests.q_spire_summons.completion':
+    'Asi que esto es lo que salio del agua. Templado, verdad. Sientate, {playerName}. Esto llevara mas de lo que te gustaria, y al final seguire sin estar seguro.',
+  'entities.quests.q_spire_reading.title': 'Lo que el Corpus no contiene',
+  'entities.quests.q_spire_reading.text':
+    'Una lectura necesita una lampara quieta y una pagina encuadernada, y la marisma me ha quitado ambas esta temporada. Seda de viuda para la encuadernacion, {playerName}, y grasa de los hinchados del pantano para el aceite. Traemelas y pondre tu anillo contra el Corpus mismo.',
+  'entities.quests.q_spire_reading.completion':
+    'Nueve mil volumenes. Ninguno describe tu anillo. Eso no es lo mismo que me sea desconocido, entiendes. Tengo la extranisima sensacion de haber escrito sobre el. Sencillamente no encuentro donde.',
+  'entities.quests.q_spire_reading.objectives.0.label': 'Seda de viuda tomada',
+  'entities.quests.q_spire_reading.objectives.1.label': 'Grasa de hinchado fundida',
 };

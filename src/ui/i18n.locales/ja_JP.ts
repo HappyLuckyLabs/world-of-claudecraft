@@ -10774,4 +10774,20 @@ export const ja_JP: Partial<Record<TranslationKey, string>> = {
   'entities.quests.q_hallucinated_cache.completion':
     '見つけられることを選んだのですね。中の巻物は持っておきなさい。私なら、あまり頻繁には読みません。',
   'entities.quests.q_hallucinated_cache.objectives.0.label': '幻視の宝箱',
+  'entities.npcs.archmage_corvane.name': '大魔道士コルヴェイン',
+  'entities.npcs.archmage_corvane.title': '典籍の守り手',
+  'entities.npcs.archmage_corvane.greeting':
+    '典籍は九千巻ある、{className}。すべて読んだ。何でも訊くがいい。おそらく私は間違える。',
+  'entities.quests.q_spire_summons.title': '指輪を読む',
+  'entities.quests.q_spire_summons.text':
+    '狩人たちが水から引き上げたあの指輪です、{playerName}。三人の書記が見ましたが、誰も金属の名を言えません。あれを読める者が一人います。尖塔の大魔道士、堤道を北へ、谷が沼へと変わるあたりです。持って行きなさい。指輪が自分を何と決める前に。',
+  'entities.quests.q_spire_summons.completion':
+    'これが水から出たものか。温かいだろう。座りなさい、{playerName}。望むより長くかかる。そして終わってもなお、私は確信を持てまい。',
+  'entities.quests.q_spire_reading.title': '典籍に無いもの',
+  'entities.quests.q_spire_reading.text':
+    '読むには静かな灯と綴じた紙がいる。この季節、沼はその両方を奪っていった。綴じには寡婦の糸を、{playerName}、灯油には沼ぶくれの脂を。持って来なさい。そうすれば君の指輪を典籍そのものと突き合わせよう。',
+  'entities.quests.q_spire_reading.completion':
+    '九千巻。どの一巻も君の指輪を記していない。私が知らぬという意味ではない、いいかね。私はそれについて書いた気がしてならない。ただ、どこに書いたのか見つからないのだ。',
+  'entities.quests.q_spire_reading.objectives.0.label': '寡婦の糸を採取',
+  'entities.quests.q_spire_reading.objectives.1.label': '沼ぶくれの脂を精製',
 };

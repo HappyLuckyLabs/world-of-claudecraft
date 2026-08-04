@@ -11284,6 +11284,11 @@ export const tr_TR: EnTranslations = {
       }
     },
     "npcs": {
+      "archmage_corvane": {
+        "name": "Basbuyucu Corvane",
+        "title": "Külliyatın Bekçisi",
+        "greeting": "Külliyat dokuz bin cilt tutar, {className}. Hepsini okudum. Ne istersen sor: buyuk ihtimalle yanilacagim."
+      },
       "the_inferencer": {
         "name": "Cikarimci",
         "title": "Kader Okuyucusu",
@@ -11746,6 +11751,25 @@ export const tr_TR: EnTranslations = {
       }
     },
     "quests": {
+      "q_spire_summons": {
+        "title": "Yuzugun Okunmasi",
+        "text": "Avcilarin sudan cikardigi su yuzuk, {playerName}. Uc katip inceledi, hicbiri madenin adini koyamadi. Onu okuyabilecek bir adam var: Kule'nin Basbuyucusu, setten kuzeye, vadinin batakliga birakildigi yerde. Goturur musun. Yuzuk ne oldugunu kararlastirmadan once goturur musun.",
+        "completion": "Demek sudan cikan buymus. Ilik, degil mi. Otur, {playerName}. Bu isteyecegin sureden uzun surer ve sonunda yine de emin olamayacagim.",
+        "objectives": {}
+      },
+      "q_spire_reading": {
+        "title": "Külliyat'ta Bulunmayan",
+        "text": "Bir okuma icin duragan bir kandil ve ciltli bir sayfa gerekir; bataklik bu mevsim ikisini de aldi benden. Cilt icin dul ipegi, {playerName}, yag icin de bataklik sismelerinin donyagi. Getir bana, yuzugunu bizzat Külliyat'in karsisina koyayim.",
+        "completion": "Dokuz bin cilt. Hicbiri senin yuzugunu tarif etmiyor. Bu, onu bilmiyorum demek degil, anliyor musun. Onun hakkinda yazmis oldugum gibi cok tuhaf bir hisse kapiliyorum. Sadece nerede yazdigimi bulamiyorum.",
+        "objectives": {
+          "0": {
+            "label": "Dul ipegi alindi"
+          },
+          "1": {
+            "label": "Sisme donyagi eritildi"
+          }
+        }
+      },
       "q_tokens_alignment": {
         "title": "Hizalanma Nisanlari",
         "text": "Ocak baska para kabul etmez, {playerName}. Bes Hizalanma Nisani vadiye sacilmis durumda - cayir, gol, tepe ve tarla. Pano kimin sactigini soylemiyor. Pano nadiren bir sey soyler.",
@@ -13938,6 +13962,9 @@ export const tr_TR: EnTranslations = {
           },
           "7": {
             "label": "Batık Kale"
+          },
+          "8": {
+            "label": "The Sunken Bastion"
           }
         }
       },

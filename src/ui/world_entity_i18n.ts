@@ -222,6 +222,7 @@ const MOB_IDS = [
 ] as const;
 
 const NPC_IDS = [
+  'archmage_corvane', // Keeper of the Corpus (the Inference Spire, Mirefen Marsh)
   'the_inferencer', // Reader of Fates (Reliquary Hill, Lightfall Valley)
   'api_seven', // Ally Protector Ice (Mirror Lake, Lightfall Valley)
   'the_merchant',
@@ -327,6 +328,8 @@ const NPC_IDS = [
 ] as const;
 
 const QUEST_IDS = [
+  'q_spire_summons',
+  'q_spire_reading',
   'q_tokens_alignment',
   'q_hallucinated_cache',
   'q_prof_intro',

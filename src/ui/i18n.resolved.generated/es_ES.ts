@@ -11284,6 +11284,11 @@ export const es_ES: EnTranslations = {
       }
     },
     "npcs": {
+      "archmage_corvane": {
+        "name": "Archimago Corvane",
+        "title": "Guardian del Corpus",
+        "greeting": "El Corpus guarda nueve mil volumenes, {className}. Los he leido todos. Preguntame lo que quieras: es muy probable que me equivoque."
+      },
       "the_inferencer": {
         "name": "La Inferidora",
         "title": "Lectora de Destinos",
@@ -11746,6 +11751,25 @@ export const es_ES: EnTranslations = {
       }
     },
     "quests": {
+      "q_spire_summons": {
+        "title": "Una lectura del anillo",
+        "text": "Ese anillo que los cazadores sacaron del agua, {playerName}. Tres escribanos lo han mirado y ninguno sabe nombrar el metal. Hay alguien que puede leerlo: el Archimago de la Aguja, al norte por la calzada, donde el valle cede ante la marisma. Llevaselo. Llevaselo antes de que decida lo que es.",
+        "completion": "Asi que esto es lo que salio del agua. Templado, verdad. Sientate, {playerName}. Esto llevara mas de lo que te gustaria, y al final seguire sin estar seguro.",
+        "objectives": {}
+      },
+      "q_spire_reading": {
+        "title": "Lo que el Corpus no contiene",
+        "text": "Una lectura necesita una lampara quieta y una pagina encuadernada, y la marisma me ha quitado ambas esta temporada. Seda de viuda para la encuadernacion, {playerName}, y grasa de los hinchados del pantano para el aceite. Traemelas y pondre tu anillo contra el Corpus mismo.",
+        "completion": "Nueve mil volumenes. Ninguno describe tu anillo. Eso no es lo mismo que me sea desconocido, entiendes. Tengo la extranisima sensacion de haber escrito sobre el. Sencillamente no encuentro donde.",
+        "objectives": {
+          "0": {
+            "label": "Seda de viuda tomada"
+          },
+          "1": {
+            "label": "Grasa de hinchado fundida"
+          }
+        }
+      },
       "q_tokens_alignment": {
         "title": "Fichas de Alineacion",
         "text": "La Forja no acepta otra moneda, {playerName}. Cinco Fichas de Alineacion yacen esparcidas por el valle - pradera, lago, colina y campo. El tablon no dice quien las esparcio. El tablon rara vez dice algo.",
@@ -13938,6 +13962,9 @@ export const es_ES: EnTranslations = {
           },
           "7": {
             "label": "El Bastión Sumergido"
+          },
+          "8": {
+            "label": "The Sunken Bastion"
           }
         }
       },

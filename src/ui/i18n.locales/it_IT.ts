@@ -11085,4 +11085,20 @@ export const it_IT: Partial<Record<TranslationKey, string>> = {
   'entities.quests.q_hallucinated_cache.completion':
     'Quindi si e lasciato trovare. Tieni la pergamena che contiene. Io non la leggerei troppo spesso, al posto tuo.',
   'entities.quests.q_hallucinated_cache.objectives.0.label': 'Il Tesoro Allucinato',
+  'entities.npcs.archmage_corvane.name': 'Arcimago Corvane',
+  'entities.npcs.archmage_corvane.title': 'Custode del Corpus',
+  'entities.npcs.archmage_corvane.greeting':
+    'Il Corpus conta novemila volumi, {className}. Li ho letti tutti. Chiedimi qualsiasi cosa: molto probabilmente sbagliero.',
+  'entities.quests.q_spire_summons.title': "Una lettura dell'anello",
+  'entities.quests.q_spire_summons.text':
+    "Quell'anello che i cacciatori hanno tirato fuori dall'acqua, {playerName}. Tre scrivani lo hanno esaminato e nessuno sa dare un nome al metallo. C'e un uomo che sa leggerlo: l'Arcimago della Guglia, a nord lungo la strada rialzata, dove la valle cede alla palude. Portaglielo. Portaglielo prima che decida cosa essere.",
+  'entities.quests.q_spire_summons.completion':
+    "Ecco dunque cosa e uscito dall'acqua. Tiepido, non e vero. Siediti, {playerName}. Ci vorra piu di quanto vorresti, e alla fine non ne saro comunque certo.",
+  'entities.quests.q_spire_reading.title': 'Cio che il Corpus non contiene',
+  'entities.quests.q_spire_reading.text':
+    "Una lettura richiede una lampada ferma e una pagina rilegata, e la palude quest'anno mi ha preso entrambe. Seta di vedova per la rilegatura, {playerName}, e il grasso dei gonfi di palude per l'olio. Portameli e mettero il tuo anello a confronto con il Corpus stesso.",
+  'entities.quests.q_spire_reading.completion':
+    'Novemila volumi. Nessuno descrive il tuo anello. Il che non equivale a dire che mi sia ignoto, capisci. Ho la stranissima sensazione di averne scritto. Solo che non riesco a trovare dove.',
+  'entities.quests.q_spire_reading.objectives.0.label': 'Seta di vedova raccolta',
+  'entities.quests.q_spire_reading.objectives.1.label': 'Grasso di gonfio fuso',
 };
