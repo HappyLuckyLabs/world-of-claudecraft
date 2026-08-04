@@ -13964,7 +13964,7 @@ export const ru_RU: EnTranslations = {
             "label": "Затонувший бастион"
           },
           "8": {
-            "label": "The Sunken Bastion"
+            "label": "Шпиль Прочтения"
           }
         }
       },

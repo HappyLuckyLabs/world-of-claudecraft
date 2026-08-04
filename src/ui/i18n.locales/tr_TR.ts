@@ -10934,4 +10934,5 @@ export const tr_TR: Partial<Record<TranslationKey, string>> = {
     'Dokuz bin cilt. Hicbiri senin yuzugunu tarif etmiyor. Bu, onu bilmiyorum demek degil, anliyor musun. Onun hakkinda yazmis oldugum gibi cok tuhaf bir hisse kapiliyorum. Sadece nerede yazdigimi bulamiyorum.',
   'entities.quests.q_spire_reading.objectives.0.label': 'Dul ipegi alindi',
   'entities.quests.q_spire_reading.objectives.1.label': 'Sisme donyagi eritildi',
+  'entities.zones.mirefen_marsh.pois.8.label': 'Okuma Kulesi',
 };

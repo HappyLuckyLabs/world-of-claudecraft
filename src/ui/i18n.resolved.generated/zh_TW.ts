@@ -13964,7 +13964,7 @@ export const zh_TW: EnTranslations = {
             "label": "沉沒堡壘"
           },
           "8": {
-            "label": "The Sunken Bastion"
+            "label": "解讀尖塔"
           }
         }
       },

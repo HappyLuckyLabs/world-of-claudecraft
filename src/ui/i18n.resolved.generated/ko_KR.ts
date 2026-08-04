@@ -13964,7 +13964,7 @@ export const ko_KR: EnTranslations = {
             "label": "가라앉은 요새"
           },
           "8": {
-            "label": "The Sunken Bastion"
+            "label": "해독의 첨탑"
           }
         }
       },

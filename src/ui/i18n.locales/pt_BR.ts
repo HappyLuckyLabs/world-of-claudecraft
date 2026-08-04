@@ -11050,4 +11050,5 @@ export const pt_BR: Partial<Record<TranslationKey, string>> = {
     'Nove mil volumes. Nenhum descreve o seu anel. O que nao e o mesmo que me ser desconhecido, entenda. Tenho a estranhissima sensacao de ter escrito sobre ele. Apenas nao consigo encontrar onde.',
   'entities.quests.q_spire_reading.objectives.0.label': 'Seda de viuva recolhida',
   'entities.quests.q_spire_reading.objectives.1.label': 'Gordura de inchado derretida',
+  'entities.zones.mirefen_marsh.pois.8.label': 'A Agulha da Leitura',
 };

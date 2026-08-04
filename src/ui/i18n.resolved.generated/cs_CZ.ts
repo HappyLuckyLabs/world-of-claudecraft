@@ -13964,7 +13964,7 @@ export const cs_CZ: EnTranslations = {
             "label": "Potopená bašta"
           },
           "8": {
-            "label": "The Sunken Bastion"
+            "label": "Spice Cteni"
           }
         }
       },

@@ -13964,7 +13964,7 @@ export const nl_NL: EnTranslations = {
             "label": "Het Verzonken Bastion"
           },
           "8": {
-            "label": "The Sunken Bastion"
+            "label": "De Spits der Lezing"
           }
         }
       },

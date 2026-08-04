@@ -13964,7 +13964,7 @@ export const da_DK: EnTranslations = {
             "label": "Den Sunkne Bastion"
           },
           "8": {
-            "label": "The Sunken Bastion"
+            "label": "Laesningens Spir"
           }
         }
       },

@@ -13964,7 +13964,7 @@ export const de_DE: EnTranslations = {
             "label": "Die versunkene Bastion"
           },
           "8": {
-            "label": "The Sunken Bastion"
+            "label": "Die Spitze der Deutung"
           }
         }
       },

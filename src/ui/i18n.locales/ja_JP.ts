@@ -10790,4 +10790,5 @@ export const ja_JP: Partial<Record<TranslationKey, string>> = {
     '九千巻。どの一巻も君の指輪を記していない。私が知らぬという意味ではない、いいかね。私はそれについて書いた気がしてならない。ただ、どこに書いたのか見つからないのだ。',
   'entities.quests.q_spire_reading.objectives.0.label': '寡婦の糸を採取',
   'entities.quests.q_spire_reading.objectives.1.label': '沼ぶくれの脂を精製',
+  'entities.zones.mirefen_marsh.pois.8.label': '読解の尖塔',
 };

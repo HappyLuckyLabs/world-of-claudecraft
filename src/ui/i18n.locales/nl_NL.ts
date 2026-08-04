@@ -11039,4 +11039,5 @@ export const nl_NL: Partial<Record<TranslationKey, string>> = {
     'Negenduizend delen. Niet een ervan beschrijft jouw ring. Dat is niet hetzelfde als dat hij mij onbekend is, begrijp je. Ik heb het vreemdste gevoel dat ik erover geschreven heb. Ik kan alleen niet vinden waar.',
   'entities.quests.q_spire_reading.objectives.0.label': 'Weduwzijde genomen',
   'entities.quests.q_spire_reading.objectives.1.label': 'Bultenvet uitgesmolten',
+  'entities.zones.mirefen_marsh.pois.8.label': 'De Spits der Lezing',
 };

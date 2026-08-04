@@ -13964,7 +13964,7 @@ export const fr_CA: EnTranslations = {
             "label": "Le Bastion englouti"
           },
           "8": {
-            "label": "The Sunken Bastion"
+            "label": "La Fleche de la Lecture"
           }
         }
       },

@@ -10901,4 +10901,5 @@ export const da_DK: Partial<Record<TranslationKey, string>> = {
     'Ni tusind bind. Ikke et eneste beskriver din ring. Hvilket ikke er det samme som, at den er mig ukendt, forstaar du. Jeg har den saerreste fornemmelse af, at jeg har skrevet om den. Jeg kan bare ikke finde hvor.',
   'entities.quests.q_spire_reading.objectives.0.label': 'Enkesilke taget',
   'entities.quests.q_spire_reading.objectives.1.label': 'Mosepusterfedt smeltet',
+  'entities.zones.mirefen_marsh.pois.8.label': 'Laesningens Spir',
 };

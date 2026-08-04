@@ -13964,7 +13964,7 @@ export const tr_TR: EnTranslations = {
             "label": "Batık Kale"
           },
           "8": {
-            "label": "The Sunken Bastion"
+            "label": "Okuma Kulesi"
           }
         }
       },

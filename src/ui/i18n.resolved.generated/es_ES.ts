@@ -13964,7 +13964,7 @@ export const es_ES: EnTranslations = {
             "label": "El Bastión Sumergido"
           },
           "8": {
-            "label": "The Sunken Bastion"
+            "label": "La Aguja de la Lectura"
           }
         }
       },

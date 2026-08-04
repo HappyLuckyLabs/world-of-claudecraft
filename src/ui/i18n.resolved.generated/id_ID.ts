@@ -13964,7 +13964,7 @@ export const id_ID: EnTranslations = {
             "label": "Benteng Karam"
           },
           "8": {
-            "label": "The Sunken Bastion"
+            "label": "Menara Pembacaan"
           }
         }
       },

@@ -13964,7 +13964,7 @@ export const pl_PL: EnTranslations = {
             "label": "Zatopiony Bastion"
           },
           "8": {
-            "label": "The Sunken Bastion"
+            "label": "Iglica Odczytu"
           }
         }
       },

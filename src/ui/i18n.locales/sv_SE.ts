@@ -10921,4 +10921,5 @@ export const sv_SE: Partial<Record<TranslationKey, string>> = {
     'Niotusen band. Inte ett enda beskriver din ring. Vilket inte ar samma sak som att den vore mig okand, forstar du. Jag har den underligaste kanslan av att jag har skrivit om den. Jag kan bara inte hitta var.',
   'entities.quests.q_spire_reading.objectives.0.label': 'Ankesilke taget',
   'entities.quests.q_spire_reading.objectives.1.label': 'Svallfett smalt',
+  'entities.zones.mirefen_marsh.pois.8.label': 'Lasningens Spira',
 };

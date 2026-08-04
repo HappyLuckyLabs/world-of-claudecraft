@@ -13964,7 +13964,7 @@ export const sv_SE: EnTranslations = {
             "label": "Den sjunkna bastionen"
           },
           "8": {
-            "label": "The Sunken Bastion"
+            "label": "Lasningens Spira"
           }
         }
       },

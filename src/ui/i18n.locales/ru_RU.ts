@@ -10960,4 +10960,5 @@ export const ru_RU: Partial<Record<TranslationKey, string>> = {
   'entities.quests.q_spire_reading.completion': 'Девять тысяч томов. Ни один не описывает твоё кольцо. Это не то же самое, что быть мне неизвестным, понимаешь. У меня страннейшее чувство, что я писал о нём. Просто не могу найти где.',
   'entities.quests.q_spire_reading.objectives.0.label': 'Вдовий шёлк собран',
   'entities.quests.q_spire_reading.objectives.1.label': 'Жир пузырей вытоплен',
+  'entities.zones.mirefen_marsh.pois.8.label': 'Шпиль Прочтения',
 };

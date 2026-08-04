@@ -10856,4 +10856,5 @@ export const cs_CZ: Partial<Record<TranslationKey, string>> = {
     'Devet tisic svazku. Ani jediny nepopisuje tvuj prsten. Coz neni totez jako ze by mi byl neznamy, rozumis. Mam podivny pocit, ze jsem o nem psal. Jen nemohu najit kde.',
   'entities.quests.q_spire_reading.objectives.0.label': 'Vdovi hedvabi ziskano',
   'entities.quests.q_spire_reading.objectives.1.label': 'Tuk nadmutcu vyskvaren',
+  'entities.zones.mirefen_marsh.pois.8.label': 'Spice Cteni',
 };

@@ -10984,4 +10984,5 @@ export const pl_PL: Partial<Record<TranslationKey, string>> = {
     'Dziewiec tysiecy tomow. Ani jeden nie opisuje twojego pierscienia. To nie to samo, co byc mi nieznanym, rozumiesz. Mam najdziwniejsze wrazenie, ze o nim pisalem. Tylko nie moge znalezc gdzie.',
   'entities.quests.q_spire_reading.objectives.0.label': 'Wdowi jedwab zebrany',
   'entities.quests.q_spire_reading.objectives.1.label': 'Tluszcz wzdec wytopiony',
+  'entities.zones.mirefen_marsh.pois.8.label': 'Iglica Odczytu',
 };

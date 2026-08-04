@@ -11111,4 +11111,5 @@ export const es: Partial<Record<TranslationKey, string>> = {
     'Nueve mil volumenes. Ninguno describe tu anillo. Eso no es lo mismo que me sea desconocido, entiendes. Tengo la extranisima sensacion de haber escrito sobre el. Sencillamente no encuentro donde.',
   'entities.quests.q_spire_reading.objectives.0.label': 'Seda de viuda tomada',
   'entities.quests.q_spire_reading.objectives.1.label': 'Grasa de hinchado fundida',
+  'entities.zones.mirefen_marsh.pois.8.label': 'La Aguja de la Lectura',
 };

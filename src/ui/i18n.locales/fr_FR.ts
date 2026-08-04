@@ -11185,4 +11185,5 @@ export const fr_FR: Partial<Record<TranslationKey, string>> = {
     "Neuf mille volumes. Pas un seul ne decrit ton anneau. Ce n'est pas la meme chose que de m'etre inconnu, comprends-le. J'ai l'etrange sentiment d'avoir ecrit a son sujet. Simplement, je ne trouve pas ou.",
   'entities.quests.q_spire_reading.objectives.0.label': 'Soie de veuve prelevee',
   'entities.quests.q_spire_reading.objectives.1.label': "Graisse d'enfle fondue",
+  'entities.zones.mirefen_marsh.pois.8.label': 'La Fleche de la Lecture',
 };

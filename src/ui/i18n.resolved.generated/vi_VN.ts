@@ -13964,7 +13964,7 @@ export const vi_VN: EnTranslations = {
             "label": "Pháo Đài Chìm"
           },
           "8": {
-            "label": "The Sunken Bastion"
+            "label": "Thap Nhon Giai Doc"
           }
         }
       },

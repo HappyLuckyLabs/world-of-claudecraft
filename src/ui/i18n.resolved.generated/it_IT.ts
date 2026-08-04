@@ -13964,7 +13964,7 @@ export const it_IT: EnTranslations = {
             "label": "Il Bastione Sommerso"
           },
           "8": {
-            "label": "The Sunken Bastion"
+            "label": "La Guglia della Lettura"
           }
         }
       },

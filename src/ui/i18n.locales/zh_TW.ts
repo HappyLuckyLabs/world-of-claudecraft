@@ -10308,4 +10308,5 @@ export const zh_TW: Partial<Record<TranslationKey, string>> = {
     '九千卷。沒有一卷描述你的指環。這和我對它一無所知並不是一回事，你要明白。我有種極古怪的感覺，我曾寫過它。只是找不到寫在哪裡。',
   'entities.quests.q_spire_reading.objectives.0.label': '已取得寡婦絲',
   'entities.quests.q_spire_reading.objectives.1.label': '已煉出沼泡脂',
+  'entities.zones.mirefen_marsh.pois.8.label': '解讀尖塔',
 };

@@ -1708,7 +1708,8 @@ export const GUIDE_ZONES: GuideZoneInfo[] = [
       "Drowned Chapel",
       "Troll Mounds",
       "Gravecaller Encampment",
-      "The Sunken Bastion"
+      "The Sunken Bastion",
+      "The Inference Spire"
     ],
     "welcome": "Report to Warden Fenwick at the Fenbridge gate.",
     "families": [

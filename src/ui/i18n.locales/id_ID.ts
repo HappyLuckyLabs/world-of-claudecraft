@@ -11042,4 +11042,5 @@ export const id_ID: Partial<Record<TranslationKey, string>> = {
     'Sembilan ribu jilid. Tak satu pun menjelaskan cincinmu. Itu tidak sama dengan cincin itu tak kukenal, kau paham. Aku punya perasaan yang teramat ganjil bahwa aku pernah menulis tentangnya. Aku hanya tidak bisa menemukan di mana.',
   'entities.quests.q_spire_reading.objectives.0.label': 'Sutra janda diambil',
   'entities.quests.q_spire_reading.objectives.1.label': 'Lemak kembung dilelehkan',
+  'entities.zones.mirefen_marsh.pois.8.label': 'Menara Pembacaan',
 };

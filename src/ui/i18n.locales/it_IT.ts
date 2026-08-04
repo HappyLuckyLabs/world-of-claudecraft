@@ -11101,4 +11101,5 @@ export const it_IT: Partial<Record<TranslationKey, string>> = {
     'Novemila volumi. Nessuno descrive il tuo anello. Il che non equivale a dire che mi sia ignoto, capisci. Ho la stranissima sensazione di averne scritto. Solo che non riesco a trovare dove.',
   'entities.quests.q_spire_reading.objectives.0.label': 'Seta di vedova raccolta',
   'entities.quests.q_spire_reading.objectives.1.label': 'Grasso di gonfio fuso',
+  'entities.zones.mirefen_marsh.pois.8.label': 'La Guglia della Lettura',
 };

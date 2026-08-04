@@ -13964,7 +13964,7 @@ export const ja_JP: EnTranslations = {
             "label": "沈んだ砦"
           },
           "8": {
-            "label": "The Sunken Bastion"
+            "label": "読解の尖塔"
           }
         }
       },

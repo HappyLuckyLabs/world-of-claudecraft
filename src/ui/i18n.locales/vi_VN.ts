@@ -10944,4 +10944,5 @@ export const vi_VN: Partial<Record<TranslationKey, string>> = {
   'entities.quests.q_spire_reading.completion': 'Chin nghin quyen. Khong quyen nao mo ta chiec nhan cua nguoi. Dieu do khong dong nghia voi viec ta khong biet no, nguoi hieu chu. Ta co cam giac ky la nhat rang ta da tung viet ve no. Chi la ta khong tim ra o dau.',
   'entities.quests.q_spire_reading.objectives.0.label': 'Da lay to goa phu',
   'entities.quests.q_spire_reading.objectives.1.label': 'Da thang mo con phinh',
+  'entities.zones.mirefen_marsh.pois.8.label': 'Thap Nhon Giai Doc',
 };

@@ -11134,4 +11134,5 @@ export const de_DE: Partial<Record<TranslationKey, string>> = {
     'Neuntausend Baende. Nicht einer beschreibt deinen Ring. Das ist nicht dasselbe, wie mir unbekannt zu sein, verstehst du. Ich habe das seltsame Gefuehl, darueber geschrieben zu haben. Ich finde nur nicht, wo.',
   'entities.quests.q_spire_reading.objectives.0.label': 'Witwenseide genommen',
   'entities.quests.q_spire_reading.objectives.1.label': 'Sumpfblasenfett ausgelassen',
+  'entities.zones.mirefen_marsh.pois.8.label': 'Die Spitze der Deutung',
 };

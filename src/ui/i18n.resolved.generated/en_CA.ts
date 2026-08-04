@@ -13946,25 +13946,25 @@ export const en_CA: EnTranslations = {
             "label": "Prowler Reeds"
           },
           "2": {
-            "label": "The Inference Spire"
-          },
-          "3": {
             "label": "Deepfen Shallows"
           },
-          "4": {
+          "3": {
             "label": "Widow Thicket"
           },
-          "5": {
+          "4": {
             "label": "Drowned Chapel"
           },
-          "6": {
+          "5": {
             "label": "Troll Mounds"
           },
-          "7": {
+          "6": {
             "label": "Gravecaller Encampment"
           },
-          "8": {
+          "7": {
             "label": "The Sunken Bastion"
+          },
+          "8": {
+            "label": "The Inference Spire"
           }
         }
       },

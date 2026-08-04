@@ -10780,4 +10780,5 @@ export const ko_KR: Partial<Record<TranslationKey, string>> = {
     '구천 권이오. 그중 어느 것도 그대의 반지를 기술하지 않소. 그것이 내게 알려지지 않았다는 뜻은 아니오, 알겠소. 내가 그것에 대해 쓴 적이 있다는 아주 기묘한 느낌이 드오. 다만 어디에 썼는지를 못 찾겠소.',
   'entities.quests.q_spire_reading.objectives.0.label': '과부거미 실 확보',
   'entities.quests.q_spire_reading.objectives.1.label': '수렁부푸리 기름 정제',
+  'entities.zones.mirefen_marsh.pois.8.label': '해독의 첨탑',
 };
