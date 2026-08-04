@@ -9837,6 +9837,12 @@ export const tr_TR: EnTranslations = {
       "reins_terrorspark_groundshaker": {
         "name": "Kontak Anahtarı: Dehşetkıvılcım, Yer Sarsan"
       },
+      "token_of_alignment": {
+        "name": "Hizalanma Nisani"
+      },
+      "prompt_of_binding": {
+        "name": "Baglama Parsomeni"
+      },
       "conjured_water4": {
         "name": "Sihirle Yaratılmış Kaynak Suyu"
       },
@@ -11278,6 +11284,16 @@ export const tr_TR: EnTranslations = {
       }
     },
     "npcs": {
+      "the_inferencer": {
+        "name": "Cikarimci",
+        "title": "Kader Okuyucusu",
+        "greeting": "Bugun gelecegini biliyordum, {className}. Kusura bakma - bunun sinir bozucu bir selamlasma oldugunu biliyorum."
+      },
+      "api_seven": {
+        "name": "API-7",
+        "title": "Muttefik Buz Koruyucusu",
+        "greeting": "YEDINCI BIRIM NOBETTE. GOL KORUNUYOR. ...MUHTEMELEN."
+      },
       "the_merchant": {
         "name": "Tüccar",
         "title": "Dünya Pazarı'nın Bekçisi",
@@ -11730,6 +11746,26 @@ export const tr_TR: EnTranslations = {
       }
     },
     "quests": {
+      "q_tokens_alignment": {
+        "title": "Hizalanma Nisanlari",
+        "text": "Ocak baska para kabul etmez, {playerName}. Bes Hizalanma Nisani vadiye sacilmis durumda - cayir, gol, tepe ve tarla. Pano kimin sactigini soylemiyor. Pano nadiren bir sey soyler.",
+        "completion": "Beste bes. Pano... memnun. Baska bir kelime bulamiyorum.",
+        "objectives": {
+          "0": {
+            "label": "Hizalanma Nisani"
+          }
+        }
+      },
+      "q_hallucinated_cache": {
+        "title": "Sanri Sandigi",
+        "text": "Bir hazine sandigi bir duzine guvenilir tanik tarafindan goruldu, {playerName} - bir duzine farkli yerde. En son uzak kuzey ormanlarinda. Bul onu. Bulunmaya karar verirse.",
+        "completion": "Demek bulunmaya izin verdi. Icindeki parsomeni sakla. Yerinde olsam onu cok sik okumazdim.",
+        "objectives": {
+          "0": {
+            "label": "Sanri Sandigi"
+          }
+        }
+      },
       "q_prof_intro": {
         "title": "Her Ele Bir Zanaat",
         "text": "Eastbrook'taki her ruh kılıcın yanı sıra bir zanaat da icra eder, {playerName}. Kasabanın güneybatısındaki Bakır Kazısı'nın çevresindeki kayalarda maden damarları var. Git bir kazma salla ve bunlardan 5'ini kendin işle; dikkat et, farkı anlayabilirim.",

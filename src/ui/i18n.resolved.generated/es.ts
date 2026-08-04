@@ -9837,6 +9837,12 @@ export const es: EnTranslations = {
       "reins_terrorspark_groundshaker": {
         "name": "Llave de encendido: Aterrachispa, Sacudetierras"
       },
+      "token_of_alignment": {
+        "name": "Ficha de Alineacion"
+      },
+      "prompt_of_binding": {
+        "name": "El Pergamino de Atadura"
+      },
       "conjured_water4": {
         "name": "Agua de Manantial Conjurada"
       },
@@ -11278,6 +11284,16 @@ export const es: EnTranslations = {
       }
     },
     "npcs": {
+      "the_inferencer": {
+        "name": "La Inferidora",
+        "title": "Lectora de Destinos",
+        "greeting": "Sabia que vendrias a verme hoy, {className}. Lo siento - se que es una forma irritante de saludar."
+      },
+      "api_seven": {
+        "name": "API-7",
+        "title": "Protector Aliado de Hielo",
+        "greeting": "LA UNIDAD SIETE MONTA GUARDIA. EL LAGO ESTA PROTEGIDO. ...PROBABLEMENTE."
+      },
       "the_merchant": {
         "name": "El Mercader",
         "title": "Guardián del Mercado Mundial",
@@ -11730,6 +11746,26 @@ export const es: EnTranslations = {
       }
     },
     "quests": {
+      "q_tokens_alignment": {
+        "title": "Fichas de Alineacion",
+        "text": "La Forja no acepta otra moneda, {playerName}. Cinco Fichas de Alineacion yacen esparcidas por el valle - pradera, lago, colina y campo. El tablon no dice quien las esparcio. El tablon rara vez dice algo.",
+        "completion": "Cinco de cinco. El tablon esta... satisfecho. No tengo otra palabra para eso.",
+        "objectives": {
+          "0": {
+            "label": "Ficha de Alineacion"
+          }
+        }
+      },
+      "q_hallucinated_cache": {
+        "title": "El Alijo Alucinado",
+        "text": "Una docena de testigos fiables ha visto un cofre del tesoro, {playerName} - en una docena de lugares distintos. En los bosques del norte, la ultima vez. Encuentralo. Si decide dejarse encontrar.",
+        "completion": "Asi que se dejo encontrar. Guarda el pergamino de dentro. Yo no lo leeria demasiado a menudo, en tu lugar.",
+        "objectives": {
+          "0": {
+            "label": "El Alijo Alucinado"
+          }
+        }
+      },
       "q_prof_intro": {
         "title": "Un oficio para cada mano",
         "text": "Cada alma en Eastbrook trabaja un oficio además de la espada, {playerName}. Hay vetas de mineral en las rocas alrededor de la Excavación de Cobre, al suroeste del pueblo. Ve a golpear con el pico y trabaja 5 de ellas tú mismo; lo sabré.",

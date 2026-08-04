@@ -9837,6 +9837,12 @@ export const fr_FR: EnTranslations = {
       "reins_terrorspark_groundshaker": {
         "name": "Clé de contact : Terrétincelle, l’Ébranleur de sol"
       },
+      "token_of_alignment": {
+        "name": "Jeton d'Alignement"
+      },
+      "prompt_of_binding": {
+        "name": "Le Parchemin d'Entrave"
+      },
       "conjured_water4": {
         "name": "Eau de source invoquée"
       },
@@ -11278,6 +11284,16 @@ export const fr_FR: EnTranslations = {
       }
     },
     "npcs": {
+      "the_inferencer": {
+        "name": "L'Inferente",
+        "title": "Liseuse de Destins",
+        "greeting": "Je savais que tu viendrais me voir aujourd'hui, {className}. Pardon - je sais que c'est une facon agacante de dire bonjour."
+      },
+      "api_seven": {
+        "name": "API-7",
+        "title": "Protecteur Allie de Glace",
+        "greeting": "L'UNITE SEPT MONTE LA GARDE. LE LAC EST PROTEGE. ...PROBABLEMENT."
+      },
       "the_merchant": {
         "name": "Le Marchand",
         "title": "Gardien du Marché mondial",
@@ -11730,6 +11746,26 @@ export const fr_FR: EnTranslations = {
       }
     },
     "quests": {
+      "q_tokens_alignment": {
+        "title": "Jetons d'Alignement",
+        "text": "La Forge n'accepte aucune autre monnaie, {playerName}. Cinq Jetons d'Alignement sont disperses dans la vallee - pre, lac, colline et champ. Le tableau ne dit pas qui les a disperses. Le tableau dit rarement quoi que ce soit.",
+        "completion": "Cinq sur cinq. Le tableau est... satisfait. Je n'ai pas d'autre mot.",
+        "objectives": {
+          "0": {
+            "label": "Jeton d'Alignement"
+          }
+        }
+      },
+      "q_hallucinated_cache": {
+        "title": "La Cache Hallucinee",
+        "text": "Un coffre au tresor a ete apercu par une douzaine de temoins fiables, {playerName} - a une douzaine d'endroits differents. Dans les bois du grand nord, dernierement. Trouve-le. S'il decide de se laisser trouver.",
+        "completion": "Il s'est donc laisse trouver. Garde le parchemin qu'il contient. Je ne le lirais pas trop souvent, a ta place.",
+        "objectives": {
+          "0": {
+            "label": "La Cache Hallucinee"
+          }
+        }
+      },
       "q_prof_intro": {
         "title": "Un métier pour chaque main",
         "text": "Chaque âme à Eastbrook exerce un métier en plus de l'épée, {playerName}. Il y a des filons de minerai dans les rochers autour de la Mine de cuivre, au sud-ouest de la ville. Allez manier un pic et travailler 5 d'entre eux de vos propres mains ; je verrai la différence.",

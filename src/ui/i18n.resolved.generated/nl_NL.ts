@@ -9837,6 +9837,12 @@ export const nl_NL: EnTranslations = {
       "reins_terrorspark_groundshaker": {
         "name": "Contactsleutel: Schrikvonk, de Grondschudder"
       },
+      "token_of_alignment": {
+        "name": "Teken van Uitlijning"
+      },
+      "prompt_of_binding": {
+        "name": "De Bindingsrol"
+      },
       "conjured_water4": {
         "name": "Getoverd bronwater"
       },
@@ -11278,6 +11284,16 @@ export const nl_NL: EnTranslations = {
       }
     },
     "npcs": {
+      "the_inferencer": {
+        "name": "De Afleider",
+        "title": "Lezeres van Lotsbestemmingen",
+        "greeting": "Ik wist dat je vandaag zou komen, {className}. Sorry - ik weet dat dit een irritante manier van begroeten is."
+      },
+      "api_seven": {
+        "name": "API-7",
+        "title": "Geallieerde IJsbeschermer",
+        "greeting": "EENHEID ZEVEN HOUDT DE WACHT. HET MEER IS BESCHERMD. ...WAARSCHIJNLIJK."
+      },
       "the_merchant": {
         "name": "De Koopman",
         "title": "Hoeder van de Wereldmarkt",
@@ -11730,6 +11746,26 @@ export const nl_NL: EnTranslations = {
       }
     },
     "quests": {
+      "q_tokens_alignment": {
+        "title": "Tekens van Uitlijning",
+        "text": "De Smidse accepteert geen andere valuta, {playerName}. Vijf Tekens van Uitlijning liggen verspreid door de vallei - weide, meer, heuvel en akker. Het bord zegt niet wie ze verspreid heeft. Het bord zegt zelden iets.",
+        "completion": "Vijf van de vijf. Het bord is... tevreden. Een ander woord heb ik er niet voor.",
+        "objectives": {
+          "0": {
+            "label": "Teken van Uitlijning"
+          }
+        }
+      },
+      "q_hallucinated_cache": {
+        "title": "De Gehallucineerde Schat",
+        "text": "Een schatkist is gezien door een dozijn betrouwbare getuigen, {playerName} - op een dozijn verschillende plekken. Onlangs nog in de verre noorderbossen. Vind hem. Als hij besluit gevonden te worden.",
+        "completion": "Dus hij liet zich vinden. Houd de rol erin. Ik zou hem niet te vaak lezen, als ik jou was.",
+        "objectives": {
+          "0": {
+            "label": "De Gehallucineerde Schat"
+          }
+        }
+      },
       "q_prof_intro": {
         "title": "Een ambacht voor iedere hand",
         "text": "Elke ziel in Oostbeekdal beoefent een ambacht naast het zwaard, {playerName}. Er zijn ertsslagaders in de rotsen rond de Kopergat, ten zuidwesten van de stad. Ga zelf een houweel zwaaien en bewerk er 5; ik zie het verschil.",

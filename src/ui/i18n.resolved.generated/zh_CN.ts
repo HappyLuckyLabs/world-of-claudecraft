@@ -9837,6 +9837,12 @@ export const zh_CN: EnTranslations = {
       "reins_terrorspark_groundshaker": {
         "name": "惊雷撼地者点火钥匙"
       },
+      "token_of_alignment": {
+        "name": "对齐代币"
+      },
+      "prompt_of_binding": {
+        "name": "束缚卷轴"
+      },
       "conjured_water4": {
         "name": "魔法泉水"
       },
@@ -11278,6 +11284,16 @@ export const zh_CN: EnTranslations = {
       }
     },
     "npcs": {
+      "the_inferencer": {
+        "name": "推断者",
+        "title": "命运解读者",
+        "greeting": "我知道你今天会来找我，{className}。抱歉 - 我知道这样打招呼很讨厌。"
+      },
+      "api_seven": {
+        "name": "API-7",
+        "title": "冰霜护盟者",
+        "greeting": "七号单位正在站岗。湖泊受到保护。……大概。"
+      },
       "the_merchant": {
         "name": "商人",
         "title": "世界市场守护者",
@@ -11730,6 +11746,26 @@ export const zh_CN: EnTranslations = {
       }
     },
     "quests": {
+      "q_tokens_alignment": {
+        "title": "对齐代币",
+        "text": "熔炉不接受其他货币，{playerName}。五枚对齐代币散落在山谷各处 - 草地、湖泊、山丘与田野。告示板没有说是谁散落的。告示板很少说什么。",
+        "completion": "五枚齐了。告示板……满意了。我找不到别的词来形容。",
+        "objectives": {
+          "0": {
+            "label": "对齐代币"
+          }
+        }
+      },
+      "q_hallucinated_cache": {
+        "title": "幻觉宝箱",
+        "text": "十二位可靠的目击者都见过一只宝箱，{playerName} - 在十二个不同的地方。最近一次在极北的树林里。去找到它。如果它决定被找到的话。",
+        "completion": "它终究让自己被找到了。留着里面的卷轴吧。换作是我，不会太经常读它。",
+        "objectives": {
+          "0": {
+            "label": "幻觉宝箱"
+          }
+        }
+      },
       "q_prof_intro": {
         "title": "人人都有一技之长",
         "text": "东溪人人除了舞刀弄剑，还得有门手艺，{playerName}。镇子西南的铜矿坑周围岩石里有矿脉。拿起矿镐，亲手开采5处；别想蒙我，我看得出差别。",

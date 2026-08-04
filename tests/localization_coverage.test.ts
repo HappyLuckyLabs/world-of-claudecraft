@@ -1790,10 +1790,9 @@ describe('i18n Localization Key Coverage', () => {
 
   it('should expose all supported hreflang alternates in index.html', () => {
     const html = fs.readFileSync(path.resolve(process.cwd(), 'index.html'), 'utf8');
-    const expectedHreflang = [...supportedLanguages.map((lang) => languageTag(lang)), 'x-default'];
-    for (const hreflang of expectedHreflang) {
-      expect(html, `missing hreflang ${hreflang}`).toContain(`hreflang="${hreflang}"`);
-    }
+    // Fork policy: hreflang alternates return with the real domain (issue #2);
+    // until then the shell must ship none rather than advertise upstream's.
+    expect(html).not.toContain('hreflang=');
     expect(html).toContain('data-i18n-content="seo.description"');
     expect(html).toContain('data-i18n-placeholder="hud.core.chatPlaceholder"');
     // The chat tabs (Chat / Combat Log / per-channel) are rendered by the HUD

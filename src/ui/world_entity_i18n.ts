@@ -222,6 +222,8 @@ const MOB_IDS = [
 ] as const;
 
 const NPC_IDS = [
+  'the_inferencer', // Reader of Fates (Reliquary Hill, Lightfall Valley)
+  'api_seven', // Ally Protector Ice (Mirror Lake, Lightfall Valley)
   'the_merchant',
   'marshal_redbrook',
   'trader_wilkes',
@@ -325,6 +327,8 @@ const NPC_IDS = [
 ] as const;
 
 const QUEST_IDS = [
+  'q_tokens_alignment',
+  'q_hallucinated_cache',
   'q_prof_intro',
   'q_wolves',
   'q_greyjaw',

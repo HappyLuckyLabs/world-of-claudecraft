@@ -9837,6 +9837,12 @@ export const ko_KR: EnTranslations = {
       "reins_terrorspark_groundshaker": {
         "name": "테러스파크 시동 열쇠"
       },
+      "token_of_alignment": {
+        "name": "정렬의 징표"
+      },
+      "prompt_of_binding": {
+        "name": "속박의 두루마리"
+      },
       "conjured_water4": {
         "name": "창조된 샘물"
       },
@@ -11278,6 +11284,16 @@ export const ko_KR: EnTranslations = {
       }
     },
     "npcs": {
+      "the_inferencer": {
+        "name": "추론자",
+        "title": "운명을 읽는 자",
+        "greeting": "오늘 당신이 올 줄 알고 있었어요, {className}. 미안해요 - 이런 인사가 짜증스럽다는 건 알아요."
+      },
+      "api_seven": {
+        "name": "API-7",
+        "title": "동맹 얼음 수호자",
+        "greeting": "7호 유닛 경계 근무 중. 호수는 보호되고 있다. ...아마도."
+      },
       "the_merchant": {
         "name": "상인",
         "title": "세계 시장 관리자",
@@ -11730,6 +11746,26 @@ export const ko_KR: EnTranslations = {
       }
     },
     "quests": {
+      "q_tokens_alignment": {
+        "title": "정렬의 징표",
+        "text": "용광로는 다른 화폐를 받지 않아요, {playerName}. 정렬의 징표 다섯 개가 계곡 곳곳에 흩어져 있어요 - 초원, 호수, 언덕, 들판. 게시판은 누가 흩어 놓았는지 말하지 않아요. 게시판은 좀처럼 말하지 않죠.",
+        "completion": "다섯 개 전부군요. 게시판이... 만족했어요. 달리 표현할 말이 없네요.",
+        "objectives": {
+          "0": {
+            "label": "정렬의 징표"
+          }
+        }
+      },
+      "q_hallucinated_cache": {
+        "title": "환각의 보물상자",
+        "text": "믿을 만한 목격자 열두 명이 보물상자를 봤어요, {playerName} - 서로 다른 열두 곳에서요. 가장 최근엔 북쪽 깊은 숲이었죠. 찾아보세요. 상자가 발견되기로 마음먹는다면요.",
+        "completion": "결국 발견되기로 했군요. 안의 두루마리는 간직하세요. 저라면 너무 자주 읽지는 않겠어요.",
+        "objectives": {
+          "0": {
+            "label": "환각의 보물상자"
+          }
+        }
+      },
       "q_prof_intro": {
         "title": "검 말고도 할 수 있는 일",
         "text": "이스트브룩 사람이라면 누구나 검술 말고도 생업 하나는 익히지, {playerName}. 마을 남서쪽 구리 광산 주변 바위에는 광맥이 있다네. 곡괭이를 들고 직접 광맥 5곳을 캐 오게. 속이려 해도 나는 차이를 안다네.",

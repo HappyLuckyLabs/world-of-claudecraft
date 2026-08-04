@@ -9837,6 +9837,12 @@ export const zh_TW: EnTranslations = {
       "reins_terrorspark_groundshaker": {
         "name": "驚雷撼地者點火鑰匙"
       },
+      "token_of_alignment": {
+        "name": "對齊代幣"
+      },
+      "prompt_of_binding": {
+        "name": "束縛卷軸"
+      },
       "conjured_water4": {
         "name": "魔法泉水"
       },
@@ -11278,6 +11284,16 @@ export const zh_TW: EnTranslations = {
       }
     },
     "npcs": {
+      "the_inferencer": {
+        "name": "推斷者",
+        "title": "命運解讀者",
+        "greeting": "我知道你今天會來找我，{className}。抱歉 - 我知道這樣打招呼很討厭。"
+      },
+      "api_seven": {
+        "name": "API-7",
+        "title": "冰霜護盟者",
+        "greeting": "七號單位正在站崗。湖泊受到保護。……大概。"
+      },
       "the_merchant": {
         "name": "商人",
         "title": "世界市場守護者",
@@ -11730,6 +11746,26 @@ export const zh_TW: EnTranslations = {
       }
     },
     "quests": {
+      "q_tokens_alignment": {
+        "title": "對齊代幣",
+        "text": "熔爐不接受其他貨幣，{playerName}。五枚對齊代幣散落在山谷各處 - 草地、湖泊、山丘與田野。告示板沒有說是誰散落的。告示板很少說什麼。",
+        "completion": "五枚齊了。告示板……滿意了。我找不到別的詞來形容。",
+        "objectives": {
+          "0": {
+            "label": "對齊代幣"
+          }
+        }
+      },
+      "q_hallucinated_cache": {
+        "title": "幻覺寶箱",
+        "text": "十二位可靠的目擊者都見過一只寶箱，{playerName} - 在十二個不同的地方。最近一次在極北的樹林裡。去找到它。如果它決定被找到的話。",
+        "completion": "它終究讓自己被找到了。留著裡面的卷軸吧。換作是我，不會太常讀它。",
+        "objectives": {
+          "0": {
+            "label": "幻覺寶箱"
+          }
+        }
+      },
       "q_prof_intro": {
         "title": "人人都有一技之長",
         "text": "東溪人人除了舞刀弄劍，還得有門手藝，{playerName}。鎮子西南的銅礦坑周圍岩石裡有礦脈。拿起礦鎬，親手開採5處；別想蒙我，我看得出差別。",

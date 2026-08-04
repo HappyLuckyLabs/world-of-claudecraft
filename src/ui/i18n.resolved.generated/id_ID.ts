@@ -9837,6 +9837,12 @@ export const id_ID: EnTranslations = {
       "reins_terrorspark_groundshaker": {
         "name": "Kunci Kontak: Percik Teror, Pengguncang Bumi"
       },
+      "token_of_alignment": {
+        "name": "Token Penyelarasan"
+      },
+      "prompt_of_binding": {
+        "name": "Gulungan Pengikat"
+      },
       "conjured_water4": {
         "name": "Air Mata Air Sihir"
       },
@@ -11278,6 +11284,16 @@ export const id_ID: EnTranslations = {
       }
     },
     "npcs": {
+      "the_inferencer": {
+        "name": "Sang Penyimpul",
+        "title": "Pembaca Takdir",
+        "greeting": "Aku tahu kau akan datang hari ini, {className}. Maaf - aku tahu ini cara menyapa yang menjengkelkan."
+      },
+      "api_seven": {
+        "name": "API-7",
+        "title": "Pelindung Es Sekutu",
+        "greeting": "UNIT TUJUH BERJAGA. DANAU TERLINDUNGI. ...MUNGKIN."
+      },
       "the_merchant": {
         "name": "Sang Saudagar",
         "title": "Penjaga Pasar Dunia",
@@ -11730,6 +11746,26 @@ export const id_ID: EnTranslations = {
       }
     },
     "quests": {
+      "q_tokens_alignment": {
+        "title": "Token Penyelarasan",
+        "text": "Tempaan tidak menerima mata uang lain, {playerName}. Lima Token Penyelarasan tersebar di lembah - padang, danau, bukit, dan ladang. Papan tidak mengatakan siapa yang menyebarkannya. Papan jarang mengatakan apa-apa.",
+        "completion": "Lima dari lima. Papan itu... puas. Aku tidak punya kata lain untuk itu.",
+        "objectives": {
+          "0": {
+            "label": "Token Penyelarasan"
+          }
+        }
+      },
+      "q_hallucinated_cache": {
+        "title": "Peti Halusinasi",
+        "text": "Sebuah peti harta disaksikan selusin saksi tepercaya, {playerName} - di selusin tempat berbeda. Terakhir di hutan utara yang jauh. Temukan. Jika ia memutuskan untuk ditemukan.",
+        "completion": "Jadi ia membiarkan dirinya ditemukan. Simpan gulungan di dalamnya. Aku tidak akan terlalu sering membacanya, kalau jadi kamu.",
+        "objectives": {
+          "0": {
+            "label": "Peti Halusinasi"
+          }
+        }
+      },
       "q_prof_intro": {
         "title": "Pekerjaan untuk Setiap Tangan",
         "text": "Setiap jiwa di Eastbrook menekuni perdagangan selain pedang, {playerName}. Ada urat bijih di bebatuan sekitar Galian Tembaga, barat daya kota. Pergi ayunkan beliung dan kerjakan 5 di antaranya sendiri, ingat; aku tahu bedanya.",

@@ -9837,6 +9837,12 @@ export const ja_JP: EnTranslations = {
       "reins_terrorspark_groundshaker": {
         "name": "テラースパークの始動キー"
       },
+      "token_of_alignment": {
+        "name": "アラインメントの代価"
+      },
+      "prompt_of_binding": {
+        "name": "束縛の巻物"
+      },
       "conjured_water4": {
         "name": "魔法の湧き水"
       },
@@ -11278,6 +11284,16 @@ export const ja_JP: EnTranslations = {
       }
     },
     "npcs": {
+      "the_inferencer": {
+        "name": "推察師",
+        "title": "運命を読む者",
+        "greeting": "今日あなたが来ることは分かっていました、{className}。ごめんなさい - こういう挨拶が苛立たしいのは承知しています。"
+      },
+      "api_seven": {
+        "name": "API-7",
+        "title": "同盟の氷護衛",
+        "greeting": "第七ユニット、監視中。湖は保護されている。……おそらく。"
+      },
       "the_merchant": {
         "name": "商人",
         "title": "世界市場の守り手",
@@ -11730,6 +11746,26 @@ export const ja_JP: EnTranslations = {
       }
     },
     "quests": {
+      "q_tokens_alignment": {
+        "title": "アラインメントの代価",
+        "text": "炉は他の通貨を受け付けません、{playerName}。五つのアラインメントの代価が谷のあちこちに散らばっています - 草原、湖、丘、畑。誰が散らしたのか、掲示板は語りません。掲示板はめったに語らないのです。",
+        "completion": "五つ全部ですね。掲示板は……満足しています。他に言葉が見つかりません。",
+        "objectives": {
+          "0": {
+            "label": "アラインメントの代価"
+          }
+        }
+      },
+      "q_hallucinated_cache": {
+        "title": "幻視の宝箱",
+        "text": "十二人の確かな目撃者が宝箱を見ました、{playerName} - 十二の異なる場所で。直近は北の奥の森です。見つけてください。宝箱が見つかる気になれば、ですが。",
+        "completion": "見つけられることを選んだのですね。中の巻物は持っておきなさい。私なら、あまり頻繁には読みません。",
+        "objectives": {
+          "0": {
+            "label": "幻視の宝箱"
+          }
+        }
+      },
       "q_prof_intro": {
         "title": "剣以外にも稼ぎはある",
         "text": "イーストブルックでは誰もが剣のほかに生業を持つ、{playerName}。町の南西、カッパー・ディグ周辺の岩場には鉱脈がある。つるはしを振るい、自分の手で5か所採掘してこい。ごまかしても分かるぞ。",

@@ -9837,6 +9837,12 @@ export const sv_SE: EnTranslations = {
       "reins_terrorspark_groundshaker": {
         "name": "Tändningsnyckel: Skräckgnista, markskakaren"
       },
+      "token_of_alignment": {
+        "name": "Riktningstecken"
+      },
+      "prompt_of_binding": {
+        "name": "Bindningsrullen"
+      },
       "conjured_water4": {
         "name": "Frambesvärjt källvatten"
       },
@@ -11278,6 +11284,16 @@ export const sv_SE: EnTranslations = {
       }
     },
     "npcs": {
+      "the_inferencer": {
+        "name": "Slutledaren",
+        "title": "Odeslaserska",
+        "greeting": "Jag visste att du skulle komma i dag, {className}. Forlat - jag vet att det ar ett irriterande satt att halsa."
+      },
+      "api_seven": {
+        "name": "API-7",
+        "title": "Allierad Isbeskyddare",
+        "greeting": "ENHET SJU HALLER VAKT. SJON AR SKYDDAD. ...FORMODLIGEN."
+      },
       "the_merchant": {
         "name": "Köpmannen",
         "title": "Väktare av Världsmarknaden",
@@ -11730,6 +11746,26 @@ export const sv_SE: EnTranslations = {
       }
     },
     "quests": {
+      "q_tokens_alignment": {
+        "title": "Riktningstecken",
+        "text": "Smedjan tar inte emot nagon annan valuta, {playerName}. Fem Riktningstecken ligger utspridda i dalen - ang, sjo, kulle och faelt. Tavlan sager inte vem som spred dem. Tavlan sager sallan nagot.",
+        "completion": "Fem av fem. Tavlan ar... nojd. Jag har inget annat ord for det.",
+        "objectives": {
+          "0": {
+            "label": "Riktningstecken"
+          }
+        }
+      },
+      "q_hallucinated_cache": {
+        "title": "Den Hallucinerade Skatten",
+        "text": "En skattkista har setts av ett dussin palitliga vittnen, {playerName} - pa ett dussin olika platser. Senast i skogarna langt norrut. Hitta den. Om den bestammer sig for att lata sig hittas.",
+        "completion": "Sa den lat sig hittas. Behall rullen inuti. Jag skulle inte lasa den for ofta, i ditt stalle.",
+        "objectives": {
+          "0": {
+            "label": "Den Hallucinerade Skatten"
+          }
+        }
+      },
       "q_prof_intro": {
         "title": "Ett yrke för varje hand",
         "text": "Varje själ i Östbäck arbetar ett hantverk utöver svärdet, {playerName}. Det finns malmådrar i klipporna runt Koppargropen, sydväst om staden. Gå och sving en hacka och arbeta 5 av dem själv; jag ska kunna se skillnaden.",

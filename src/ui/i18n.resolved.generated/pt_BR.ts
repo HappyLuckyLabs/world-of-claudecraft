@@ -9837,6 +9837,12 @@ export const pt_BR: EnTranslations = {
       "reins_terrorspark_groundshaker": {
         "name": "Chave de ignição: Faíscaterror, Abala-Terra"
       },
+      "token_of_alignment": {
+        "name": "Ficha de Alinhamento"
+      },
+      "prompt_of_binding": {
+        "name": "O Pergaminho da Vinculacao"
+      },
       "conjured_water4": {
         "name": "Água de Nascente Conjurada"
       },
@@ -11278,6 +11284,16 @@ export const pt_BR: EnTranslations = {
       }
     },
     "npcs": {
+      "the_inferencer": {
+        "name": "A Inferidora",
+        "title": "Leitora de Destinos",
+        "greeting": "Eu sabia que voce viria me ver hoje, {className}. Desculpe - sei que e um jeito irritante de dizer ola."
+      },
+      "api_seven": {
+        "name": "API-7",
+        "title": "Protetor Aliado de Gelo",
+        "greeting": "A UNIDADE SETE MONTA GUARDA. O LAGO ESTA PROTEGIDO. ...PROVAVELMENTE."
+      },
       "the_merchant": {
         "name": "O Mercador",
         "title": "Guardião do Mercado Mundial",
@@ -11730,6 +11746,26 @@ export const pt_BR: EnTranslations = {
       }
     },
     "quests": {
+      "q_tokens_alignment": {
+        "title": "Fichas de Alinhamento",
+        "text": "A Forja nao aceita outra moeda, {playerName}. Cinco Fichas de Alinhamento estao espalhadas pelo vale - campina, lago, colina e campo. O quadro nao diz quem as espalhou. O quadro raramente diz.",
+        "completion": "Cinco de cinco. O quadro esta... satisfeito. Nao tenho outra palavra.",
+        "objectives": {
+          "0": {
+            "label": "Ficha de Alinhamento"
+          }
+        }
+      },
+      "q_hallucinated_cache": {
+        "title": "O Esconderijo Alucinado",
+        "text": "Um bau do tesouro foi avistado por uma duzia de testemunhas confiaveis, {playerName} - em uma duzia de lugares diferentes. Nas matas do extremo norte, mais recentemente. Encontre-o. Se ele decidir ser encontrado.",
+        "completion": "Entao ele se deixou encontrar. Guarde o pergaminho de dentro. Eu nao o leria com muita frequencia, no seu lugar.",
+        "objectives": {
+          "0": {
+            "label": "O Esconderijo Alucinado"
+          }
+        }
+      },
       "q_prof_intro": {
         "title": "Um ofício para cada mão",
         "text": "Toda alma em Eastbrook exerce um ofício além da espada, {playerName}. Há veios de minério nas rochas ao redor da Escavação de Cobre, a sudoeste da cidade. Vá bater com uma picareta e trabalhe 5 deles você mesmo; eu saberei a diferença.",

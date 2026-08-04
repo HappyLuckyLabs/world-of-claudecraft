@@ -9837,6 +9837,12 @@ export const it_IT: EnTranslations = {
       "reins_terrorspark_groundshaker": {
         "name": "Chiave d’accensione: Terrorscintilla, Scuoteterra"
       },
+      "token_of_alignment": {
+        "name": "Gettone di Allineamento"
+      },
+      "prompt_of_binding": {
+        "name": "La Pergamena del Vincolo"
+      },
       "conjured_water4": {
         "name": "Acqua sorgiva evocata"
       },
@@ -11278,6 +11284,16 @@ export const it_IT: EnTranslations = {
       }
     },
     "npcs": {
+      "the_inferencer": {
+        "name": "L'Inferente",
+        "title": "Lettrice dei Destini",
+        "greeting": "Sapevo che oggi saresti venuto da me, {className}. Scusa - so che e un modo irritante di salutare."
+      },
+      "api_seven": {
+        "name": "API-7",
+        "title": "Protettore Alleato di Ghiaccio",
+        "greeting": "L'UNITA SETTE MONTA LA GUARDIA. IL LAGO E PROTETTO. ...PROBABILMENTE."
+      },
       "the_merchant": {
         "name": "Il Mercante",
         "title": "Custode del Mercato Mondiale",
@@ -11730,6 +11746,26 @@ export const it_IT: EnTranslations = {
       }
     },
     "quests": {
+      "q_tokens_alignment": {
+        "title": "Gettoni di Allineamento",
+        "text": "La Forgia non accetta altra valuta, {playerName}. Cinque Gettoni di Allineamento giacciono sparsi per la valle - prato, lago, collina e campo. La bacheca non dice chi li abbia sparsi. La bacheca dice raramente qualcosa.",
+        "completion": "Cinque su cinque. La bacheca e... soddisfatta. Non ho altra parola.",
+        "objectives": {
+          "0": {
+            "label": "Gettone di Allineamento"
+          }
+        }
+      },
+      "q_hallucinated_cache": {
+        "title": "Il Tesoro Allucinato",
+        "text": "Una dozzina di testimoni affidabili ha avvistato un forziere, {playerName} - in una dozzina di luoghi diversi. Nei boschi del profondo nord, di recente. Trovalo. Se decidera di farsi trovare.",
+        "completion": "Quindi si e lasciato trovare. Tieni la pergamena che contiene. Io non la leggerei troppo spesso, al posto tuo.",
+        "objectives": {
+          "0": {
+            "label": "Il Tesoro Allucinato"
+          }
+        }
+      },
       "q_prof_intro": {
         "title": "Un mestiere per ogni mano",
         "text": "Ogni anima di Eastbrook lavora un mestiere oltre alla spada, {playerName}. Ci sono filoni di minerale nelle rocce intorno alla Cava di Rame, a sudovest della città. Vai a dare qualche picconata e lavorane 5 tu stesso, intendiamoci; saprò vedere la differenza.",

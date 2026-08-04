@@ -9837,6 +9837,12 @@ export const pl_PL: EnTranslations = {
       "reins_terrorspark_groundshaker": {
         "name": "Kluczyk zapłonu: Groziskra, Wstrząsacz Ziemi"
       },
+      "token_of_alignment": {
+        "name": "Znak Wyrownania"
+      },
+      "prompt_of_binding": {
+        "name": "Zwoj Zwiazania"
+      },
       "conjured_water4": {
         "name": "Wyczarowana woda źródlana"
       },
@@ -11278,6 +11284,16 @@ export const pl_PL: EnTranslations = {
       }
     },
     "npcs": {
+      "the_inferencer": {
+        "name": "Wnioskujaca",
+        "title": "Czytajaca Losy",
+        "greeting": "Wiedzialam, ze dzis przyjdziesz, {className}. Wybacz - wiem, ze to irytujacy sposob powitania."
+      },
+      "api_seven": {
+        "name": "API-7",
+        "title": "Sojuszniczy Lodowy Obronca",
+        "greeting": "JEDNOSTKA SIODMA TRZYMA WARTE. JEZIORO JEST CHRONIONE. ...PRAWDOPODOBNIE."
+      },
       "the_merchant": {
         "name": "Kupiec",
         "title": "Strażnik Światowego Rynku",
@@ -11730,6 +11746,26 @@ export const pl_PL: EnTranslations = {
       }
     },
     "quests": {
+      "q_tokens_alignment": {
+        "title": "Znaki Wyrownania",
+        "text": "Kuznia nie przyjmuje innej waluty, {playerName}. Piec Znakow Wyrownania lezy rozrzuconych po dolinie - laka, jezioro, wzgorze i pole. Tablica nie mowi, kto je rozrzucil. Tablica rzadko cokolwiek mowi.",
+        "completion": "Piec z pieciu. Tablica jest... usatysfakcjonowana. Nie mam na to innego slowa.",
+        "objectives": {
+          "0": {
+            "label": "Znak Wyrownania"
+          }
+        }
+      },
+      "q_hallucinated_cache": {
+        "title": "Halucynowany Skarb",
+        "text": "Skrzynie ze skarbem widzialo tuzin wiarygodnych swiadkow, {playerName} - w tuzinie roznych miejsc. Ostatnio w dalekich polnocnych lasach. Znajdz ja. Jesli zdecyduje sie dac znalezc.",
+        "completion": "A wiec dala sie znalezc. Zatrzymaj zwoj ze srodka. Na twoim miejscu nie czytalabym go zbyt czesto.",
+        "objectives": {
+          "0": {
+            "label": "Halucynowany Skarb"
+          }
+        }
+      },
       "q_prof_intro": {
         "title": "Fach dla każdej dłoni",
         "text": "Każda dusza w Eastbrook uprawia jakiś fach oprócz miecza, {playerName}. W skałach wokół Miedzianego Wykopu, na południowym zachodzie od miasta, są żyły rudy. Idź i wydobądź własnoręcznie 5 z nich; poznam różnicę.",

@@ -9837,6 +9837,12 @@ export const da_DK: EnTranslations = {
       "reins_terrorspark_groundshaker": {
         "name": "Tændingsnøgle: Skrækgnist, jordrysteren"
       },
+      "token_of_alignment": {
+        "name": "Retningstegn"
+      },
+      "prompt_of_binding": {
+        "name": "Bindingsrullen"
+      },
       "conjured_water4": {
         "name": "Fremmanet kildevand"
       },
@@ -11278,6 +11284,16 @@ export const da_DK: EnTranslations = {
       }
     },
     "npcs": {
+      "the_inferencer": {
+        "name": "Udlederen",
+        "title": "Skaebnelaeserske",
+        "greeting": "Jeg vidste, du ville komme i dag, {className}. Undskyld - jeg ved, det er en irriterende made at hilse pa."
+      },
+      "api_seven": {
+        "name": "API-7",
+        "title": "Allieret Isbeskytter",
+        "greeting": "ENHED SYV HOLDER VAGT. SOEN ER BESKYTTET. ...FORMENTLIG."
+      },
       "the_merchant": {
         "name": "Købmanden",
         "title": "Vogter af Verdensmarkedet",
@@ -11730,6 +11746,26 @@ export const da_DK: EnTranslations = {
       }
     },
     "quests": {
+      "q_tokens_alignment": {
+        "title": "Retningstegn",
+        "text": "Essen tager ikke imod anden valuta, {playerName}. Fem Retningstegn ligger spredt i dalen - eng, so, bakke og mark. Tavlen siger ikke, hvem der spredte dem. Tavlen siger sjaeldent noget.",
+        "completion": "Fem ud af fem. Tavlen er... tilfreds. Jeg har ikke andre ord for det.",
+        "objectives": {
+          "0": {
+            "label": "Retningstegn"
+          }
+        }
+      },
+      "q_hallucinated_cache": {
+        "title": "Den Hallucinerede Skat",
+        "text": "En skattekiste er set af et dusin palidelige vidner, {playerName} - tolv forskellige steder. Senest i skovene hojt mod nord. Find den. Hvis den beslutter sig for at lade sig finde.",
+        "completion": "Sa den lod sig finde. Behold rullen indeni. Jeg ville ikke laese den for tit, hvis jeg var dig.",
+        "objectives": {
+          "0": {
+            "label": "Den Hallucinerede Skat"
+          }
+        }
+      },
       "q_prof_intro": {
         "title": "Et håndværk til hver hånd",
         "text": "Enhver sjæl i Østbæk arbejder med et håndværk udover sværdet, {playerName}. Der er malmårer i klipperne omkring Kobbergraven, sydvest for byen. Gå sving en hakke og bearbejd 5 af dem selv, forstået; jeg vil kende forskel.",

@@ -9837,6 +9837,12 @@ export const cs_CZ: EnTranslations = {
       "reins_terrorspark_groundshaker": {
         "name": "Klíček zapalování: Hrůzojiskra, otřásač země"
       },
+      "token_of_alignment": {
+        "name": "Znamka Souladu"
+      },
+      "prompt_of_binding": {
+        "name": "Svitek Spoutani"
+      },
       "conjured_water4": {
         "name": "Vyčarovaná pramenitá voda"
       },
@@ -11278,6 +11284,16 @@ export const cs_CZ: EnTranslations = {
       }
     },
     "npcs": {
+      "the_inferencer": {
+        "name": "Vyvozovatelka",
+        "title": "Ctenarka Osudu",
+        "greeting": "Vedela jsem, ze dnes prijdes, {className}. Promin - vim, ze je to otravny zpusob pozdravu."
+      },
+      "api_seven": {
+        "name": "API-7",
+        "title": "Spojenecky Ledovy Ochrance",
+        "greeting": "JEDNOTKA SEDM DRZI HLIDKU. JEZERO JE CHRANENO. ...PRAVDEPODOBNE."
+      },
       "the_merchant": {
         "name": "Kupec",
         "title": "Správce Světového trhu",
@@ -11730,6 +11746,26 @@ export const cs_CZ: EnTranslations = {
       }
     },
     "quests": {
+      "q_tokens_alignment": {
+        "title": "Znamky Souladu",
+        "text": "Kovarna neprijima jinou menu, {playerName}. Pet Znamek Souladu lezi rozeseto po udoli - louka, jezero, kopec i pole. Tabule nerika, kdo je rozesel. Tabule toho rika malo.",
+        "completion": "Pet z peti. Tabule je... spokojena. Jine slovo pro to nemam.",
+        "objectives": {
+          "0": {
+            "label": "Znamka Souladu"
+          }
+        }
+      },
+      "q_hallucinated_cache": {
+        "title": "Halucinovany Poklad",
+        "text": "Truhlu s pokladem videlo tucet spolehlivych svedku, {playerName} - na tuctu ruznych mist. Naposledy v dalekem severnim lese. Najdi ji. Pokud se rozhodne nechat najit.",
+        "completion": "Takze se nechala najit. Svitek uvnitr si nech. Na tvem miste bych ho necetla prilis casto.",
+        "objectives": {
+          "0": {
+            "label": "Halucinovany Poklad"
+          }
+        }
+      },
       "q_prof_intro": {
         "title": "Řemeslo pro každou ruku",
         "text": "Každá duše v Eastbrooku pracuje kromě meče i v nějakém řemesle, {playerName}. V skalách kolem Měděného dolu jihozápadně od města jsou rudné žíly. Jdi si sám zamasat krumpáčem a vytěž jich 5; věř mi, poznám rozdíl.",

@@ -9837,6 +9837,12 @@ export const vi_VN: EnTranslations = {
       "reins_terrorspark_groundshaker": {
         "name": "Chìa Khóa Khởi Động: Tia Kinh Hoàng, Kẻ Rung Chuyển Mặt Đất"
       },
+      "token_of_alignment": {
+        "name": "Tin Vat Can Chinh"
+      },
+      "prompt_of_binding": {
+        "name": "Cuon Giay Troi Buoc"
+      },
       "conjured_water4": {
         "name": "Nước Suối Được Tạo Phép"
       },
@@ -11278,6 +11284,16 @@ export const vi_VN: EnTranslations = {
       }
     },
     "npcs": {
+      "the_inferencer": {
+        "name": "Nguoi Suy Luan",
+        "title": "Nguoi Doc Van Menh",
+        "greeting": "Toi biet hom nay ban se den, {className}. Xin loi - toi biet cach chao nay kha kho chiu."
+      },
+      "api_seven": {
+        "name": "API-7",
+        "title": "Ho Ve Bang Dong Minh",
+        "greeting": "DON VI BAY DANG CANH GAC. HO NUOC DUOC BAO VE. ...CO LE."
+      },
       "the_merchant": {
         "name": "Thương Nhân",
         "title": "Người Giữ Chợ Thế Giới",
@@ -11730,6 +11746,26 @@ export const vi_VN: EnTranslations = {
       }
     },
     "quests": {
+      "q_tokens_alignment": {
+        "title": "Tin Vat Can Chinh",
+        "text": "Lo Ren khong nhan loai tien nao khac, {playerName}. Nam Tin Vat Can Chinh nam rai rac khap thung lung - dong co, ho, doi va canh dong. Bang tin khong noi ai da rai chung. Bang tin hiem khi noi gi.",
+        "completion": "Du nam cai. Bang tin... hai long. Toi khong con tu nao khac.",
+        "objectives": {
+          "0": {
+            "label": "Tin Vat Can Chinh"
+          }
+        }
+      },
+      "q_hallucinated_cache": {
+        "title": "Ruong Bau Ao Giac",
+        "text": "Mot ruong bau da duoc muoi hai nhan chung dang tin thay, {playerName} - o muoi hai noi khac nhau. Gan nhat la trong khu rung xa phia bac. Hay tim no. Neu no quyet dinh de duoc tim thay.",
+        "completion": "Vay la no da chiu de bi tim thay. Giu lay cuon giay ben trong. Neu la toi, toi se khong doc no qua thuong xuyen.",
+        "objectives": {
+          "0": {
+            "label": "Ruong Bau Ao Giac"
+          }
+        }
+      },
       "q_prof_intro": {
         "title": "Nghề Cho Mọi Đôi Tay",
         "text": "Mỗi người ở Eastbrook đều làm một nghề ngoài kiếm, {playerName}. Có những mỏ quặng trong các tảng đá quanh Hố Đồng, phía tây nam thị trấn. Hãy cầm cuốc và tự tay khai thác 5 mỏ, nhé; ta sẽ biết sự khác biệt.",

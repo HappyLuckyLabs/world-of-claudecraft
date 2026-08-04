@@ -9837,6 +9837,12 @@ export const de_DE: EnTranslations = {
       "reins_terrorspark_groundshaker": {
         "name": "Zündschlüssel: Schreckfunke, der Bodenerschütterer"
       },
+      "token_of_alignment": {
+        "name": "Zeichen der Ausrichtung"
+      },
+      "prompt_of_binding": {
+        "name": "Die Schriftrolle der Bindung"
+      },
       "conjured_water4": {
         "name": "Herbeigezaubertes Quellwasser"
       },
@@ -11278,6 +11284,16 @@ export const de_DE: EnTranslations = {
       }
     },
     "npcs": {
+      "the_inferencer": {
+        "name": "Die Deuterin",
+        "title": "Leserin der Schicksale",
+        "greeting": "Ich wusste, dass du heute zu mir kommen wuerdest, {className}. Verzeih - ich weiss, dass das eine aergerliche Begruessung ist."
+      },
+      "api_seven": {
+        "name": "API-7",
+        "title": "Verbuendeter Eisbeschuetzer",
+        "greeting": "EINHEIT SIEBEN HAELT WACHE. DER SEE IST GESCHUETZT. ...WAHRSCHEINLICH."
+      },
       "the_merchant": {
         "name": "Der Händler",
         "title": "Hüter des Weltmarkts",
@@ -11730,6 +11746,26 @@ export const de_DE: EnTranslations = {
       }
     },
     "quests": {
+      "q_tokens_alignment": {
+        "title": "Zeichen der Ausrichtung",
+        "text": "Die Schmiede nimmt keine andere Waehrung an, {playerName}. Fuenf Zeichen der Ausrichtung liegen im Tal verstreut - Wiese, See, Huegel und Feld. Die Tafel sagt nicht, wer sie verstreut hat. Die Tafel sagt selten etwas.",
+        "completion": "Fuenf von fuenf. Die Tafel ist... zufrieden. Ein anderes Wort habe ich dafuer nicht.",
+        "objectives": {
+          "0": {
+            "label": "Zeichen der Ausrichtung"
+          }
+        }
+      },
+      "q_hallucinated_cache": {
+        "title": "Der halluzinierte Schatz",
+        "text": "Eine Schatztruhe wurde von einem Dutzend verlaesslicher Zeugen gesichtet, {playerName} - an einem Dutzend verschiedener Orte. Zuletzt im hohen Nordwald. Finde sie. Wenn sie gefunden werden will.",
+        "completion": "Sie hat sich also finden lassen. Behalte die Schriftrolle darin. Ich wuerde sie nicht zu oft lesen, an deiner Stelle.",
+        "objectives": {
+          "0": {
+            "label": "Der halluzinierte Schatz"
+          }
+        }
+      },
       "q_prof_intro": {
         "title": "Ein Handwerk für jede Hand",
         "text": "Jede Seele in Eastbrook betreibt neben dem Schwert noch ein Handwerk, {playerName}. Im Gestein rund um die Kupferschürfe südwestlich der Stadt gibt es Erzadern. Geh selbst mit der Spitzhacke ran und bearbeite 5 davon; ich werde den Unterschied merken.",

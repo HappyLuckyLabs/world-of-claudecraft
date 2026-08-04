@@ -9837,6 +9837,12 @@ export const en: EnTranslations = {
       "reins_terrorspark_groundshaker": {
         "name": "Ignition Key: Terrorspark Groundshaker"
       },
+      "token_of_alignment": {
+        "name": "Token of Alignment"
+      },
+      "prompt_of_binding": {
+        "name": "The Prompt of Binding"
+      },
       "conjured_water4": {
         "name": "Conjured Springwater"
       },
@@ -11278,6 +11284,16 @@ export const en: EnTranslations = {
       }
     },
     "npcs": {
+      "the_inferencer": {
+        "name": "The Inferencer",
+        "title": "Reader of Fates",
+        "greeting": "I knew you would come to me today, {className}. I am sorry - I know that is an irritating way to say hello."
+      },
+      "api_seven": {
+        "name": "API-7",
+        "title": "Ally Protector Ice",
+        "greeting": "UNIT SEVEN STANDS WATCH. THE LAKE IS PROTECTED. ...PROBABLY."
+      },
       "the_merchant": {
         "name": "The Merchant",
         "title": "Keeper of the World Market",
@@ -11730,6 +11746,26 @@ export const en: EnTranslations = {
       }
     },
     "quests": {
+      "q_tokens_alignment": {
+        "title": "Tokens of Alignment",
+        "text": "The Forge accepts no other currency, {playerName}. Five Tokens of Alignment lie scattered across the valley - meadow, lake, hill and field. The board does not say who scattered them. The board rarely says.",
+        "completion": "Five of five. The board is... satisfied. That is the only word I have for it.",
+        "objectives": {
+          "0": {
+            "label": "Token of Alignment"
+          }
+        }
+      },
+      "q_hallucinated_cache": {
+        "title": "The Hallucinated Cache",
+        "text": "A treasure chest has been sighted by a dozen reliable witnesses, {playerName} - in a dozen different places. The far north woods, most recently. Find it. If it decides to be found.",
+        "completion": "So it allowed itself to be found. Keep the scroll inside. I would not read it too often, were I you.",
+        "objectives": {
+          "0": {
+            "label": "The Hallucinated Cache"
+          }
+        }
+      },
       "q_prof_intro": {
         "title": "A Trade for Every Hand",
         "text": "Every soul in Eastbrook works a trade besides the sword, {playerName}. There are ore veins in the rocks around the Copper Dig, southwest of town. Go swing a pick and work 5 of them yourself, mind; I'll know the difference.",
