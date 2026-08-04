@@ -843,8 +843,8 @@ export const en_CA: EnTranslations = {
     },
     "nativeUpdate": {
       "title": "Update Available",
-      "body": "A new version of World of ClaudeCraft is available. Update now for the latest fixes and improvements.",
-      "bodyWithVersion": "Version {version} of World of ClaudeCraft is available. Update now for the latest fixes and improvements.",
+      "body": "A new version of Claude of the Rings is available. Update now for the latest fixes and improvements.",
+      "bodyWithVersion": "Version {version} of Claude of the Rings is available. Update now for the latest fixes and improvements.",
       "notNow": "Not now",
       "update": "Update"
     },
@@ -1961,7 +1961,7 @@ export const en_CA: EnTranslations = {
     },
     "discord": {
       "title": "Discord",
-      "panelTitle": "World of ClaudeCraft",
+      "panelTitle": "Claude of the Rings",
       "open": "Discord",
       "close": "Close",
       "keybind": "Discord Panel",
@@ -3022,7 +3022,7 @@ export const en_CA: EnTranslations = {
     }
   },
   "guide": {
-    "brand": "World of ClaudeCraft",
+    "brand": "Claude of the Rings",
     "brandShort": "ClaudeCraft",
     "tagline": "A classic-style MMO you play free in your browser.",
     "skipToContent": "Skip to main content",
@@ -3088,7 +3088,7 @@ export const en_CA: EnTranslations = {
       "github": "Source on GitHub",
       "discord": "Join the Discord",
       "communityWiki": "Community Wiki",
-      "rights": "World of ClaudeCraft",
+      "rights": "Claude of the Rings",
       "linksLabel": "Play and community links"
     },
     "language": {
@@ -3111,7 +3111,7 @@ export const en_CA: EnTranslations = {
     },
     "home": {
       "eyebrow": "Classic-style browser MMO",
-      "title": "World of ClaudeCraft",
+      "title": "Claude of the Rings",
       "subtitle": "Quest, group up, and explore a hand-built world, free in your browser.",
       "ctaPlay": "Play Now",
       "ctaLearn": "How to Play",
@@ -3626,7 +3626,7 @@ export const en_CA: EnTranslations = {
     },
     "worldPage": {
       "heading": "The world",
-      "intro": "World of ClaudeCraft is one continuous land you cross on foot, three zones laid south to north. There is no fast travel, so the journey is part of the adventure.",
+      "intro": "Claude of the Rings is one continuous land you cross on foot, three zones laid south to north. There is no fast travel, so the journey is part of the adventure.",
       "hub": "Home base",
       "mapHeading": "The road north",
       "mapSub": "Three zones, south to north, each a step higher in level. Follow the quest trail and the land carries you from the valley to the peaks.",
@@ -4449,7 +4449,7 @@ export const en_CA: EnTranslations = {
   },
   "editor": {
     "appTitle": "Map Editor",
-    "docTitle": "Map Editor - World of ClaudeCraft",
+    "docTitle": "Map Editor - Claude of the Rings",
     "untitledMap": "Untitled Map",
     "playtestPlayerName": "Mapmaker",
     "topbar": {
@@ -5926,13 +5926,13 @@ export const en_CA: EnTranslations = {
     }
   },
   "seo": {
-    "title": "World of ClaudeCraft: Classic-Style Web MMO",
-    "description": "Embark on an epic adventure in World of ClaudeCraft, a classic-style micro-MMO playable directly in your browser. Join a persistent shared world, level up classes, and defeat enemies!",
+    "title": "Claude of the Rings: Classic-Style Web MMO",
+    "description": "Embark on an epic adventure in Claude of the Rings, a classic-style micro-MMO playable directly in your browser. Join a persistent shared world, level up classes, and defeat enemies!",
     "genre": "MMORPG",
     "playMode": "Multiplayer",
     "applicationCategory": "Game",
     "operatingSystem": "Web browser",
-    "officialLabel": "Official World of ClaudeCraft website",
+    "officialLabel": "Official World of ClaudeCraft (upstream) website",
     "officialBody": "worldofclaudecraft.com is the official free browser MMO for the Claudemoon world. Play online with a persistent character, explore solo offline, read the wiki, and follow verified community links from this site."
   },
   "a11y": {
@@ -5941,9 +5941,9 @@ export const en_CA: EnTranslations = {
     "mainNavigation": "Main navigation",
     "languageSelection": "Language selection",
     "characterActions": "Character actions",
-    "githubProject": "Open the World of ClaudeCraft GitHub project",
-    "discordCommunity": "Join the World of ClaudeCraft Discord community",
-    "donateProject": "Donate to support World of ClaudeCraft"
+    "githubProject": "Open the Claude of the Rings GitHub project",
+    "discordCommunity": "Join the World of ClaudeCraft (upstream) Discord community",
+    "donateProject": "Donate to support World of ClaudeCraft (upstream)"
   },
   "entryGuard": {
     "title": "Graphics lowered",
@@ -6024,11 +6024,11 @@ export const en_CA: EnTranslations = {
       "later": "Later"
     },
     "crash": {
-      "title": "World of ClaudeCraft",
+      "title": "Claude of the Rings",
       "body": "The game view stopped working. Reload it?",
       "reload": "Reload",
       "quit": "Quit",
-      "fatalBody": "World of ClaudeCraft hit an unexpected error and needs to close."
+      "fatalBody": "Claude of the Rings hit an unexpected error and needs to close."
     }
   },
   "gpuNotice": {
@@ -6167,17 +6167,17 @@ export const en_CA: EnTranslations = {
     "iosStandaloneDetail": "You are in home-screen fullscreen mode. Keep the device in landscape.",
     "iosInstallDetail": "For true fullscreen on iPhone or iPad, install this page to your Home Screen first.",
     "iosShareStep": "In Safari, tap Share, then Add to Home Screen.",
-    "iosOpenStep": "Open World of ClaudeCraft from the new Home Screen icon.",
+    "iosOpenStep": "Open Claude of the Rings from the new Home Screen icon.",
     "androidStandaloneDetail": "You are in fullscreen app mode. Keep the device in landscape.",
     "androidInstallDetail": "For fullscreen on Android, install this page or add it to your Home screen first.",
     "androidInstallStep": "In Chrome, tap the menu, then Install app or Add to Home screen.",
-    "androidOpenStep": "Open World of ClaudeCraft from the new icon.",
+    "androidOpenStep": "Open Claude of the Rings from the new icon.",
     "otherStandaloneDetail": "Keep your device in landscape fullscreen.",
     "otherInstallDetail": "Install or add this page to your Home screen for the best fullscreen mobile experience."
   },
   "serverUnavailable": {
-    "title": "World of ClaudeCraft - World Unavailable",
-    "logoAlt": "World of ClaudeCraft",
+    "title": "Claude of the Rings - World Unavailable",
+    "logoAlt": "Claude of the Rings",
     "eyebrow": "World maintenance",
     "heading": "The world is temporarily unavailable.",
     "body": "We are restarting the game service and expect Claudemoon to return shortly. This page will keep checking automatically.",
@@ -10617,7 +10617,7 @@ export const en_CA: EnTranslations = {
         "name": "Yumi"
       },
       "forest_wolf": {
-        "name": "Forest Wolf"
+        "name": "Glitch Sprite"
       },
       "old_greyjaw": {
         "name": "Old Greyjaw"
@@ -11284,9 +11284,9 @@ export const en_CA: EnTranslations = {
         "greeting": "Welcome to the World Market, {className}. Buy from every adventurer in the realm - or set out your own wares and let coin find you."
       },
       "marshal_redbrook": {
-        "name": "Marshal Redbrook",
-        "title": "Town Marshal",
-        "greeting": "Keep your blade close, {className}. The Vale is not what it was."
+        "name": "Dispatcher Elowen",
+        "title": "The Dispatch Board",
+        "greeting": "Welcome to Lightfall Valley, {className}. The board refills itself overnight - I stopped asking who writes the notices years ago."
       },
       "trader_wilkes": {
         "name": "Trader Wilkes",
@@ -11741,19 +11741,19 @@ export const en_CA: EnTranslations = {
         }
       },
       "q_wolves": {
-        "title": "Wolves at the Door",
-        "text": "The forest wolves grow bold, snapping at travelers on the north road. Thin their numbers, {playerName}. Slay 8 Forest Wolves and Eastbrook will breathe easier.",
-        "completion": "Fine work. The road feels safer already.",
+        "title": "Routine #1: Clear the Meadow",
+        "text": "Glitch Sprites are flickering in and out of the north meadow - there one blink, gone the next. The board requests you remove 8 of them, {playerName}, and Lightfall will breathe easier.",
+        "completion": "Fine work. The board will have more for you tomorrow. It always does.",
         "objectives": {
           "0": {
-            "label": "Forest Wolf slain"
+            "label": "Glitch Sprite removed"
           }
         }
       },
       "q_greyjaw": {
-        "title": "The Old Wolf",
-        "text": "There is one wolf no trap has held: Old Greyjaw. He has taken three hounds and a stable boy's arm. He prowls the deep woods north of the wolf runs. Bring me his fang.",
-        "completion": "So the old devil is dead at last. The stable boy will sleep easier - and so will I.",
+        "title": "The Unowned Ring",
+        "text": "One old sprite in the deep meadow will not flicker out: Greyjaw, the hunters call it. It has been digging - and it guards what it dug up. A ring, they say. Odd - no one remembers burying anything there. Bring me what it carries.",
+        "completion": "So the old thing is gone at last. And this ring... warm, is it not? As if something inside were still running. Keep it. It clearly means to be kept.",
         "objectives": {
           "0": {
             "label": "Old Greyjaw's Fang"
@@ -13834,14 +13834,14 @@ export const en_CA: EnTranslations = {
     },
     "zones": {
       "eastbrook_vale": {
-        "name": "Eastbrook Vale",
-        "welcome": "Find Marshal Redbrook in town - he has work for you.",
+        "name": "Lightfall Valley",
+        "welcome": "Find Dispatcher Elowen in town - all work in the valley is routed through her board.",
         "pois": {
           "0": {
-            "label": "Eastbrook"
+            "label": "Lightfall"
           },
           "1": {
-            "label": "Wolf Run"
+            "label": "Sprite Meadow"
           },
           "2": {
             "label": "Boar Meadow"

@@ -1664,14 +1664,14 @@ export const GUIDE_CLASSES: GuideClassInfo[] = [
 export const GUIDE_ZONES: GuideZoneInfo[] = [
   {
     "id": "eastbrook_vale",
-    "name": "Eastbrook Vale",
+    "name": "Lightfall Valley",
     "min": 1,
     "max": 7,
     "biome": "vale",
-    "hub": "Eastbrook",
+    "hub": "Lightfall",
     "pois": [
-      "Eastbrook",
-      "Wolf Run",
+      "Lightfall",
+      "Sprite Meadow",
       "Boar Meadow",
       "Mirror Lake",
       "Sableweb",
@@ -1683,7 +1683,7 @@ export const GUIDE_ZONES: GuideZoneInfo[] = [
       "The Sowfield",
       "The Farshore Causeway"
     ],
-    "welcome": "Find Marshal Redbrook in town - he has work for you.",
+    "welcome": "Find Dispatcher Elowen in town - all work in the valley is routed through her board.",
     "families": [
       "beast",
       "spider",
@@ -2131,7 +2131,7 @@ export const GUIDE_FAMILIES: GuideFamily[] = [
     "family": "beast",
     "creatures": [
       {
-        "name": "Forest Wolf",
+        "name": "Glitch Sprite",
         "min": 1,
         "max": 2,
         "rare": false,
@@ -4870,7 +4870,7 @@ export const GUIDE_PROF_CRAFTS: GuideProfCraft[] = [
       {
         "name": "Tinker Gizzel",
         "title": "Master of the Toolworks",
-        "hub": "Eastbrook"
+        "hub": "Lightfall"
       }
     ],
     "specialization": {
@@ -5466,7 +5466,7 @@ export const GUIDE_PROF_CRAFTS: GuideProfCraft[] = [
       {
         "name": "Cook Marlow",
         "title": "Master of the Kitchens",
-        "hub": "Eastbrook"
+        "hub": "Lightfall"
       }
     ],
     "specialization": {
@@ -6254,7 +6254,7 @@ export const GUIDE_PROF_CRAFTS: GuideProfCraft[] = [
       {
         "name": "Weaver Ottilie",
         "title": "Master of the Loom",
-        "hub": "Eastbrook"
+        "hub": "Lightfall"
       }
     ],
     "specialization": {
@@ -6707,7 +6707,7 @@ export const GUIDE_PROF_CRAFTS: GuideProfCraft[] = [
       {
         "name": "Forgemistress Darva",
         "title": "Master of the Forge",
-        "hub": "Eastbrook"
+        "hub": "Lightfall"
       }
     ],
     "specialization": {
@@ -7115,7 +7115,7 @@ export const GUIDE_PROF_CRAFTS: GuideProfCraft[] = [
       {
         "name": "Forgemistress Darva",
         "title": "Master of the Forge",
-        "hub": "Eastbrook"
+        "hub": "Lightfall"
       }
     ],
     "specialization": {
@@ -7602,11 +7602,11 @@ export const GUIDE_PROF_GATHERING: GuideProfGathering[] = [
         "vendors": [
           {
             "name": "Trader Wilkes",
-            "hub": "Eastbrook"
+            "hub": "Lightfall"
           },
           {
             "name": "Forgemistress Darva",
-            "hub": "Eastbrook"
+            "hub": "Lightfall"
           },
           {
             "name": "Provisioner Hale",
@@ -7626,11 +7626,11 @@ export const GUIDE_PROF_GATHERING: GuideProfGathering[] = [
         "vendors": [
           {
             "name": "Trader Wilkes",
-            "hub": "Eastbrook"
+            "hub": "Lightfall"
           },
           {
             "name": "Forgemistress Darva",
-            "hub": "Eastbrook"
+            "hub": "Lightfall"
           },
           {
             "name": "Provisioner Hale",
@@ -7650,11 +7650,11 @@ export const GUIDE_PROF_GATHERING: GuideProfGathering[] = [
         "vendors": [
           {
             "name": "Trader Wilkes",
-            "hub": "Eastbrook"
+            "hub": "Lightfall"
           },
           {
             "name": "Forgemistress Darva",
-            "hub": "Eastbrook"
+            "hub": "Lightfall"
           },
           {
             "name": "Quartermaster Bree",
@@ -7681,7 +7681,7 @@ export const GUIDE_PROF_GATHERING: GuideProfGathering[] = [
     ],
     "nodes": [
       {
-        "zone": "Eastbrook Vale",
+        "zone": "Lightfall Valley",
         "tier": 1,
         "toolTier": 1,
         "count": 3,
@@ -7820,11 +7820,11 @@ export const GUIDE_PROF_GATHERING: GuideProfGathering[] = [
         "vendors": [
           {
             "name": "Trader Wilkes",
-            "hub": "Eastbrook"
+            "hub": "Lightfall"
           },
           {
             "name": "Tinker Gizzel",
-            "hub": "Eastbrook"
+            "hub": "Lightfall"
           },
           {
             "name": "Provisioner Hale",
@@ -7844,11 +7844,11 @@ export const GUIDE_PROF_GATHERING: GuideProfGathering[] = [
         "vendors": [
           {
             "name": "Trader Wilkes",
-            "hub": "Eastbrook"
+            "hub": "Lightfall"
           },
           {
             "name": "Tinker Gizzel",
-            "hub": "Eastbrook"
+            "hub": "Lightfall"
           },
           {
             "name": "Provisioner Hale",
@@ -7868,11 +7868,11 @@ export const GUIDE_PROF_GATHERING: GuideProfGathering[] = [
         "vendors": [
           {
             "name": "Trader Wilkes",
-            "hub": "Eastbrook"
+            "hub": "Lightfall"
           },
           {
             "name": "Tinker Gizzel",
-            "hub": "Eastbrook"
+            "hub": "Lightfall"
           },
           {
             "name": "Quartermaster Bree",
@@ -7899,7 +7899,7 @@ export const GUIDE_PROF_GATHERING: GuideProfGathering[] = [
     ],
     "nodes": [
       {
-        "zone": "Eastbrook Vale",
+        "zone": "Lightfall Valley",
         "tier": 1,
         "toolTier": 1,
         "count": 3,
@@ -8038,11 +8038,11 @@ export const GUIDE_PROF_GATHERING: GuideProfGathering[] = [
         "vendors": [
           {
             "name": "Trader Wilkes",
-            "hub": "Eastbrook"
+            "hub": "Lightfall"
           },
           {
             "name": "Weaver Ottilie",
-            "hub": "Eastbrook"
+            "hub": "Lightfall"
           },
           {
             "name": "Provisioner Hale",
@@ -8062,11 +8062,11 @@ export const GUIDE_PROF_GATHERING: GuideProfGathering[] = [
         "vendors": [
           {
             "name": "Trader Wilkes",
-            "hub": "Eastbrook"
+            "hub": "Lightfall"
           },
           {
             "name": "Tinker Gizzel",
-            "hub": "Eastbrook"
+            "hub": "Lightfall"
           },
           {
             "name": "Provisioner Hale",
@@ -8086,11 +8086,11 @@ export const GUIDE_PROF_GATHERING: GuideProfGathering[] = [
         "vendors": [
           {
             "name": "Trader Wilkes",
-            "hub": "Eastbrook"
+            "hub": "Lightfall"
           },
           {
             "name": "Tinker Gizzel",
-            "hub": "Eastbrook"
+            "hub": "Lightfall"
           },
           {
             "name": "Quartermaster Bree",
@@ -8117,7 +8117,7 @@ export const GUIDE_PROF_GATHERING: GuideProfGathering[] = [
     ],
     "nodes": [
       {
-        "zone": "Eastbrook Vale",
+        "zone": "Lightfall Valley",
         "tier": 1,
         "toolTier": 1,
         "count": 3,
@@ -8256,11 +8256,11 @@ export const GUIDE_PROF_GATHERING: GuideProfGathering[] = [
         "vendors": [
           {
             "name": "Fisherman Brandt",
-            "hub": "Eastbrook"
+            "hub": "Lightfall"
           },
           {
             "name": "Tinker Gizzel",
-            "hub": "Eastbrook"
+            "hub": "Lightfall"
           },
           {
             "name": "Provisioner Hale",
@@ -8280,7 +8280,7 @@ export const GUIDE_PROF_GATHERING: GuideProfGathering[] = [
         "vendors": [
           {
             "name": "Trader Wilkes",
-            "hub": "Eastbrook"
+            "hub": "Lightfall"
           }
         ]
       },
@@ -8292,7 +8292,7 @@ export const GUIDE_PROF_GATHERING: GuideProfGathering[] = [
         "vendors": [
           {
             "name": "Trader Wilkes",
-            "hub": "Eastbrook"
+            "hub": "Lightfall"
           }
         ]
       }
@@ -8331,7 +8331,7 @@ export const GUIDE_PROF_GATHERING: GuideProfGathering[] = [
           "rodTierRequired": 1,
           "zones": [
             {
-              "zone": "Eastbrook Vale",
+              "zone": "Lightfall Valley",
               "rows": [
                 {
                   "name": "Raw Mirror Trout",
@@ -8433,7 +8433,7 @@ export const GUIDE_PROF_GATHERING: GuideProfGathering[] = [
           "rodTierRequired": 2,
           "zones": [
             {
-              "zone": "Eastbrook Vale",
+              "zone": "Lightfall Valley",
               "rows": [
                 {
                   "name": "Raw Mirror Trout",
@@ -8535,7 +8535,7 @@ export const GUIDE_PROF_GATHERING: GuideProfGathering[] = [
           "rodTierRequired": 3,
           "zones": [
             {
-              "zone": "Eastbrook Vale",
+              "zone": "Lightfall Valley",
               "rows": [
                 {
                   "name": "Raw Mirror Trout",
@@ -9594,7 +9594,7 @@ export const GUIDE_PROF_ECONOMY: GuideProfEconomy = {
         "id": "q_prof_workorder_forge",
         "name": "Forge Work Order",
         "master": "Forgemistress Darva",
-        "hub": "Eastbrook",
+        "hub": "Lightfall",
         "material": "Copper Ore",
         "count": 8,
         "coinCopper": 16
@@ -9603,7 +9603,7 @@ export const GUIDE_PROF_ECONOMY: GuideProfEconomy = {
         "id": "q_prof_workorder_kitchens",
         "name": "Kitchens Work Order",
         "master": "Cook Marlow",
-        "hub": "Eastbrook",
+        "hub": "Lightfall",
         "material": "Game Meat",
         "count": 8,
         "coinCopper": 16
@@ -9612,7 +9612,7 @@ export const GUIDE_PROF_ECONOMY: GuideProfEconomy = {
         "id": "q_prof_workorder_loom",
         "name": "Loom Work Order",
         "master": "Weaver Ottilie",
-        "hub": "Eastbrook",
+        "hub": "Lightfall",
         "material": "Spider Silk",
         "count": 6,
         "coinCopper": 15
@@ -9621,7 +9621,7 @@ export const GUIDE_PROF_ECONOMY: GuideProfEconomy = {
         "id": "q_prof_workorder_toolworks",
         "name": "Toolworks Work Order",
         "master": "Tinker Gizzel",
-        "hub": "Eastbrook",
+        "hub": "Lightfall",
         "material": "Ironbark Log",
         "count": 8,
         "coinCopper": 16
@@ -9654,8 +9654,8 @@ export const GUIDE_PROF_STATIONS: GuideProfStations = {
     {
       "id": "station_eastbrook_forge",
       "type": "forge",
-      "hub": "Eastbrook",
-      "zone": "Eastbrook Vale",
+      "hub": "Lightfall",
+      "zone": "Lightfall Valley",
       "master": {
         "name": "Forgemistress Darva",
         "title": "Master of the Forge"
@@ -9664,8 +9664,8 @@ export const GUIDE_PROF_STATIONS: GuideProfStations = {
     {
       "id": "station_eastbrook_kitchens",
       "type": "kitchens",
-      "hub": "Eastbrook",
-      "zone": "Eastbrook Vale",
+      "hub": "Lightfall",
+      "zone": "Lightfall Valley",
       "master": {
         "name": "Cook Marlow",
         "title": "Master of the Kitchens"
@@ -9674,8 +9674,8 @@ export const GUIDE_PROF_STATIONS: GuideProfStations = {
     {
       "id": "station_eastbrook_loom",
       "type": "loom",
-      "hub": "Eastbrook",
-      "zone": "Eastbrook Vale",
+      "hub": "Lightfall",
+      "zone": "Lightfall Valley",
       "master": {
         "name": "Weaver Ottilie",
         "title": "Master of the Loom"
@@ -9684,8 +9684,8 @@ export const GUIDE_PROF_STATIONS: GuideProfStations = {
     {
       "id": "station_eastbrook_toolworks",
       "type": "toolworks",
-      "hub": "Eastbrook",
-      "zone": "Eastbrook Vale",
+      "hub": "Lightfall",
+      "zone": "Lightfall Valley",
       "master": {
         "name": "Tinker Gizzel",
         "title": "Master of the Toolworks"

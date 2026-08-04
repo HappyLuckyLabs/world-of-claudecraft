@@ -64,7 +64,7 @@ const START_RATIONS_MANA = [
 export const CLASSES: Record<PlayerClass, ClassDef> = {
   warrior: {
     id: 'warrior',
-    name: 'Warrior',
+    name: 'Fighter',
     baseStats: { str: 23, agi: 20, sta: 22, int: 10, spi: 11, armor: 50 },
     statsPerLevel: { str: 2, agi: 1, sta: 2, int: 0, spi: 0, armor: 12 },
     baseHp: 50,
@@ -128,7 +128,7 @@ export const CLASSES: Record<PlayerClass, ClassDef> = {
   },
   mage: {
     id: 'mage',
-    name: 'Mage',
+    name: 'Wizard',
     baseStats: { str: 10, agi: 12, sta: 14, int: 24, spi: 22, armor: 25 },
     statsPerLevel: { str: 0, agi: 0, sta: 1, int: 3, spi: 2, armor: 4 },
     baseHp: 40,
