@@ -334,7 +334,7 @@ describe('Eastbrook authored gameplay data integration', () => {
       'api_seven',
     ]);
     expect(createHash('sha256').update(JSON.stringify(stableTownNpcPayload())).digest('hex')).toBe(
-      '977598d02ab3af161315004a955066e561117e2206874808f2836639618357b9',
+      '25a1ecd32ef7a5e1e9233fb8eb94221b571b01dadc47f8552625cd748d250616',
     );
     expect(ZONE1_TOWN_NPC_IDS).toHaveLength(15);
     for (const id of ZONE1_TOWN_NPC_IDS) {
