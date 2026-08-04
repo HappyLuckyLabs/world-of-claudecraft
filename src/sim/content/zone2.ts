@@ -775,8 +775,7 @@ export const ZONE2_QUESTS: Record<string, QuestDef> = {
     name: 'A Reading of the Ring',
     giverNpcId: 'marshal_redbrook',
     turnInNpcId: 'archmage_corvane',
-    text:
-      'That ring the hunters dredged out of the lake, {playerName}. I have had three clerks look at it and not one can name the metal. There is a man who can read it: the Archmage of the Spire, north up the causeway where the valley gives way to marsh. Take it to him. Take it before it settles on what it is.',
+    text: 'That ring the hunters dredged out of the woodland pool, {playerName}. I have had three clerks look at it and not one can name the metal. There is a man who can read it: the Archmage of the Spire, north up the causeway where the valley gives way to marsh. Take it to him. Take it before it settles on what it is.',
     completionText:
       'So this is what came up out of the water. Warm, is it not. Sit down, {playerName}. This will take longer than you would like, and at the end of it I will still not be certain.',
     objectives: [],
@@ -790,8 +789,7 @@ export const ZONE2_QUESTS: Record<string, QuestDef> = {
     name: 'What the Corpus Does Not Hold',
     giverNpcId: 'archmage_corvane',
     turnInNpcId: 'archmage_corvane',
-    text:
-      'A reading needs a still lamp and a bound page, and the marsh has taken both from me this season. Widow silk for the binding, {playerName}, and the fat of the bog bloats for the oil. Bring them and I will put your ring against the Corpus itself.',
+    text: 'A reading needs a still lamp and a bound page, and the marsh has taken both from me this season. Widow silk for the binding, {playerName}, and the fat of the bog bloats for the oil. Bring them and I will put your ring against the Corpus itself.',
     completionText:
       'Nine thousand volumes. Not one of them describes your ring. That is not the same as it being unknown to me, you understand. I have the strangest sense that I have written about it. I simply cannot find where.',
     objectives: [

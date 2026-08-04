@@ -11753,7 +11753,7 @@ export const en_CA: EnTranslations = {
     "quests": {
       "q_spire_summons": {
         "title": "A Reading of the Ring",
-        "text": "That ring the hunters dredged out of the lake, {playerName}. I have had three clerks look at it and not one can name the metal. There is a man who can read it: the Archmage of the Spire, north up the causeway where the valley gives way to marsh. Take it to him. Take it before it settles on what it is.",
+        "text": "That ring the hunters dredged out of the woodland pool, {playerName}. I have had three clerks look at it and not one can name the metal. There is a man who can read it: the Archmage of the Spire, north up the causeway where the valley gives way to marsh. Take it to him. Take it before it settles on what it is.",
         "completion": "So this is what came up out of the water. Warm, is it not. Sit down, {playerName}. This will take longer than you would like, and at the end of it I will still not be certain.",
         "objectives": {}
       },
