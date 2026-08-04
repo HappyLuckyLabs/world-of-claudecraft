@@ -545,8 +545,16 @@ export const ZONE1_NPCS: Record<string, NpcDef> = {
     pos: { ...EASTBROOK_NPC_PLACEMENTS_BY_ID.marshal_redbrook.position },
     facing: EASTBROOK_NPC_PLACEMENTS_BY_ID.marshal_redbrook.facing,
     color: 0xb7950b,
-    questIds: ['q_wolves', 'q_greyjaw', 'q_tokens_alignment', 'q_bandits', 'q_ringleader', 'q_mogger'],
-    greeting: 'Welcome to Lightfall Valley, $C. The board refills itself overnight - I stopped asking who writes the notices years ago.',
+    questIds: [
+      'q_wolves',
+      'q_greyjaw',
+      'q_tokens_alignment',
+      'q_bandits',
+      'q_ringleader',
+      'q_mogger',
+    ],
+    greeting:
+      'Welcome to Lightfall Valley, $C. The board refills itself overnight - I stopped asking who writes the notices years ago.',
   },
   trader_wilkes: {
     id: 'trader_wilkes',
@@ -809,7 +817,8 @@ export const ZONE1_NPCS: Record<string, NpcDef> = {
     ],
     greeting:
       'Springs, sprockets, and sharp edges, $C: the toolworks has whatever your hands lack.',
-  },  the_inferencer: {
+  },
+  the_inferencer: {
     id: 'the_inferencer',
     name: 'The Inferencer',
     title: 'Reader of Fates',
@@ -830,7 +839,6 @@ export const ZONE1_NPCS: Record<string, NpcDef> = {
     questIds: [],
     greeting: 'UNIT SEVEN STANDS WATCH. THE LAKE IS PROTECTED. ...PROBABLY.',
   },
-
 };
 
 // ---------------------------------------------------------------------------
@@ -883,7 +891,7 @@ export const ZONE1_QUESTS: Record<string, QuestDef> = {
     name: 'The Unowned Ring',
     giverNpcId: 'marshal_redbrook',
     turnInNpcId: 'marshal_redbrook',
-    text: "One old sprite will not flicker out: Greyjaw, the hunters call it. It has taken to Mirror Lake - circles the shallows off the fishing dock, and will not be parted from something it dredged off the lakebed. A ring, they say. Odd - no one remembers losing one. Bring me what it carries.",
+    text: 'One old sprite will not flicker out: Greyjaw, the hunters call it. It has taken to Mirror Lake - circles the shallows off the fishing dock, and will not be parted from something it dredged off the lakebed. A ring, they say. Odd - no one remembers losing one. Bring me what it carries.',
     completionText:
       'So the old thing is gone at last. And this ring... warm, is it not? As if something inside were still running. Keep it. It clearly means to be kept.',
     objectives: [
@@ -1424,7 +1432,8 @@ export const ZONE1_QUESTS: Record<string, QuestDef> = {
     repeatable: true,
     shareable: false,
     completionEffect: { type: 'switchHobby' },
-  },  q_tokens_alignment: {
+  },
+  q_tokens_alignment: {
     id: 'q_tokens_alignment',
     name: 'Tokens of Alignment',
     giverNpcId: 'marshal_redbrook',
@@ -1445,7 +1454,8 @@ export const ZONE1_QUESTS: Record<string, QuestDef> = {
     giverNpcId: 'the_inferencer',
     turnInNpcId: 'the_inferencer',
     text: 'A treasure chest has been sighted by a dozen reliable witnesses, $N - in a dozen different places. The far north woods, most recently. Find it. If it decides to be found.',
-    completionText: 'So it allowed itself to be found. Keep the scroll inside. I would not read it too often, were I you.',
+    completionText:
+      'So it allowed itself to be found. Keep the scroll inside. I would not read it too often, were I you.',
     objectives: [
       { type: 'collect', itemId: 'prompt_of_binding', count: 1, label: 'The Hallucinated Cache' },
     ],
@@ -1453,7 +1463,6 @@ export const ZONE1_QUESTS: Record<string, QuestDef> = {
     copperReward: 200,
     itemRewards: {},
   },
-
 };
 
 export const ZONE1_QUEST_ORDER = [
@@ -1602,7 +1611,8 @@ export const ZONE1_OBJECTS: GroundObjectDef[] = [
     itemId: 'morthen_grimoire',
     name: "Morthen's Grimoire",
     positions: [{ x: 78, z: 86 }],
-  },  {
+  },
+  {
     itemId: 'token_of_alignment',
     name: 'Token of Alignment',
     positions: [
@@ -1622,7 +1632,6 @@ export const ZONE1_OBJECTS: GroundObjectDef[] = [
     // is issue #11 (wrongness sprinkles).
     positions: [{ x: 17, z: 163 }],
   },
-
 ];
 
 // Roads from town toward each hub — used for terrain painting and the map.
