@@ -6,9 +6,9 @@ const QUESTS: TrackedQuest[] = [
   {
     id: 'wolves',
     number: 1,
-    title: 'Wolves at the Door',
+    title: 'Routine #1: Clear the Meadow',
     complete: false,
-    objectives: [{ label: 'Forest Wolf slain', current: 0, total: 8 }],
+    objectives: [{ label: 'Glitch Sprite slain', current: 0, total: 8 }],
   },
   {
     id: 'webwood',

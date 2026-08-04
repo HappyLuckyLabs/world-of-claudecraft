@@ -1055,7 +1055,7 @@ describe('dungeon difficulty slash command', () => {
   it('lets a leader switch normal and heroic without using dev commands', () => {
     const sim = makeWorld();
     const leader = sim.addPlayer('warrior', 'Lead');
-    const member = sim.addPlayer('mage', 'Mage');
+    const member = sim.addPlayer('mage', 'Wizard');
     sim.partyInvite(member, leader);
     sim.partyAccept(member);
 

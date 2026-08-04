@@ -335,7 +335,7 @@ describe('discord/flex', () => {
       username: 'coolguy',
       statusTier: 3,
       points: 500,
-      character: { name: 'Hero', class: 'Warrior', level: 40, profileUrl: 'https://x/p' },
+      character: { name: 'Hero', class: 'Fighter', level: 40, profileUrl: 'https://x/p' },
     };
     vi.mocked(accountForDiscord).mockResolvedValue(77);
     vi.mocked(discordFlexForAccount).mockResolvedValue(flex);

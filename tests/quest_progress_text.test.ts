@@ -11,16 +11,16 @@ describe('questProgress event localization', () => {
         required: 8,
         text: 'this legacy fallback must not be parsed',
       }),
-    ).toBe('Forest Wolf slain: 3/8');
+    ).toBe('Glitch Sprite removed: 3/8');
   });
 
   it('keeps the English-text parser only as compatibility for an older server payload', () => {
     expect(
       questProgressEventText({
         questId: 'q_wolves',
-        text: 'Forest Wolf slain: 2/8',
+        text: 'Glitch Sprite slain: 2/8',
       }),
-    ).toBe('Forest Wolf slain: 2/8');
+    ).toBe('Glitch Sprite slain: 2/8');
   });
 
   it('returns an unrecognized legacy payload unchanged', () => {

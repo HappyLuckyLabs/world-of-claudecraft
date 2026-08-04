@@ -1106,7 +1106,7 @@ describe('delta snapshots', () => {
       id: 99,
       k: 'mob',
       tid: 'forest_wolf',
-      nm: 'Forest Wolf',
+      nm: 'Glitch Sprite',
       lv: 1,
       x: 0,
       y: 0,
@@ -1120,7 +1120,7 @@ describe('delta snapshots', () => {
     const respawned = {
       id: 99,
       tid: 'forest_wolf',
-      nm: 'Forest Wolf',
+      nm: 'Glitch Sprite',
       lv: 1,
       x: 10,
       y: 0,
@@ -1913,8 +1913,8 @@ describe('/who command', () => {
 
     const text = eventTexts(fc.sent).join('\n');
     expect(text).toContain('Who: 2 players online on Claudemoon.');
-    expect(text).toContain('Aleph - level 1 warrior - Eastbrook Vale');
-    expect(text).toContain('Bet - level 7 mage - Eastbrook Vale');
+    expect(text).toContain('Aleph - level 1 warrior - Lightfall Valley');
+    expect(text).toContain('Bet - level 7 mage - Lightfall Valley');
   });
 
   it('hides ignored players and players who ignored the requester', () => {
@@ -1933,7 +1933,7 @@ describe('/who command', () => {
 
     const text = eventTexts(fc.sent).join('\n');
     expect(text).toContain('Who: 1 player online on Claudemoon.');
-    expect(text).toContain('Aleph - level 1 warrior - Eastbrook Vale');
+    expect(text).toContain('Aleph - level 1 warrior - Lightfall Valley');
     expect(text).not.toContain('Bet');
     expect(text).not.toContain('Gimel');
   });
@@ -1965,7 +1965,7 @@ describe('/who command', () => {
 
     const text = eventTexts(fc.sent).join('\n');
     expect(text).toContain('Who: 1 player online on Claudemoon.');
-    expect(text).toContain('Aleph - level 1 warrior - Eastbrook Vale');
+    expect(text).toContain('Aleph - level 1 warrior - Lightfall Valley');
     expect(text).not.toContain('Bet');
   });
 });

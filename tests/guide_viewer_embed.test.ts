@@ -13,7 +13,7 @@ describe('modelViewerEmbed', () => {
   it('prefers the baked still as the default poster and gives it a descriptive alt', () => {
     const html = modelViewerEmbed({
       modelKey: 'wolf',
-      name: 'Forest Wolf',
+      name: 'Glitch Sprite',
       poster: 'data:crest',
       still: '/guide-stills/mob_wolf__abc.webp',
     });
@@ -23,11 +23,11 @@ describe('modelViewerEmbed', () => {
     // the still IS the content now, so its alt names the subject (non-empty)
     const alt = html.match(/class="guide-viewer-poster[^"]*"[^>]*\salt="([^"]*)"/)?.[1] ?? '';
     expect(alt.length).toBeGreaterThan(0);
-    expect(alt).toContain('Forest Wolf');
+    expect(alt).toContain('Glitch Sprite');
   });
 
   it('falls back to the 2D crest as a DECORATIVE image (alt="") when there is no still', () => {
-    const html = modelViewerEmbed({ modelKey: 'mage', name: 'Mage', poster: 'data:crest' });
+    const html = modelViewerEmbed({ modelKey: 'mage', name: 'Wizard', poster: 'data:crest' });
     expect(html).toContain('src="data:crest"');
     expect(html).not.toContain('guide-viewer-poster-still');
     const alt = html.match(/class="guide-viewer-poster[^"]*"[^>]*\salt="([^"]*)"/)?.[1] ?? null;
@@ -40,11 +40,11 @@ describe('modelViewerEmbed', () => {
   });
 
   it('marks an autoplay hero and leaves other embeds without the flag', () => {
-    const hero = modelViewerEmbed({ modelKey: 'warrior', name: 'Warrior', autoplay: true });
+    const hero = modelViewerEmbed({ modelKey: 'warrior', name: 'Fighter', autoplay: true });
     expect(hero).toContain('data-autoplay="true"');
-    const plain = modelViewerEmbed({ modelKey: 'warrior', name: 'Warrior' });
+    const plain = modelViewerEmbed({ modelKey: 'warrior', name: 'Fighter' });
     expect(plain).not.toContain('data-autoplay');
-    const off = modelViewerEmbed({ modelKey: 'warrior', name: 'Warrior', autoplay: false });
+    const off = modelViewerEmbed({ modelKey: 'warrior', name: 'Fighter', autoplay: false });
     expect(off).not.toContain('data-autoplay');
   });
 
@@ -52,7 +52,7 @@ describe('modelViewerEmbed', () => {
     // VIEW-4: the load/error copy is written imperatively on each state transition (mount.ts),
     // because aria-live announces a text mutation, not the CSS show/hide keyed off data-state.
     // The static markup must therefore ship an EMPTY live region, not two CSS-toggled spans.
-    const html = modelViewerEmbed({ modelKey: 'wolf', name: 'Forest Wolf' });
+    const html = modelViewerEmbed({ modelKey: 'wolf', name: 'Glitch Sprite' });
     expect(html).toContain('<p class="guide-viewer-status" role="status" aria-live="polite"></p>');
     expect(html).not.toContain('guide-viewer-status-loading');
     expect(html).not.toContain('guide-viewer-status-error');

@@ -36,7 +36,7 @@ import { type ClientSession, GameServer } from '../server/game';
 import type { PlayerMeta } from '../src/sim/sim';
 import type { SimEvent } from '../src/sim/types';
 
-// A field spot in northern Eastbrook Vale: far outside every station circle
+// A field spot in northern Lightfall Valley: far outside every station circle
 // (the nearest station sits at z 16.5) and clear of hostile camp pull ranges,
 // so nothing but the station gate is in play during the test's few ticks.
 const FIELD_POS = { x: 0, z: 150 };

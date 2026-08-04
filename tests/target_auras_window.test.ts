@@ -552,14 +552,14 @@ describe('TargetAurasWindow', () => {
 
     const next = auraState();
     next.slots[0].name = 'New Debuff';
-    panel.paint('New Target', next, () => 'Mage');
+    panel.paint('New Target', next, () => 'Wizard');
     panel.toggle();
 
     expect(root.style.display).toBe('flex');
     expect(root.querySelector('.ta-target')?.textContent).toBe('');
     expect(root.querySelector<HTMLElement>('.ta-debuff-rows .ta-row')?.style.display).toBe('none');
 
-    panel.paint('New Target', next, () => 'Mage');
+    panel.paint('New Target', next, () => 'Wizard');
     expect(root.querySelector('.ta-target')?.textContent).toBe('New Target');
     expect(root.querySelector('.ta-debuff-rows .ta-name')?.textContent).toBe('New Debuff');
   });
@@ -820,12 +820,12 @@ describe('TargetAurasWindow', () => {
     next.slots[0].own = false;
     next.slots[0].expiring = false;
     next.slots[0].stacksText = '';
-    panel.paint('Training Dummy', next, () => 'Mage');
+    panel.paint('Training Dummy', next, () => 'Wizard');
 
     const active = root.querySelector<HTMLElement>('.ta-debuff-rows .ta-row');
     expect(active?.classList.contains('own')).toBe(false);
     expect(active?.classList.contains('expiring')).toBe(false);
-    expect(active?.querySelector('.ta-source')?.textContent).toBe('Mage');
+    expect(active?.querySelector('.ta-source')?.textContent).toBe('Wizard');
     expect(active?.querySelector('.ta-stacks')?.classList.contains('empty')).toBe(true);
     expect(recycled.style.display).toBe('none');
   });

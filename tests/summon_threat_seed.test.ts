@@ -111,7 +111,7 @@ describe('summon threat seeding', () => {
 
   it('sustained focus fire still rips an add off an idle tank', () => {
     const { sim, tankPid, adds } = setup();
-    const magePid = sim.addPlayer('mage', 'Mage');
+    const magePid = sim.addPlayer('mage', 'Wizard');
     sim.setPlayerLevel(20, magePid);
     const mage = sim.entities.get(magePid)!;
     mage.maxHp = 1e7;

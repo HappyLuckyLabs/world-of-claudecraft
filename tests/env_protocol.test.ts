@@ -35,7 +35,7 @@ describe('headless environment protocol validation', () => {
     expect(validatePlayerClass(undefined)).toBeNull();
     expect(validatePlayerClass(null)).toBeNull();
     expect(validatePlayerClass(0)).toBeNull();
-    expect(validatePlayerClass('Warrior')).toBeNull(); // case-sensitive
+    expect(validatePlayerClass('Fighter')).toBeNull(); // case-sensitive
   });
 
   it('accepts only safe playable starting levels', () => {

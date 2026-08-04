@@ -15,7 +15,7 @@ import { portraitChipHtml } from '../src/ui/portrait_chip';
 
 describe('portrait chip deferred source', () => {
   it('keeps the normal one-off chip behavior', () => {
-    const html = portraitChipHtml({ cls: 'mage', name: 'Mage' });
+    const html = portraitChipHtml({ cls: 'mage', name: 'Wizard' });
     expect(html).toContain(portraitUrl);
     expect(html).not.toContain('data-portrait-pending');
   });
@@ -23,7 +23,7 @@ describe('portrait chip deferred source', () => {
   it('omits a large cached data URL from dense repeated markup', () => {
     const html = portraitChipHtml({
       cls: 'mage',
-      name: 'Mage',
+      name: 'Wizard',
       badge: false,
       deferSource: true,
     });

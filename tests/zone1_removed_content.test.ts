@@ -27,7 +27,7 @@ function baseState(extra: Partial<CharacterState> = {}): CharacterState {
   };
 }
 
-describe('removed Eastbrook Vale quest content', () => {
+describe('removed Lightfall Valley quest content', () => {
   it('removes retired quest IDs from the live quest registry and NPC quest lists', () => {
     for (const questId of REMOVED_ZONE1_QUEST_IDS) {
       expect(QUESTS[questId], questId).toBeUndefined();

@@ -18,7 +18,7 @@ const fakeFmt = (v: number): string => String(v);
 const deps: MobTooltipI18n = { t: fakeT, fmt: fakeFmt };
 
 const model = (over: Partial<MobTooltipModel> = {}): MobTooltipModel => ({
-  name: 'Forest Wolf',
+  name: 'Glitch Sprite',
   level: 5,
   familyLabel: 'Beasts',
   color: '#ffe97a',
@@ -30,7 +30,7 @@ const model = (over: Partial<MobTooltipModel> = {}): MobTooltipModel => ({
 describe('mobTooltipHtml', () => {
   it('renders the localized name AND the level/family line colored by the con-color', () => {
     const html = mobTooltipHtml(model(), deps);
-    expect(html).toContain('<div class="tt-title" style="color:#ffe97a">Forest Wolf</div>');
+    expect(html).toContain('<div class="tt-title" style="color:#ffe97a">Glitch Sprite</div>');
     expect(html).toContain(
       '<div class="tt-sub" style="color:#ffe97a">hudChrome.mobTooltip.levelFamily(level=5,family=Beasts)</div>',
     );
@@ -63,14 +63,14 @@ describe('mobTooltipHtml', () => {
     const html = mobTooltipHtml(
       model({
         quests: [
-          { title: 'Wolves at the Door', progress: 'Forest Wolf slain: 3/8' },
+          { title: 'Routine #1: Clear the Meadow', progress: 'Glitch Sprite slain: 3/8' },
           { title: 'Another Errand', progress: 'Wolf Pelt: 1/4' },
         ],
       }),
       deps,
     );
-    expect(html).toContain('<div class="tt-quest-name">Wolves at the Door</div>');
-    expect(html).toContain('<div class="tt-quest-obj">Forest Wolf slain: 3/8</div>');
+    expect(html).toContain('<div class="tt-quest-name">Routine #1: Clear the Meadow</div>');
+    expect(html).toContain('<div class="tt-quest-obj">Glitch Sprite slain: 3/8</div>');
     expect(html).toContain('<div class="tt-quest-name">Another Errand</div>');
     // order: family line, then the quest lines, then the reaction line
     const familyAt = html.indexOf('levelFamily');

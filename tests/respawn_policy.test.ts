@@ -111,7 +111,7 @@ describe('the ZoneDef.trashRespawnSeconds override, end to end', () => {
 
 describe('zoneContaining: strict rect containment, no fallback', () => {
   it('resolves an open-world position to its zone, like zoneAt does', () => {
-    // Eastbrook Vale's Wolf Run camp.
+    // Lightfall Valley's Wolf Run camp.
     expect(zoneContaining(-27, 71)?.id).toBe('eastbrook_vale');
     expect(zoneAt(-27, 71).id).toBe('eastbrook_vale');
     // A column zone beside the strip.
@@ -133,7 +133,7 @@ describe('zoneContaining: strict rect containment, no fallback', () => {
   });
 
   it('is half-open on the z seam: zMax belongs to the next band up', () => {
-    // Eastbrook Vale [-180, 180) hands z=180 to Mirefen Marsh.
+    // Lightfall Valley [-180, 180) hands z=180 to Mirefen Marsh.
     expect(zoneContaining(0, 179.9)?.id).toBe('eastbrook_vale');
     expect(zoneContaining(0, 180)?.id).toBe('mirefen_marsh');
   });
@@ -147,7 +147,7 @@ describe('zoneContaining: strict rect containment, no fallback', () => {
 
 describe('baseRespawnSecondsAt: the global override vs the zone tier', () => {
   it('reads the zone tier at a position when no global base is configured', () => {
-    // Eastbrook Vale [1-7] -> fast, Mirefen Marsh [6-13] -> mid,
+    // Lightfall Valley [1-7] -> fast, Mirefen Marsh [6-13] -> mid,
     // Thornpeak Heights [13-20] -> slow.
     expect(baseRespawnSecondsAt(-27, 71, undefined)).toBe(60);
     expect(baseRespawnSecondsAt(-40, 230, undefined)).toBe(120);

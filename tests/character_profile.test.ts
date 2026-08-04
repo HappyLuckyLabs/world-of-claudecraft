@@ -14,7 +14,7 @@ const SHEET = {
   name: 'Mira',
   realm: 'Claudemoon',
   class: 'mage',
-  classLabel: 'Mage',
+  classLabel: 'Wizard',
   spec: 'Fire',
   level: 34,
   skin: 3,
@@ -52,7 +52,7 @@ describe('ClientWorld.characterProfile', () => {
     expect(profile).toEqual({
       name: 'Mira',
       cls: 'mage',
-      classLabel: 'Mage',
+      classLabel: 'Wizard',
       spec: 'Fire',
       level: 34,
       guild: 'Iron Vanguard',

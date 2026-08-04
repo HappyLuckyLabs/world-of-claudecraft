@@ -23,7 +23,7 @@ describe('/inspect command', () => {
     const e = sim.entities.get(b)!;
     e.level = 8;
 
-    expect(inspectReply(sim, a, '/inspect Bet')).toBe('Bet: Level 8 Mage: HP 100%.');
+    expect(inspectReply(sim, a, '/inspect Bet')).toBe('Bet: Level 8 Wizard: HP 100%.');
   });
 
   it('shows a partial-health percentage and "dead" for a corpse', () => {
@@ -42,7 +42,7 @@ describe('/inspect command', () => {
     const sim = makeWorld();
     const a = sim.addPlayer('warrior', 'Aleph');
     sim.addPlayer('mage', 'Bet');
-    expect(inspectReply(sim, a, '/inspect bet')).toMatch(/^Bet: Level \d+ Mage/);
+    expect(inspectReply(sim, a, '/inspect bet')).toMatch(/^Bet: Level \d+ Wizard/);
   });
 
   it('rejects an ambiguous case-insensitive match', () => {
@@ -73,7 +73,7 @@ describe('/inspect command', () => {
     const sim = makeWorld();
     const a = sim.addPlayer('warrior', 'Aleph');
     sim.addPlayer('mage', 'Bet');
-    expect(inspectReply(sim, a, '/ins Bet')).toMatch(/^Bet: Level \d+ Mage/);
-    expect(inspectReply(sim, a, '/examine Bet')).toMatch(/^Bet: Level \d+ Mage/);
+    expect(inspectReply(sim, a, '/ins Bet')).toMatch(/^Bet: Level \d+ Wizard/);
+    expect(inspectReply(sim, a, '/examine Bet')).toMatch(/^Bet: Level \d+ Wizard/);
   });
 });

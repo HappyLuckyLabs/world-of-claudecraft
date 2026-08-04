@@ -176,7 +176,7 @@ describe('inspect: equipment identity-wire round-trip', () => {
       id: 43,
       k: 'mob',
       tid: 'forest_wolf',
-      nm: 'Forest Wolf',
+      nm: 'Glitch Sprite',
       lv: 1,
       x: 0,
       y: 0,

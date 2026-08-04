@@ -284,7 +284,7 @@ describe('chunk-level ground residency', () => {
 const WORLD_SEED = 20061;
 
 // The zone rectangles do not tile the world box (nothing sits west of
-// Eastbrook Vale for z -180..180, nothing north of Frostveil in the centre
+// Lightfall Valley for z -180..180, nothing north of Frostveil in the centre
 // column, and the chunk grid overhangs WORLD_MAX_Z by a row). Cells in those
 // gaps used to belong to no zone, so no zone's build ever meshed them: the
 // ground there rendered as a hole you saw and fell through. Standing at
@@ -305,7 +305,7 @@ describe('terrain covers the whole world, gaps between zone rectangles included'
       return x >= box.min.x && x <= box.max.x && z >= box.min.z && z <= box.max.z;
     });
 
-  it('meshes the walkable ground at (-195, 161), in the gap west of Eastbrook Vale', async () => {
+  it('meshes the walkable ground at (-195, 161), in the gap west of Lightfall Valley', async () => {
     vi.resetModules();
     mockEmptyAssetLoads();
     const { buildTerrain } = await import('../src/render/terrain');

@@ -148,7 +148,7 @@ describe('Sowfield spawns and site placement', () => {
     );
   });
 
-  it('the whole site sits inside the Eastbrook Vale zone band (gather-nodes guard pattern)', () => {
+  it('the whole site sits inside the Lightfall Valley zone band (gather-nodes guard pattern)', () => {
     const zone1 = ZONES[0];
     expect(zone1.id).toBe('eastbrook_vale');
     for (const z of [SOWFIELD_EXCLUDE.zMin, SOWFIELD_EXCLUDE.zMax, BRAM_POS.z, SPECTATOR_LINE_Z]) {

@@ -518,7 +518,7 @@ describe('MusicDirector lifecycle and mix levels', () => {
   });
 });
 
-describe('preserved Eastbrook Vale themes', () => {
+describe('preserved Lightfall Valley themes', () => {
   // The Eastbrook town, vale, and legacy vale compositions are frozen: their
   // note data must never drift while the rest of the soundtrack evolves.
   // If a change here is truly intended, recompute the checksum deliberately.

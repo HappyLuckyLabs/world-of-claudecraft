@@ -78,12 +78,12 @@ function state(): AurasState {
 describe('buildTargetAurasWindowView', () => {
   it('keeps debuffs and buffs in simultaneous vertical sections', () => {
     const view = createTargetAurasWindowView().tick(state(), (sourceId) =>
-      sourceId === 7 ? 'Hero' : sourceId === 9 ? 'Mage' : 'Target',
+      sourceId === 7 ? 'Hero' : sourceId === 9 ? 'Wizard' : 'Target',
     );
 
     expect(view.debuffs.map((row) => row.name)).toEqual(['Own DoT', 'Foreign DoT']);
     expect(view.buffs.map((row) => row.name)).toEqual(['Own HoT', 'Foreign Buff']);
-    expect(view.debuffs.map((row) => row.sourceName)).toEqual(['Hero', 'Mage']);
+    expect(view.debuffs.map((row) => row.sourceName)).toEqual(['Hero', 'Wizard']);
     expect(view.buffCount).toBe(2);
     expect(view.debuffCount).toBe(2);
   });

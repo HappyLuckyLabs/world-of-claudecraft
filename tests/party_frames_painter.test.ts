@@ -540,12 +540,12 @@ describe('PartyFramesPainter: keyed pool over the elided writers', () => {
   it('repaints the crest with the recycled member class via the live slot (the portrait gate)', () => {
     iconDataUrlSpy.mockClear();
     // A mage joins: the gate fires once for class_mage on the first paint.
-    painter.sync([member({ pid: 2, name: 'Mage', cls: 'mage' })], 1, false);
+    painter.sync([member({ pid: 2, name: 'Wizard', cls: 'mage' })], 1, false);
     expect(iconDataUrlSpy.mock.calls.some((c) => c[1] === 'class_mage')).toBe(true);
     // Re-sync the SAME mage (a stat changed): the class key is unchanged, so the gate
     // skips the crest repaint.
     iconDataUrlSpy.mockClear();
-    painter.sync([member({ pid: 2, name: 'Mage', cls: 'mage', hp: 10 })], 1, false);
+    painter.sync([member({ pid: 2, name: 'Wizard', cls: 'mage', hp: 10 })], 1, false);
     expect(iconDataUrlSpy.mock.calls.some((c) => c[1] === 'class_mage')).toBe(false);
     // The mage leaves; a PRIEST reuses the freed row node. The crest repaints for the
     // NEW class, proving the gate reads the live slot, not a member captured at build.

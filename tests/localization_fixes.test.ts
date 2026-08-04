@@ -164,7 +164,7 @@ describe('B1: server log-type messages localize through the log path', () => {
       'Bob has left the world. (disconnected)',
       'Who: 3 players online on Stormforge.',
       'Who: 1 player online on Stormforge.',
-      'Carl - level 12 warrior - Eastbrook Vale',
+      'Carl - level 12 warrior - Lightfall Valley',
     ];
     for (const lang of supportedLanguages) {
       setLanguage(lang);
@@ -194,7 +194,7 @@ describe('L3/L4: additional server-message coverage', () => {
 
   it('localizes the (combat) /who status flag', () => {
     setLanguage('es');
-    const out = localizeServerText('Carl - level 12 warrior - Eastbrook Vale (combat)')!;
+    const out = localizeServerText('Carl - level 12 warrior - Lightfall Valley (combat)')!;
     expect(out).toContain('Carl');
     expect(out.toLowerCase()).not.toContain('(combat)');
     setLanguage('en');
@@ -391,7 +391,7 @@ describe('M1b: /who status flags localize within the row', () => {
     for (const lang of supportedLanguages) {
       setLanguage(lang);
       for (const [flag, key] of statuses) {
-        const out = localizeServerText(`Carl - level 12 warrior - Eastbrook Vale (${flag})`);
+        const out = localizeServerText(`Carl - level 12 warrior - Lightfall Valley (${flag})`);
         expect(out, `${lang}: "(${flag})" row not recognized`).not.toBeNull();
         const localized = tServer(key);
         expect(
@@ -510,12 +510,12 @@ describe('S1: sim event-text pipeline is localized in every locale', () => {
     'You may choose a specialization at level 10.',
     'You can save at most 5 loadouts.',
     'You have prestiged! Prestige Rank 2.',
-    'You dismiss Forest Wolf.',
-    'Forest Wolf is now your loyal companion.',
+    'You dismiss Glitch Sprite.',
+    'Glitch Sprite is now your loyal companion.',
     'Rex could not be restored and has been lost.',
-    'Forest Wolf dies.',
-    'Forest Wolf becomes enraged!',
-    'Forest Wolf calls for aid!',
+    'Glitch Sprite dies.',
+    'Glitch Sprite becomes enraged!',
+    'Glitch Sprite calls for aid!',
     'Discarded Linen Scrap.',
     'Discarded Linen Scrap x3.',
     'Aki wins Pitted Shortsword (87)',

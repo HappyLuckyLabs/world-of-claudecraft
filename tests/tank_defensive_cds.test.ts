@@ -312,7 +312,7 @@ describe('Sacred Bulwark (paladin): divine cheat-death', () => {
       if (mode === 'duel') {
         sim = new Sim({ seed: 9, playerClass: 'warrior', noPlayer: true });
         victimPid = sim.addPlayer('paladin', 'Paladin');
-        sourcePid = sim.addPlayer('warrior', 'Warrior');
+        sourcePid = sim.addPlayer('warrior', 'Fighter');
         const duel = { a: victimPid, b: sourcePid, state: 'active' as const, timer: 0 };
         sim.ctx.duels.set(victimPid, duel);
         sim.ctx.duels.set(sourcePid, duel);

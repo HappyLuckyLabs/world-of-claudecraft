@@ -39,7 +39,7 @@ describe('gather node content', () => {
     }
   });
 
-  it("Eastbrook Vale ore nodes sit near the Copper Dig POI, the zone's only mine-themed landmark", () => {
+  it("Lightfall Valley ore nodes sit near the Copper Dig POI, the zone's only mine-themed landmark", () => {
     // Regression: the ore veins for q_prof_intro ("A Trade for Every Hand") used
     // to sit near Boar Meadow, a wolf/boar mob area with no mining flavor and no
     // discoverable landmark, so players could not find them. They now cluster

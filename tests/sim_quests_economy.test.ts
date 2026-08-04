@@ -32,7 +32,7 @@ function hasFishableWaterAhead(x: number, z: number, facing: number, seed: numbe
   );
 }
 
-// Everything reelable from the Eastbrook Vale (Mirror Lake) fishing table.
+// Everything reelable from the Lightfall Valley (Mirror Lake) fishing table.
 const VALE_CATCHES = ['raw_mirror_trout', 'raw_river_perch', 'tangled_weed', 'glimmerfin_koi'];
 const valeCatchCount = (sim: Sim) => VALE_CATCHES.reduce((n, id) => n + sim.countItem(id), 0);
 
@@ -638,7 +638,7 @@ describe('food, drink, vendor', () => {
   it('fishing draws only from the zone the angler is standing in', () => {
     const sim = makeScopedSim(VENDOR_TEST_WORLD, 'warrior');
     const meta = sim.meta(sim.player.id)!;
-    // Eastbrook Vale water: every catch must come from the Vale table, never a
+    // Lightfall Valley water: every catch must come from the Vale table, never a
     // marsh/heights fish, and never an item outside the catch list.
     const valeIds = new Set(VALE_CATCHES);
     const preexisting = new Set(meta.inventory.map((s) => s.itemId)); // starter rations etc.

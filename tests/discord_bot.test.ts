@@ -433,7 +433,7 @@ describe('relay (in-game "!" community posts)', () => {
     level: 12,
     className: 'Hunter',
     realm: 'Claudemoon',
-    zone: 'Eastbrook Vale',
+    zone: 'Lightfall Valley',
     message: 'need a healer for Cragmaw Crypt',
     profileUrl: 'https://woc.test/c/Aldric',
     discordUserId: '123',
@@ -475,7 +475,7 @@ describe('relay (in-game "!" community posts)', () => {
     expect(embed.description).toBe('need a healer for Cragmaw Crypt');
     expect(embed.fields).toEqual([
       { name: 'Character', value: 'Aldric - Level 12 Hunter', inline: true },
-      { name: 'Location', value: 'Eastbrook Vale (Claudemoon)', inline: true },
+      { name: 'Location', value: 'Lightfall Valley (Claudemoon)', inline: true },
     ]);
     const button = msg.components[0].components[0];
     expect(button.style).toBe(5); // link button

@@ -364,7 +364,7 @@ describe('i18n Localization Key Coverage', () => {
     buyer: 'Mira',
     channel: 'World',
     classes: 'Warrior, Mage',
-    className: 'Mage',
+    className: 'Wizard',
     command: '/dance',
     completed: 12,
     count: 5,
@@ -533,7 +533,7 @@ describe('i18n Localization Key Coverage', () => {
         kind: 'npc',
         id: entry.id,
         field: entry.field as 'name' | 'title' | 'greeting',
-        values: { className: 'Mage', classNameLower: 'mage', playerName: 'Mira' },
+        values: { className: 'Wizard', classNameLower: 'mage', playerName: 'Mira' },
       };
     }
     if (entry.kind === 'quest') {
@@ -610,9 +610,9 @@ describe('i18n Localization Key Coverage', () => {
       .replace(/[“”]/g, '"')
       .replace(/[‘’]/g, "'")
       .replace(/\$N/g, 'Mira')
-      .replace(/\$C/g, 'Mage')
+      .replace(/\$C/g, 'Wizard')
       .replace(/\{playerName\}/g, 'Mira')
-      .replace(/\{className\}/g, 'Mage')
+      .replace(/\{className\}/g, 'Wizard')
       .replace(/\{classNameLower\}/g, 'mage')
       .replace(/\s+/g, ' ')
       .trim()

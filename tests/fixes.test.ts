@@ -37,7 +37,7 @@ describe('quest lifecycle', () => {
     const starterZone = zoneAt(sim.player.pos.x, sim.player.pos.z);
 
     expect(zoneWelcomeText(starterZone, (questId) => sim.questState(questId))).toBe(
-      'Find Marshal Redbrook in town - he has work for you.',
+      'Find Dispatcher Elowen in town - all work in the valley is routed through her board.',
     );
 
     const redbrook = [...sim.entities.values()].find((e) => e.templateId === 'marshal_redbrook')!;

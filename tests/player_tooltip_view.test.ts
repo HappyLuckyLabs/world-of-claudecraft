@@ -16,7 +16,7 @@ const deps: PlayerTooltipI18n = { t: fakeT, fmt: fakeFmt };
 
 const model = (over: Partial<PlayerTooltipModel> = {}): PlayerTooltipModel => ({
   name: 'Aldwin',
-  classLabel: 'Mage',
+  classLabel: 'Wizard',
   classColor: '#33c1f1',
   level: 12,
   ...over,

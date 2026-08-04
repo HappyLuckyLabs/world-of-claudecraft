@@ -521,7 +521,7 @@ describe('ip_scrub - verbatim-WoW denylist scanner (G0)', () => {
       'Nythraxis',
       'Korzul the Gravewyrm',
       'Voskar the Emberwing',
-      'Eastbrook Vale',
+      'Lightfall Valley',
       'Mirefen Marsh',
       'Thornpeak Heights',
       'Reaver Strike',

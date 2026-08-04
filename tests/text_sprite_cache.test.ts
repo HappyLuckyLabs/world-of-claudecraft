@@ -522,14 +522,14 @@ describe('text_sprite_cache: the bound and its eviction', () => {
     const cache = new TextSpriteCache();
     const ctx = targetContext(trace);
 
-    cache.draw(ctx, 'Eastbrook Vale', 0, 0, OUTLINED);
+    cache.draw(ctx, 'Lightfall Valley', 0, 0, OUTLINED);
     cache.draw(ctx, 'The Hollow Crypt', 0, 0, OUTLINED);
     expect(cache.size).toBe(2);
 
     cache.clear();
     expect(cache.size).toBe(0);
     // And the next draw genuinely re-rasterizes rather than serving a stale hit.
-    cache.draw(ctx, 'Eastbrook Vale', 0, 0, OUTLINED);
+    cache.draw(ctx, 'Lightfall Valley', 0, 0, OUTLINED);
     expect(trace.sprites).toHaveLength(3);
   });
 
@@ -615,10 +615,10 @@ describe('text_sprite_cache: the sprite box never clips its own label', () => {
     installDocument(trace);
     const cache = new TextSpriteCache();
 
-    cache.draw(targetContext(trace), 'Eastbrook Vale', 100, 50, OUTLINED);
+    cache.draw(targetContext(trace), 'Lightfall Valley', 100, 50, OUTLINED);
 
     expect(trace.sprites[0].measured).toEqual([
-      'bold 12px Georgia|center|alphabetic|Eastbrook Vale',
+      'bold 12px Georgia|center|alphabetic|Lightfall Valley',
     ]);
   });
 
@@ -629,7 +629,7 @@ describe('text_sprite_cache: the sprite box never clips its own label', () => {
       installDocument(trace);
       const cache = new TextSpriteCache();
 
-      cache.draw(targetContext(trace), 'Eastbrook Vale', 100, 50, OUTLINED);
+      cache.draw(targetContext(trace), 'Lightfall Valley', 100, 50, OUTLINED);
 
       // 14 characters at 12px measure 84 wide, so a centered draw needs 42px of
       // sprite to the left of the anchor plus the outline padding.

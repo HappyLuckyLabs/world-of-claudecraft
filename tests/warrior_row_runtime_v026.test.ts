@@ -277,9 +277,9 @@ describe('v0.26 winning Warrior authored row and mastery runtime', () => {
 
   it('Sanguine Aura buffs only the caster and melee party members with one composite aura', () => {
     const sim = harness(new Sim({ seed: 2627, playerClass: 'warrior', noPlayer: true }));
-    const warrior = sim.addPlayer('warrior', 'Warrior');
+    const warrior = sim.addPlayer('warrior', 'Fighter');
     const paladin = sim.addPlayer('paladin', 'Paladin');
-    const mage = sim.addPlayer('mage', 'Mage');
+    const mage = sim.addPlayer('mage', 'Wizard');
     for (const pid of [warrior, paladin, mage]) sim.setPlayerLevel(20, pid);
     sim.partyInvite(paladin, warrior);
     sim.partyAccept(paladin);

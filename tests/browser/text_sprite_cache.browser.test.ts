@@ -64,7 +64,7 @@ const ANCHOR_Y = 120;
 // additionally reports an ascent under the em box, which is what the sprite's
 // union with the em box covers.
 const SAMPLES = [
-  'Eastbrook Vale',
+  'Lightfall Valley',
   'The Hollow Crypt',
   '\u041a\u0440\u0435\u043f\u043e\u0441\u0442\u044c \u0412\u043e\u0440\u043e\u043d\u0430',
   '\u9ed2\u77f3\u306e\u57ce',

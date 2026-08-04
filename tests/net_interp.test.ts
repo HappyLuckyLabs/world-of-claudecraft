@@ -120,7 +120,7 @@ describe('ClientWorld gap-resume continuity', () => {
     };
     const mob = (x: number, full = false) => ({
       id: 2,
-      ...(full ? { k: 'mob', tid: 'forest_wolf', nm: 'Forest Wolf', lv: 5 } : {}),
+      ...(full ? { k: 'mob', tid: 'forest_wolf', nm: 'Glitch Sprite', lv: 5 } : {}),
       x,
       y: 0,
       z: 3,
@@ -197,7 +197,7 @@ describe('ClientWorld prevFacing basis', () => {
     };
     const mob = (f: number, full = false) => ({
       id: 2,
-      ...(full ? { k: 'mob', tid: 'forest_wolf', nm: 'Forest Wolf', lv: 5 } : {}),
+      ...(full ? { k: 'mob', tid: 'forest_wolf', nm: 'Glitch Sprite', lv: 5 } : {}),
       x: 3,
       y: 0,
       z: 3,

@@ -9,7 +9,7 @@ describe('admin location display', () => {
       location: {
         kind: 'overworld',
         zoneId: 'eastbrook_vale',
-        zone: 'Eastbrook Vale',
+        zone: 'Lightfall Valley',
         instanceId: null,
         instance: null,
         instanceSlot: null,
@@ -21,7 +21,7 @@ describe('admin location display', () => {
 
     expect(display.primary).toBe('Bandit Camp');
     expect(display.secondary).toBe('76, -76');
-    expect(display.details).toContain('Zone: Eastbrook Vale');
+    expect(display.details).toContain('Zone: Lightfall Valley');
     expect(display.details).toContain('Nearest landmark: Bandit Camp');
     expect(display.details).toContain('Distance: 4 yd');
   });
@@ -33,7 +33,7 @@ describe('admin location display', () => {
       location: {
         kind: 'dungeon',
         zoneId: 'eastbrook_vale',
-        zone: 'Eastbrook Vale',
+        zone: 'Lightfall Valley',
         instanceId: 'hollow_crypt',
         instance: 'The Hollow Crypt',
         instanceSlot: 2,

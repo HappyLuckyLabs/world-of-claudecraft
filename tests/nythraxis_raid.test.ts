@@ -2724,7 +2724,7 @@ describe('Nythraxis raid encounter', () => {
   it('does not allow dueling inside the Nythraxis boss arena', () => {
     const sim = makeWorld();
     const a = sim.addPlayer('warrior', 'Tank');
-    const b = sim.addPlayer('mage', 'Mage');
+    const b = sim.addPlayer('mage', 'Wizard');
     attune(sim, a);
     attune(sim, b);
     sim.partyInvite(b, a);
