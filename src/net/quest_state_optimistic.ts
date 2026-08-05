@@ -21,6 +21,7 @@
 // `pendingQuestCommands` (see `ClientWorld.applySnapshot`); the server still
 // authoritatively resolves the turn-in itself.
 import type { ArchetypeState } from '../sim/professions/archetype';
+import type { RingPath } from '../sim/types';
 import { computeQuestState } from '../sim/sim';
 import type { QuestProgress, QuestState } from '../sim/types';
 
@@ -33,6 +34,7 @@ export function optimisticQuestState(
   professionState?: ArchetypeState,
   // The server-computed work-order cooldown set, mirrored via cprof.
   withinCadence?: ReadonlySet<string>,
+  ringPath?: RingPath | null,
 ): QuestState {
   let effectiveDone = questsDone;
   if (pendingQuestCommands.size > 0) {
@@ -50,6 +52,7 @@ export function optimisticQuestState(
     playerLevel,
     professionState,
     withinCadence,
+    ringPath,
   );
   const pending = pendingQuestCommands.get(questId);
   if (

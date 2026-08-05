@@ -116,6 +116,7 @@ export function questState(ctx: SimContext, questId: string, pid?: number): Ques
     r.e.level,
     r.meta.archetype,
     withinCadence,
+    r.meta.ringPath,
   );
 }
 

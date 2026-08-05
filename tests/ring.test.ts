@@ -4,6 +4,7 @@
 // and the ring deliberately is not.
 
 import { describe, expect, it } from 'vitest';
+import { computeQuestState } from '../src/sim/quests/quest_commands';
 import {
   attuneRing,
   canAttuneRing,
@@ -59,5 +60,31 @@ describe('ring attunement', () => {
       expect(attuneRing(meta, bogus)).toBe(false);
       expect(meta.ringPath).toBeNull();
     }
+  });
+});
+
+describe('the attunement quest is offered exactly once', () => {
+  // The gate lives in computeQuestState so BOTH hosts share it: the offline Sim
+  // passes live PlayerMeta.ringPath, the online client passes its cprof mirror.
+  const done = new Set(['q_spire_reading']);
+
+  it('is available to an unattuned character who finished the reading', () => {
+    expect(
+      computeQuestState('q_spire_attunement', new Map(), done, 20, undefined, undefined, null),
+    ).toBe('available');
+  });
+
+  it('is unavailable once the ring has settled, whatever the path', () => {
+    for (const path of RING_PATHS) {
+      expect(
+        computeQuestState('q_spire_attunement', new Map(), done, 20, undefined, undefined, path),
+      ).toBe('unavailable');
+    }
+  });
+
+  it('still needs the reading first', () => {
+    expect(
+      computeQuestState('q_spire_attunement', new Map(), new Set(), 20, undefined, undefined, null),
+    ).toBe('unavailable');
   });
 });

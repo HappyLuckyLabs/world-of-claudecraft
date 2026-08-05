@@ -3373,6 +3373,7 @@ const ALL_DELTA_KEYS = [
   'qdone',
   'qlog',
   'renown',
+  'ringPath',
   'salv',
   'sport',
   'stats',
@@ -3535,6 +3536,7 @@ function dirtyEveryDeltaField(): {
   };
   meta.questLog.set('q_widows', { questId: 'q_widows', counts: [10, 0], state: 'active' });
   meta.questsDone.add('q_wolves');
+  meta.ringPath = 'restore';
   meta.raidLockouts.set('nythraxis_boss_arena', FAR_FUTURE_MS);
   meta.unlockedMilestones.add('milestone_test');
   meta.lifetimeXp = 555;
@@ -4158,9 +4160,9 @@ describe('gather node cooldown wire round trip (ncd)', () => {
 });
 
 describe('delta-key contract pins (anti-drift)', () => {
-  it('ALL_DELTA_KEYS contains exactly 62 unique keys in sorted order', () => {
-    expect(ALL_DELTA_KEYS).toHaveLength(62);
-    expect(new Set(ALL_DELTA_KEYS).size).toBe(62);
+  it('ALL_DELTA_KEYS contains exactly 63 unique keys in sorted order', () => {
+    expect(ALL_DELTA_KEYS).toHaveLength(63);
+    expect(new Set(ALL_DELTA_KEYS).size).toBe(63);
     expect([...ALL_DELTA_KEYS]).toEqual([...ALL_DELTA_KEYS].sort());
   });
 
@@ -4181,8 +4183,9 @@ describe('delta-key contract pins (anti-drift)', () => {
     expect(scraped.has('dfb')).toBe(true); // incl. the multi-line maybeRaw('dfb', ...) form
     // The base-merge union: v0.31's 56 (incl. the market-collect key mktU) plus
     // the Rift + mounts and worn-instance keys (einst, mntRtd and the rift
-    // snapshot fragments) for 61, then v0.32's master-loot key mloot for 62.
-    expect(scraped.size).toBe(62);
+    // snapshot fragments) for 61, then v0.32's master-loot key mloot for 62,
+    // then the ring attunement mirror (ringPath) for 63.
+    expect(scraped.size).toBe(63);
     expect([...scraped].sort()).toEqual([...ALL_DELTA_KEYS].sort());
   });
 

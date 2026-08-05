@@ -11,7 +11,6 @@ import {
 } from '../../../sim/types';
 import type { IWorld } from '../../../world_api';
 import { archetypeTitleText, craftNameText } from '../../char_window';
-import { ringPathNameText, ringPathPreviewText } from '../../ring_text';
 import { decorativeArtImg } from '../../decorative_art';
 import { markDialogRoot } from '../../dialog_root';
 import { itemDisplayName } from '../../entity_i18n';
@@ -21,6 +20,7 @@ import { t } from '../../i18n';
 import { QUALITY_COLOR } from '../../icons';
 import { archetypeImageUrl } from '../../profession_art';
 import { buildAttunementPreview } from '../../profession_identity_view';
+import { ringPathNameText, ringPathPreviewText } from '../../ring_text';
 import { svgIcon } from '../../ui_icons';
 import { isStationMasterNpc } from '../vendor/train_view';
 import { gossipMenuIsEmpty } from './gossip_menu';

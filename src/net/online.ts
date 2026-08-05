@@ -65,6 +65,7 @@ import {
   type PlayerClass,
   type QuestProgress,
   type QuestState,
+  type RingPath,
   type RiftTier,
   type RiteIntensity,
   type SimEvent,
@@ -1408,6 +1409,9 @@ export class ClientWorld implements IWorld {
   activeLoadout = -1;
   questLog = new Map<string, QuestProgress>();
   questsDone = new Set<string>();
+  // The ring attunement mirror; gates the attunement quest exactly as the
+  // offline Sim does from live PlayerMeta.
+  ringPath: RingPath | null = null;
   // --- IWorldParty: party/raid roster, mirrored from the snapshot self (`party`).
   // The raid-target markers ride the `markers` map below; IWorldPet keeps no mirror
   // field (pet state lives on the owned-mob entity wire). ---
@@ -3035,6 +3039,7 @@ export class ClientWorld implements IWorld {
       if (s.qlog !== undefined)
         this.questLog = new Map((s.qlog as QuestProgress[]).map((q) => [q.questId, q]));
       if (s.qdone !== undefined) this.questsDone = new Set(s.qdone);
+      if (s.ringPath !== undefined) this.ringPath = s.ringPath;
       if (s.lockouts !== undefined) this.selfLockouts = s.lockouts as Record<string, number>;
       // IWorldMounts self-decode: mntOwn is delta-guarded (omitted keeps the prior
       // mirror). The owned collection is mirrored VERBATIM (no horse prepend): the
@@ -3296,6 +3301,7 @@ export class ClientWorld implements IWorld {
           }
         : undefined,
       cadenceBlocked,
+      this.ringPath,
     );
   }
 
