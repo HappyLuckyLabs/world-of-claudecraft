@@ -11135,4 +11135,17 @@ export const de_DE: Partial<Record<TranslationKey, string>> = {
   'entities.quests.q_spire_reading.objectives.0.label': 'Witwenseide genommen',
   'entities.quests.q_spire_reading.objectives.1.label': 'Sumpfblasenfett ausgelassen',
   'entities.zones.mirefen_marsh.pois.8.label': 'Die Spitze der Deutung',
+  'hudChrome.ring.path.restore': 'Wiederherstellen',
+  'hudChrome.ring.path.merge': 'Verschmelzen',
+  'hudChrome.ring.path.chaos': 'Chaos',
+  'hudChrome.ring.preview.restore': 'Der Ring gibt zurueck, was genommen wird.',
+  'hudChrome.ring.preview.merge': 'Der Ring behaelt, was er nimmt.',
+  'hudChrome.ring.preview.chaos':
+    'Der Ring entscheidet. Niemand ist auf den Gedanken gekommen, ihn nach dem Grund zu fragen.',
+  'hudChrome.ring.permanent': 'Dies kann nicht rueckgaengig gemacht werden.',
+  'entities.quests.q_spire_attunement.title': 'Was der Ring sein wird',
+  'entities.quests.q_spire_attunement.text':
+    'Ich kann dir nicht sagen, was dein Ring ist, {playerName}. Ich kann dir sagen, dass er zuhoert und darauf gewartet hat, dass man es ihm sagt. Also sag es ihm. Waehle und halte die Wahl: wiederherstellen, und er gibt zurueck, was genommen wird; verschmelzen, und er behaelt, was er nimmt; oder ueberlass die Wahl dem Ring selbst und sieh, was er aus dir macht. Ich werde das nicht rueckgaengig machen koennen. Du auch nicht.',
+  'entities.quests.q_spire_attunement.completion':
+    'Es hat sich gesetzt. Was immer er war, bevor du den Damm heraufkamst, das ist er nun nicht mehr. Geh vorsichtig, {playerName}. Er kennt jetzt deinen Namen, und ich habe ihn ihm nicht genannt.',
 };

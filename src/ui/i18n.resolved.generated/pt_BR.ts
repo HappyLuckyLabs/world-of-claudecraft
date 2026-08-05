@@ -2528,6 +2528,19 @@ export const pt_BR: EnTranslations = {
       "pairsHeld": "Pares mantidos: {count}",
       "returnsLabel": "Retorna: {count}"
     },
+    "ring": {
+      "path": {
+        "restore": "Restaurar",
+        "merge": "Fundir",
+        "chaos": "Caos"
+      },
+      "preview": {
+        "restore": "O anel devolve o que e tomado.",
+        "merge": "O anel fica com o que toma.",
+        "chaos": "O anel decide. Ninguem pensou em perguntar por que."
+      },
+      "permanent": "Isto nao pode ser desfeito."
+    },
     "crafting": {
       "title": "Artesanato",
       "close": "Fechar elaboração",
@@ -11769,6 +11782,12 @@ export const pt_BR: EnTranslations = {
             "label": "Gordura de inchado derretida"
           }
         }
+      },
+      "q_spire_attunement": {
+        "title": "O que o anel sera",
+        "text": "Nao posso lhe dizer o que e o seu anel, {playerName}. Posso dizer que ele escuta, e que estava esperando que lhe dissessem. Entao diga. Escolha, e mantenha a escolha: restaurar, e ele devolve o que e tomado; fundir, e ele fica com o que toma; ou deixe a escolha para o proprio anel e veja o que ele fara de voce. Nao poderei desfazer isso. Nem voce.",
+        "completion": "Assentou. O que quer que fosse antes de voce subir a calcada, nao e mais. Va com cuidado, {playerName}. Ele sabe o seu nome agora, e nao fui eu quem contou.",
+        "objectives": {}
       },
       "q_tokens_alignment": {
         "title": "Fichas de Alinhamento",

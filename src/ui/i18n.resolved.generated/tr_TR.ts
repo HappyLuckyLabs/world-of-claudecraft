@@ -2528,6 +2528,19 @@ export const tr_TR: EnTranslations = {
       "pairsHeld": "Düzenlenen çiftler: {count}",
       "returnsLabel": "İade: {count}"
     },
+    "ring": {
+      "path": {
+        "restore": "Onarma",
+        "merge": "Birlesme",
+        "chaos": "Kaos"
+      },
+      "preview": {
+        "restore": "Yuzuk alinani geri verir.",
+        "merge": "Yuzuk aldigini kendinde tutar.",
+        "chaos": "Yuzuk karar verir. Kimsenin aklina nedenini sormak gelmemistir."
+      },
+      "permanent": "Bu geri alinamaz."
+    },
     "crafting": {
       "title": "işçiliği",
       "close": "İşçiliği kapat",
@@ -11769,6 +11782,12 @@ export const tr_TR: EnTranslations = {
             "label": "Sisme donyagi eritildi"
           }
         }
+      },
+      "q_spire_attunement": {
+        "title": "Yuzuk ne olacak",
+        "text": "Yuzugunun ne oldugunu sana soyleyemem, {playerName}. Soyleyebilecegim su: o dinliyor ve kendisine soylenmesini bekliyordu. Oyleyse soyle ona. Sec ve secimine sadik kal: onarma dersen alinani geri verir; birlesme dersen aldigini kendinde tutar; ya da secimi yuzugun kendisine birak ve seni neye donusturdugunu gor. Bunu geri alamayacagim. Sen de alamayacaksin.",
+        "completion": "Yerlesti. Sen setten yukari cikmadan once neyse, artik o degil. Dikkatli git, {playerName}. Artik adini biliyor ve ona ben soylemedim.",
+        "objectives": {}
       },
       "q_tokens_alignment": {
         "title": "Hizalanma Nisanlari",

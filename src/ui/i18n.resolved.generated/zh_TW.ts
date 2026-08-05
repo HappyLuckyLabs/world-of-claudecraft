@@ -2528,6 +2528,19 @@ export const zh_TW: EnTranslations = {
       "pairsHeld": "已持有組合：{count}",
       "returnsLabel": "回歸：{count}"
     },
+    "ring": {
+      "path": {
+        "restore": "修復",
+        "merge": "融合",
+        "chaos": "混沌"
+      },
+      "preview": {
+        "restore": "指環歸還被奪走的東西。",
+        "merge": "指環留下它奪走的東西。",
+        "chaos": "指環自行決定。從沒有人想過去問它為什麼。"
+      },
+      "permanent": "此舉無法撤銷。"
+    },
     "crafting": {
       "title": "製作",
       "close": "關閉製作",
@@ -11769,6 +11782,12 @@ export const zh_TW: EnTranslations = {
             "label": "已煉出沼泡脂"
           }
         }
+      },
+      "q_spire_attunement": {
+        "title": "指環將成為什麼",
+        "text": "我說不出你的指環是什麼，{playerName}。我只能告訴你：它在聽，而且一直在等人告訴它。那就告訴它吧。做出選擇，並守住這個選擇：修復，它便歸還被奪走的東西；融合，它便留下它奪走的東西；或者把選擇權交給指環自己，看看它會把你變成什麼。我無法撤銷此事。你也不能。",
+        "completion": "它定下來了。在你沿堤道走上來之前它是什麼，如今都不再是了。走路小心些，{playerName}。它現在知道你的名字了，而不是我告訴它的。",
+        "objectives": {}
       },
       "q_tokens_alignment": {
         "title": "對齊代幣",

@@ -2528,6 +2528,19 @@ export const ko_KR: EnTranslations = {
       "pairsHeld": "보유한 조합: {count}",
       "returnsLabel": "복귀: {count}"
     },
+    "ring": {
+      "path": {
+        "restore": "복원",
+        "merge": "융합",
+        "chaos": "혼돈"
+      },
+      "preview": {
+        "restore": "반지는 빼앗긴 것을 돌려준다.",
+        "merge": "반지는 빼앗은 것을 그대로 간직한다.",
+        "chaos": "반지가 결정한다. 그 이유를 물어볼 생각을 한 사람은 없다."
+      },
+      "permanent": "이것은 되돌릴 수 없다."
+    },
     "crafting": {
       "title": "제작",
       "close": "제작 닫기",
@@ -11769,6 +11782,12 @@ export const ko_KR: EnTranslations = {
             "label": "수렁부푸리 기름 정제"
           }
         }
+      },
+      "q_spire_attunement": {
+        "title": "반지가 무엇이 될 것인가",
+        "text": "그대의 반지가 무엇인지는 말해줄 수 없소, {playerName}. 다만 그것이 듣고 있다는 것, 그리고 누군가 말해주기를 기다려 왔다는 것은 말할 수 있소. 그러니 말해주시오. 선택하고, 그 선택을 지키시오. 복원이면 빼앗긴 것을 돌려주고, 융합이면 빼앗은 것을 간직하오. 아니면 선택을 반지 자신에게 맡기고, 그것이 그대를 무엇으로 만드는지 지켜보시오. 나는 이것을 되돌릴 수 없소. 그대도 마찬가지요.",
+        "completion": "정해졌소. 그대가 둑길을 올라오기 전에 무엇이었든, 이제는 그것이 아니오. 조심히 가시오, {playerName}. 이제 그것은 그대의 이름을 아오. 내가 알려준 것이 아니오.",
+        "objectives": {}
       },
       "q_tokens_alignment": {
         "title": "정렬의 징표",

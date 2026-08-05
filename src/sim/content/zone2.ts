@@ -612,7 +612,7 @@ export const ZONE2_NPCS: Record<string, NpcDef> = {
     pos: { x: 66, z: 232 },
     facing: -2.2,
     color: 0x6f5bd0,
-    questIds: ['q_spire_summons', 'q_spire_reading'],
+    questIds: ['q_spire_summons', 'q_spire_reading', 'q_spire_attunement'],
     greeting:
       'The Corpus holds nine thousand volumes, {className}. I have read every one. Ask me anything: I will very likely be wrong.',
   },
@@ -770,6 +770,21 @@ export const ZONE2_NPCS: Record<string, NpcDef> = {
 // ---------------------------------------------------------------------------
 
 export const ZONE2_QUESTS: Record<string, QuestDef> = {
+  q_spire_attunement: {
+    id: 'q_spire_attunement',
+    name: 'What the Ring Will Be',
+    giverNpcId: 'archmage_corvane',
+    turnInNpcId: 'archmage_corvane',
+    text: 'I cannot tell you what your ring is, {playerName}. I can tell you that it is listening, and that it has been waiting to be told. So tell it. Choose, and hold the choice: restore, and it gives back what is taken; merge, and it keeps what it takes; or leave the choosing to the ring itself, and see what it makes of you. I will not be able to undo this. Neither will you.',
+    completionText:
+      'It has settled. Whatever it was before you came up the causeway, it is that no longer. Go carefully, {playerName}. It knows your name now, and I did not tell it.',
+    objectives: [],
+    xpReward: 1200,
+    copperReward: 500,
+    itemRewards: {},
+    requiresQuest: 'q_spire_reading',
+    completionEffect: { type: 'attuneRing' },
+  },
   q_spire_summons: {
     id: 'q_spire_summons',
     name: 'A Reading of the Ring',
@@ -1251,6 +1266,7 @@ export const ZONE2_QUESTS: Record<string, QuestDef> = {
 export const ZONE2_QUEST_ORDER = [
   'q_spire_summons',
   'q_spire_reading',
+  'q_spire_attunement',
   'q_fenbridge_muster',
   'q_prowlers',
   'q_prowler_pelts',

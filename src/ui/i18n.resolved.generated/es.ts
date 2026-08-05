@@ -2528,6 +2528,19 @@ export const es: EnTranslations = {
       "pairsHeld": "Pares mantenidos: {count}",
       "returnsLabel": "Devuelve: {count}"
     },
+    "ring": {
+      "path": {
+        "restore": "Restaurar",
+        "merge": "Fundir",
+        "chaos": "Caos"
+      },
+      "preview": {
+        "restore": "El anillo devuelve lo que se toma.",
+        "merge": "El anillo se queda con lo que toma.",
+        "chaos": "El anillo decide. A nadie se le ha ocurrido preguntarle por que."
+      },
+      "permanent": "Esto no se puede deshacer."
+    },
     "crafting": {
       "title": "Elaboración",
       "close": "Cerrar elaboración",
@@ -11769,6 +11782,12 @@ export const es: EnTranslations = {
             "label": "Grasa de hinchado fundida"
           }
         }
+      },
+      "q_spire_attunement": {
+        "title": "Lo que el anillo sera",
+        "text": "No puedo decirte que es tu anillo, {playerName}. Puedo decirte que escucha, y que lleva tiempo esperando a que se lo digan. Asi que diselo. Elige, y manten la eleccion: restaurar, y devuelve lo que se toma; fundir, y se queda con lo que toma; o deja la eleccion al propio anillo y observa que hace contigo. No podre deshacerlo. Tu tampoco.",
+        "completion": "Se ha asentado. Fuera lo que fuese antes de que subieras por la calzada, ya no lo es. Ve con cuidado, {playerName}. Ahora sabe tu nombre, y yo no se lo he dicho.",
+        "objectives": {}
       },
       "q_tokens_alignment": {
         "title": "Fichas de Alineacion",

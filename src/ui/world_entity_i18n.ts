@@ -330,6 +330,7 @@ const NPC_IDS = [
 const QUEST_IDS = [
   'q_spire_summons',
   'q_spire_reading',
+  'q_spire_attunement',
   'q_tokens_alignment',
   'q_hallucinated_cache',
   'q_prof_intro',

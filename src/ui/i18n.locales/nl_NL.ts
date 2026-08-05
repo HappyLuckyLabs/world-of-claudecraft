@@ -11040,4 +11040,17 @@ export const nl_NL: Partial<Record<TranslationKey, string>> = {
   'entities.quests.q_spire_reading.objectives.0.label': 'Weduwzijde genomen',
   'entities.quests.q_spire_reading.objectives.1.label': 'Bultenvet uitgesmolten',
   'entities.zones.mirefen_marsh.pois.8.label': 'De Spits der Lezing',
+  'hudChrome.ring.path.restore': 'Herstellen',
+  'hudChrome.ring.path.merge': 'Versmelten',
+  'hudChrome.ring.path.chaos': 'Chaos',
+  'hudChrome.ring.preview.restore': 'De ring geeft terug wat genomen wordt.',
+  'hudChrome.ring.preview.merge': 'De ring houdt wat hij neemt.',
+  'hudChrome.ring.preview.chaos':
+    'De ring beslist. Niemand is op het idee gekomen hem te vragen waarom.',
+  'hudChrome.ring.permanent': 'Dit kan niet ongedaan worden gemaakt.',
+  'entities.quests.q_spire_attunement.title': 'Wat de ring zal zijn',
+  'entities.quests.q_spire_attunement.text':
+    'Ik kan je niet zeggen wat je ring is, {playerName}. Ik kan je zeggen dat hij luistert, en dat hij erop wachtte het te horen. Zeg het hem dus. Kies, en houd die keuze vast: herstellen, en hij geeft terug wat genomen wordt; versmelten, en hij houdt wat hij neemt; of laat de keuze aan de ring zelf en zie wat hij van je maakt. Ik zal dit niet ongedaan kunnen maken. Jij evenmin.',
+  'entities.quests.q_spire_attunement.completion':
+    'Het heeft zich gezet. Wat hij ook was voor je de dijkweg opkwam, dat is hij niet langer. Ga voorzichtig, {playerName}. Hij kent nu je naam, en ik heb het hem niet verteld.',
 };

@@ -10791,4 +10791,16 @@ export const ja_JP: Partial<Record<TranslationKey, string>> = {
   'entities.quests.q_spire_reading.objectives.0.label': '寡婦の糸を採取',
   'entities.quests.q_spire_reading.objectives.1.label': '沼ぶくれの脂を精製',
   'entities.zones.mirefen_marsh.pois.8.label': '読解の尖塔',
+  'hudChrome.ring.path.restore': '回復',
+  'hudChrome.ring.path.merge': '融合',
+  'hudChrome.ring.path.chaos': '混沌',
+  'hudChrome.ring.preview.restore': '指輪は奪われたものを返す。',
+  'hudChrome.ring.preview.merge': '指輪は奪ったものを手放さない。',
+  'hudChrome.ring.preview.chaos': '指輪が決める。理由を尋ねようと思った者はいない。',
+  'hudChrome.ring.permanent': 'これは取り消せない。',
+  'entities.quests.q_spire_attunement.title': '指輪が何になるか',
+  'entities.quests.q_spire_attunement.text':
+    '君の指輪が何であるかは言えない、{playerName}。言えるのは、それが聞いているということ、そして告げられるのを待っていたということだ。ならば告げなさい。選び、その選びを保ちなさい。回復を選べば奪われたものを返し、融合を選べば奪ったものを手放さない。あるいは選ぶことを指輪自身に委ね、それが君を何にするか見届けるがいい。私はこれを取り消せない。君にも取り消せない。',
+  'entities.quests.q_spire_attunement.completion':
+    '定まった。君が堤道を上ってくる前に何であったにせよ、もはやそれではない。気をつけて行きなさい、{playerName}。指輪は今や君の名を知っている。私が教えたのではない。',
 };

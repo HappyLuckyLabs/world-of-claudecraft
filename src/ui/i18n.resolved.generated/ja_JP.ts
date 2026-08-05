@@ -2528,6 +2528,19 @@ export const ja_JP: EnTranslations = {
       "pairsHeld": "保持している組み合わせ：{count}",
       "returnsLabel": "復帰：{count}"
     },
+    "ring": {
+      "path": {
+        "restore": "回復",
+        "merge": "融合",
+        "chaos": "混沌"
+      },
+      "preview": {
+        "restore": "指輪は奪われたものを返す。",
+        "merge": "指輪は奪ったものを手放さない。",
+        "chaos": "指輪が決める。理由を尋ねようと思った者はいない。"
+      },
+      "permanent": "これは取り消せない。"
+    },
     "crafting": {
       "title": "製作",
       "close": "製作を閉じる",
@@ -11769,6 +11782,12 @@ export const ja_JP: EnTranslations = {
             "label": "沼ぶくれの脂を精製"
           }
         }
+      },
+      "q_spire_attunement": {
+        "title": "指輪が何になるか",
+        "text": "君の指輪が何であるかは言えない、{playerName}。言えるのは、それが聞いているということ、そして告げられるのを待っていたということだ。ならば告げなさい。選び、その選びを保ちなさい。回復を選べば奪われたものを返し、融合を選べば奪ったものを手放さない。あるいは選ぶことを指輪自身に委ね、それが君を何にするか見届けるがいい。私はこれを取り消せない。君にも取り消せない。",
+        "completion": "定まった。君が堤道を上ってくる前に何であったにせよ、もはやそれではない。気をつけて行きなさい、{playerName}。指輪は今や君の名を知っている。私が教えたのではない。",
+        "objectives": {}
       },
       "q_tokens_alignment": {
         "title": "アラインメントの代価",

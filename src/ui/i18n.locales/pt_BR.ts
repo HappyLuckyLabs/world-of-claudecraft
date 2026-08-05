@@ -11051,4 +11051,16 @@ export const pt_BR: Partial<Record<TranslationKey, string>> = {
   'entities.quests.q_spire_reading.objectives.0.label': 'Seda de viuva recolhida',
   'entities.quests.q_spire_reading.objectives.1.label': 'Gordura de inchado derretida',
   'entities.zones.mirefen_marsh.pois.8.label': 'A Agulha da Leitura',
+  'hudChrome.ring.path.restore': 'Restaurar',
+  'hudChrome.ring.path.merge': 'Fundir',
+  'hudChrome.ring.path.chaos': 'Caos',
+  'hudChrome.ring.preview.restore': 'O anel devolve o que e tomado.',
+  'hudChrome.ring.preview.merge': 'O anel fica com o que toma.',
+  'hudChrome.ring.preview.chaos': 'O anel decide. Ninguem pensou em perguntar por que.',
+  'hudChrome.ring.permanent': 'Isto nao pode ser desfeito.',
+  'entities.quests.q_spire_attunement.title': 'O que o anel sera',
+  'entities.quests.q_spire_attunement.text':
+    'Nao posso lhe dizer o que e o seu anel, {playerName}. Posso dizer que ele escuta, e que estava esperando que lhe dissessem. Entao diga. Escolha, e mantenha a escolha: restaurar, e ele devolve o que e tomado; fundir, e ele fica com o que toma; ou deixe a escolha para o proprio anel e veja o que ele fara de voce. Nao poderei desfazer isso. Nem voce.',
+  'entities.quests.q_spire_attunement.completion':
+    'Assentou. O que quer que fosse antes de voce subir a calcada, nao e mais. Va com cuidado, {playerName}. Ele sabe o seu nome agora, e nao fui eu quem contou.',
 };

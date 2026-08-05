@@ -11112,4 +11112,17 @@ export const es: Partial<Record<TranslationKey, string>> = {
   'entities.quests.q_spire_reading.objectives.0.label': 'Seda de viuda tomada',
   'entities.quests.q_spire_reading.objectives.1.label': 'Grasa de hinchado fundida',
   'entities.zones.mirefen_marsh.pois.8.label': 'La Aguja de la Lectura',
+  'hudChrome.ring.path.restore': 'Restaurar',
+  'hudChrome.ring.path.merge': 'Fundir',
+  'hudChrome.ring.path.chaos': 'Caos',
+  'hudChrome.ring.preview.restore': 'El anillo devuelve lo que se toma.',
+  'hudChrome.ring.preview.merge': 'El anillo se queda con lo que toma.',
+  'hudChrome.ring.preview.chaos':
+    'El anillo decide. A nadie se le ha ocurrido preguntarle por que.',
+  'hudChrome.ring.permanent': 'Esto no se puede deshacer.',
+  'entities.quests.q_spire_attunement.title': 'Lo que el anillo sera',
+  'entities.quests.q_spire_attunement.text':
+    'No puedo decirte que es tu anillo, {playerName}. Puedo decirte que escucha, y que lleva tiempo esperando a que se lo digan. Asi que diselo. Elige, y manten la eleccion: restaurar, y devuelve lo que se toma; fundir, y se queda con lo que toma; o deja la eleccion al propio anillo y observa que hace contigo. No podre deshacerlo. Tu tampoco.',
+  'entities.quests.q_spire_attunement.completion':
+    'Se ha asentado. Fuera lo que fuese antes de que subieras por la calzada, ya no lo es. Ve con cuidado, {playerName}. Ahora sabe tu nombre, y yo no se lo he dicho.',
 };

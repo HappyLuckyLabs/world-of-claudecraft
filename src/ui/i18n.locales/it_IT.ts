@@ -11102,4 +11102,17 @@ export const it_IT: Partial<Record<TranslationKey, string>> = {
   'entities.quests.q_spire_reading.objectives.0.label': 'Seta di vedova raccolta',
   'entities.quests.q_spire_reading.objectives.1.label': 'Grasso di gonfio fuso',
   'entities.zones.mirefen_marsh.pois.8.label': 'La Guglia della Lettura',
+  'hudChrome.ring.path.restore': 'Ripristinare',
+  'hudChrome.ring.path.merge': 'Fondere',
+  'hudChrome.ring.path.chaos': 'Caos',
+  'hudChrome.ring.preview.restore': "L'anello restituisce cio che viene preso.",
+  'hudChrome.ring.preview.merge': "L'anello tiene cio che prende.",
+  'hudChrome.ring.preview.chaos':
+    "L'anello decide. A nessuno e venuto in mente di chiedergli perche.",
+  'hudChrome.ring.permanent': 'Questo non puo essere annullato.',
+  'entities.quests.q_spire_attunement.title': "Cio che l'anello sara",
+  'entities.quests.q_spire_attunement.text':
+    "Non posso dirti cosa sia il tuo anello, {playerName}. Posso dirti che ascolta, e che aspettava di sentirselo dire. Quindi dirglielo. Scegli, e mantieni la scelta: ripristinare, e restituisce cio che viene preso; fondere, e tiene cio che prende; oppure lascia la scelta all'anello stesso e guarda cosa fa di te. Non potro annullarlo. Nemmeno tu.",
+  'entities.quests.q_spire_attunement.completion':
+    "Si e assestato. Qualunque cosa fosse prima che tu risalissi la strada rialzata, ora non lo e piu. Vai con cautela, {playerName}. Ora conosce il tuo nome, e non gliel'ho detto io.",
 };

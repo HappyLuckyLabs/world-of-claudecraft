@@ -2528,6 +2528,19 @@ export const pl_PL: EnTranslations = {
       "pairsHeld": "Posiadane pary: {count}",
       "returnsLabel": "Zwroty: {count}"
     },
+    "ring": {
+      "path": {
+        "restore": "Przywrocenie",
+        "merge": "Scalenie",
+        "chaos": "Chaos"
+      },
+      "preview": {
+        "restore": "Pierscien oddaje to, co zostalo zabrane.",
+        "merge": "Pierscien zatrzymuje to, co zabierze.",
+        "chaos": "Pierscien decyduje. Nikomu nie przyszlo do glowy go zapytac dlaczego."
+      },
+      "permanent": "Tego nie da sie cofnac."
+    },
     "crafting": {
       "title": "Rzemiosło",
       "close": "Zamknij rzemiosło",
@@ -11769,6 +11782,12 @@ export const pl_PL: EnTranslations = {
             "label": "Tluszcz wzdec wytopiony"
           }
         }
+      },
+      "q_spire_attunement": {
+        "title": "Czym stanie sie pierscien",
+        "text": "Nie moge ci powiedziec, czym jest twoj pierscien, {playerName}. Moge ci powiedziec, ze slucha i ze czekal, az mu sie to powie. Wiec powiedz. Wybierz i trzymaj sie wyboru: przywrocenie, a odda to, co zostalo zabrane; scalenie, a zatrzyma to, co zabierze; albo pozostaw wybor samemu pierscieniowi i zobacz, co z ciebie zrobi. Nie bede mogl tego cofnac. Ty rowniez nie.",
+        "completion": "Ustalilo sie. Czymkolwiek byl, zanim wszedles grobla, juz tym nie jest. Idz ostroznie, {playerName}. Zna teraz twoje imie, a to nie ja mu je podalem.",
+        "objectives": {}
       },
       "q_tokens_alignment": {
         "title": "Znaki Wyrownania",

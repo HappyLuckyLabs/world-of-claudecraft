@@ -10306,4 +10306,16 @@ export const zh_CN: Partial<Record<TranslationKey, string>> = {
   'entities.quests.q_spire_reading.objectives.0.label': '已取得寡妇丝',
   'entities.quests.q_spire_reading.objectives.1.label': '已炼出沼泡脂',
   'entities.zones.mirefen_marsh.pois.8.label': '解读尖塔',
+  'hudChrome.ring.path.restore': '修复',
+  'hudChrome.ring.path.merge': '融合',
+  'hudChrome.ring.path.chaos': '混沌',
+  'hudChrome.ring.preview.restore': '指环归还被夺走的东西。',
+  'hudChrome.ring.preview.merge': '指环留下它夺走的东西。',
+  'hudChrome.ring.preview.chaos': '指环自行决定。从没有人想过去问它为什么。',
+  'hudChrome.ring.permanent': '此举无法撤销。',
+  'entities.quests.q_spire_attunement.title': '指环将成为什么',
+  'entities.quests.q_spire_attunement.text':
+    '我说不出你的指环是什么，{playerName}。我只能告诉你：它在听，而且一直在等人告诉它。那就告诉它吧。做出选择，并守住这个选择：修复，它便归还被夺走的东西；融合，它便留下它夺走的东西；或者把选择权交给指环自己，看看它会把你变成什么。我无法撤销此事。你也不能。',
+  'entities.quests.q_spire_attunement.completion':
+    '它定下来了。在你沿堤道走上来之前它是什么，如今都不再是了。走路小心些，{playerName}。它现在知道你的名字了，而不是我告诉它的。',
 };

@@ -2528,6 +2528,19 @@ export const en: EnTranslations = {
       "pairsHeld": "Pairs held: {count}",
       "returnsLabel": "Returns: {count}"
     },
+    "ring": {
+      "path": {
+        "restore": "Restore",
+        "merge": "Merge",
+        "chaos": "Chaos"
+      },
+      "preview": {
+        "restore": "The ring gives back what is taken.",
+        "merge": "The ring keeps what it takes.",
+        "chaos": "The ring decides. No one has thought to ask it why."
+      },
+      "permanent": "This cannot be undone."
+    },
     "crafting": {
       "title": "Crafting",
       "close": "Close crafting",
@@ -11769,6 +11782,12 @@ export const en: EnTranslations = {
             "label": "Bog Bloat fat rendered"
           }
         }
+      },
+      "q_spire_attunement": {
+        "title": "What the Ring Will Be",
+        "text": "I cannot tell you what your ring is, {playerName}. I can tell you that it is listening, and that it has been waiting to be told. So tell it. Choose, and hold the choice: restore, and it gives back what is taken; merge, and it keeps what it takes; or leave the choosing to the ring itself, and see what it makes of you. I will not be able to undo this. Neither will you.",
+        "completion": "It has settled. Whatever it was before you came up the causeway, it is that no longer. Go carefully, {playerName}. It knows your name now, and I did not tell it.",
+        "objectives": {}
       },
       "q_tokens_alignment": {
         "title": "Tokens of Alignment",

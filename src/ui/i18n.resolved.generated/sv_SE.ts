@@ -2528,6 +2528,19 @@ export const sv_SE: EnTranslations = {
       "pairsHeld": "Par som hålls: {count}",
       "returnsLabel": "Returnerar: {count}"
     },
+    "ring": {
+      "path": {
+        "restore": "Aterstalla",
+        "merge": "Sammansmalta",
+        "chaos": "Kaos"
+      },
+      "preview": {
+        "restore": "Ringen ger tillbaka det som tas.",
+        "merge": "Ringen behaller det den tar.",
+        "chaos": "Ringen bestammer. Ingen har kommit pa att fraga den varfor."
+      },
+      "permanent": "Detta kan inte angras."
+    },
     "crafting": {
       "title": "Hantverk",
       "close": "Nära hantverk",
@@ -11769,6 +11782,12 @@ export const sv_SE: EnTranslations = {
             "label": "Svallfett smalt"
           }
         }
+      },
+      "q_spire_attunement": {
+        "title": "Vad ringen kommer att bli",
+        "text": "Jag kan inte saga dig vad din ring ar, {playerName}. Jag kan saga att den lyssnar, och att den har vantat pa att fa veta. Sa sag det till den. Valj, och hall fast vid valet: aterstalla, och den ger tillbaka det som tas; sammansmalta, och den behaller det den tar; eller lamna valet till ringen sjalv och se vad den gor av dig. Jag kommer inte kunna angra detta. Inte du heller.",
+        "completion": "Den har satt sig. Vad den an var innan du kom upp langs vagbanken, det ar den inte langre. Ga forsiktigt, {playerName}. Den kanner ditt namn nu, och det var inte jag som sa det.",
+        "objectives": {}
       },
       "q_tokens_alignment": {
         "title": "Riktningstecken",

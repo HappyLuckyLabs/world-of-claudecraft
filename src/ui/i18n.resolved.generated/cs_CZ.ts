@@ -2528,6 +2528,19 @@ export const cs_CZ: EnTranslations = {
       "pairsHeld": "Držené páry: {count}",
       "returnsLabel": "Vrácení: {count}"
     },
+    "ring": {
+      "path": {
+        "restore": "Obnovit",
+        "merge": "Splynout",
+        "chaos": "Chaos"
+      },
+      "preview": {
+        "restore": "Prsten vraci to, co je vzato.",
+        "merge": "Prsten si nechava to, co vezme.",
+        "chaos": "Prsten rozhoduje. Nikoho nenapadlo se ho zeptat proc."
+      },
+      "permanent": "Toto nelze vzit zpet."
+    },
     "crafting": {
       "title": "Výroba",
       "close": "Zavřít výrobu",
@@ -11769,6 +11782,12 @@ export const cs_CZ: EnTranslations = {
             "label": "Tuk nadmutcu vyskvaren"
           }
         }
+      },
+      "q_spire_attunement": {
+        "title": "Cim prsten bude",
+        "text": "Nemohu ti rici, co tvuj prsten je, {playerName}. Mohu ti rici, ze poslouchá a ze cekal, az mu to nekdo rekne. Tak mu to rekni. Vyber si a drz se toho: obnovit, a vraci to, co je vzato; splynout, a nechava si to, co vezme; nebo prenech volbu samotnemu prstenu a uvidis, co z tebe udela. Nebudu to moci vzit zpet. Ty take ne.",
+        "completion": "Usadilo se to. At uz to bylo cimkoli, nez jsi vysel po hrazi, uz to neni. Jdi opatrne, {playerName}. Zna ted tve jmeno, a ja jsem mu ho nerekl.",
+        "objectives": {}
       },
       "q_tokens_alignment": {
         "title": "Znamky Souladu",

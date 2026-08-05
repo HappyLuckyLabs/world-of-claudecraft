@@ -10935,4 +10935,16 @@ export const tr_TR: Partial<Record<TranslationKey, string>> = {
   'entities.quests.q_spire_reading.objectives.0.label': 'Dul ipegi alindi',
   'entities.quests.q_spire_reading.objectives.1.label': 'Sisme donyagi eritildi',
   'entities.zones.mirefen_marsh.pois.8.label': 'Okuma Kulesi',
+  'hudChrome.ring.path.restore': 'Onarma',
+  'hudChrome.ring.path.merge': 'Birlesme',
+  'hudChrome.ring.path.chaos': 'Kaos',
+  'hudChrome.ring.preview.restore': 'Yuzuk alinani geri verir.',
+  'hudChrome.ring.preview.merge': 'Yuzuk aldigini kendinde tutar.',
+  'hudChrome.ring.preview.chaos': 'Yuzuk karar verir. Kimsenin aklina nedenini sormak gelmemistir.',
+  'hudChrome.ring.permanent': 'Bu geri alinamaz.',
+  'entities.quests.q_spire_attunement.title': 'Yuzuk ne olacak',
+  'entities.quests.q_spire_attunement.text':
+    'Yuzugunun ne oldugunu sana soyleyemem, {playerName}. Soyleyebilecegim su: o dinliyor ve kendisine soylenmesini bekliyordu. Oyleyse soyle ona. Sec ve secimine sadik kal: onarma dersen alinani geri verir; birlesme dersen aldigini kendinde tutar; ya da secimi yuzugun kendisine birak ve seni neye donusturdugunu gor. Bunu geri alamayacagim. Sen de alamayacaksin.',
+  'entities.quests.q_spire_attunement.completion':
+    'Yerlesti. Sen setten yukari cikmadan once neyse, artik o degil. Dikkatli git, {playerName}. Artik adini biliyor ve ona ben soylemedim.',
 };

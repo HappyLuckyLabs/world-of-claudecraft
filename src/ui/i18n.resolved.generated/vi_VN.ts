@@ -2528,6 +2528,19 @@ export const vi_VN: EnTranslations = {
       "pairsHeld": "Các cặp được tổ chức: {count}",
       "returnsLabel": "Trả về: {count}"
     },
+    "ring": {
+      "path": {
+        "restore": "Phuc Hoi",
+        "merge": "Hop Nhat",
+        "chaos": "Hon Loan"
+      },
+      "preview": {
+        "restore": "Chiec nhan tra lai nhung gi bi lay di.",
+        "merge": "Chiec nhan giu lai nhung gi no lay.",
+        "chaos": "Chiec nhan tu quyet dinh. Chua ai nghi den viec hoi no tai sao."
+      },
+      "permanent": "Dieu nay khong the hoan tac."
+    },
     "crafting": {
       "title": "Chế tạo",
       "close": "Đóng chế tạo",
@@ -11769,6 +11782,12 @@ export const vi_VN: EnTranslations = {
             "label": "Da thang mo con phinh"
           }
         }
+      },
+      "q_spire_attunement": {
+        "title": "Chiec nhan se tro thanh gi",
+        "text": "Ta khong the noi cho nguoi biet chiec nhan cua nguoi la gi, {playerName}. Ta chi co the noi rang no dang lang nghe, va no da cho doi duoc nghe noi. Vay hay noi voi no. Hay chon, va giu lay lua chon do: phuc hoi, va no tra lai nhung gi bi lay di; hop nhat, va no giu lai nhung gi no lay; hoac trao quyen chon cho chinh chiec nhan, roi xem no bien nguoi thanh gi. Ta se khong the hoan tac dieu nay. Nguoi cung vay.",
+        "completion": "No da an dinh. Truoc khi nguoi di len con duong dap, no la gi cung khong con quan trong nua. Hay di can trong, {playerName}. Gio no da biet ten nguoi, va khong phai ta noi cho no.",
+        "objectives": {}
       },
       "q_tokens_alignment": {
         "title": "Tin Vat Can Chinh",

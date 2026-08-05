@@ -10922,4 +10922,16 @@ export const sv_SE: Partial<Record<TranslationKey, string>> = {
   'entities.quests.q_spire_reading.objectives.0.label': 'Ankesilke taget',
   'entities.quests.q_spire_reading.objectives.1.label': 'Svallfett smalt',
   'entities.zones.mirefen_marsh.pois.8.label': 'Lasningens Spira',
+  'hudChrome.ring.path.restore': 'Aterstalla',
+  'hudChrome.ring.path.merge': 'Sammansmalta',
+  'hudChrome.ring.path.chaos': 'Kaos',
+  'hudChrome.ring.preview.restore': 'Ringen ger tillbaka det som tas.',
+  'hudChrome.ring.preview.merge': 'Ringen behaller det den tar.',
+  'hudChrome.ring.preview.chaos': 'Ringen bestammer. Ingen har kommit pa att fraga den varfor.',
+  'hudChrome.ring.permanent': 'Detta kan inte angras.',
+  'entities.quests.q_spire_attunement.title': 'Vad ringen kommer att bli',
+  'entities.quests.q_spire_attunement.text':
+    'Jag kan inte saga dig vad din ring ar, {playerName}. Jag kan saga att den lyssnar, och att den har vantat pa att fa veta. Sa sag det till den. Valj, och hall fast vid valet: aterstalla, och den ger tillbaka det som tas; sammansmalta, och den behaller det den tar; eller lamna valet till ringen sjalv och se vad den gor av dig. Jag kommer inte kunna angra detta. Inte du heller.',
+  'entities.quests.q_spire_attunement.completion':
+    'Den har satt sig. Vad den an var innan du kom upp langs vagbanken, det ar den inte langre. Ga forsiktigt, {playerName}. Den kanner ditt namn nu, och det var inte jag som sa det.',
 };

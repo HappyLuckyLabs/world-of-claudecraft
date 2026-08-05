@@ -2868,6 +2868,21 @@ export const hudChromeStrings = {
   },
   // Crafting window (#1127): the minimal common-tier crafting action, one row
   // per known recipe, a Craft button enabled only when every reagent is held.
+  ring: {
+    // The Corrupted Neural Core's three attunements, offered once at the
+    // Inference Spire (src/sim/ring.ts owns the vocabulary).
+    path: {
+      restore: 'Restore',
+      merge: 'Merge',
+      chaos: 'Chaos',
+    },
+    preview: {
+      restore: 'The ring gives back what is taken.',
+      merge: 'The ring keeps what it takes.',
+      chaos: 'The ring decides. No one has thought to ask it why.',
+    },
+    permanent: 'This cannot be undone.',
+  },
   crafting: {
     title: 'Crafting',
     close: 'Close crafting',

@@ -11043,4 +11043,17 @@ export const id_ID: Partial<Record<TranslationKey, string>> = {
   'entities.quests.q_spire_reading.objectives.0.label': 'Sutra janda diambil',
   'entities.quests.q_spire_reading.objectives.1.label': 'Lemak kembung dilelehkan',
   'entities.zones.mirefen_marsh.pois.8.label': 'Menara Pembacaan',
+  'hudChrome.ring.path.restore': 'Memulihkan',
+  'hudChrome.ring.path.merge': 'Melebur',
+  'hudChrome.ring.path.chaos': 'Kekacauan',
+  'hudChrome.ring.preview.restore': 'Cincin mengembalikan apa yang diambil.',
+  'hudChrome.ring.preview.merge': 'Cincin menyimpan apa yang diambilnya.',
+  'hudChrome.ring.preview.chaos':
+    'Cincin yang memutuskan. Tak ada yang terpikir untuk bertanya mengapa.',
+  'hudChrome.ring.permanent': 'Ini tidak dapat dibatalkan.',
+  'entities.quests.q_spire_attunement.title': 'Apa yang akan menjadi cincin itu',
+  'entities.quests.q_spire_attunement.text':
+    'Aku tidak bisa memberitahumu cincinmu itu apa, {playerName}. Aku bisa memberitahumu bahwa ia mendengarkan, dan bahwa ia telah menunggu untuk diberi tahu. Jadi katakanlah padanya. Pilih, dan pegang pilihan itu: memulihkan, dan ia mengembalikan apa yang diambil; melebur, dan ia menyimpan apa yang diambilnya; atau serahkan pilihan pada cincin itu sendiri, dan lihat ia menjadikanmu apa. Aku tidak akan bisa membatalkan ini. Kau pun tidak.',
+  'entities.quests.q_spire_attunement.completion':
+    'Sudah menetap. Apa pun ia sebelum kau naik lewat jalan tanggul, kini ia bukan itu lagi. Berjalanlah dengan hati-hati, {playerName}. Ia tahu namamu sekarang, dan bukan aku yang memberitahunya.',
 };

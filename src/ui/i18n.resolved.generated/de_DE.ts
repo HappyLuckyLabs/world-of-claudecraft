@@ -2528,6 +2528,19 @@ export const de_DE: EnTranslations = {
       "pairsHeld": "Gehaltene Paare: {count}",
       "returnsLabel": "Rückgabe: {count}"
     },
+    "ring": {
+      "path": {
+        "restore": "Wiederherstellen",
+        "merge": "Verschmelzen",
+        "chaos": "Chaos"
+      },
+      "preview": {
+        "restore": "Der Ring gibt zurueck, was genommen wird.",
+        "merge": "Der Ring behaelt, was er nimmt.",
+        "chaos": "Der Ring entscheidet. Niemand ist auf den Gedanken gekommen, ihn nach dem Grund zu fragen."
+      },
+      "permanent": "Dies kann nicht rueckgaengig gemacht werden."
+    },
     "crafting": {
       "title": "Basteln",
       "close": "Enges Basteln",
@@ -11769,6 +11782,12 @@ export const de_DE: EnTranslations = {
             "label": "Sumpfblasenfett ausgelassen"
           }
         }
+      },
+      "q_spire_attunement": {
+        "title": "Was der Ring sein wird",
+        "text": "Ich kann dir nicht sagen, was dein Ring ist, {playerName}. Ich kann dir sagen, dass er zuhoert und darauf gewartet hat, dass man es ihm sagt. Also sag es ihm. Waehle und halte die Wahl: wiederherstellen, und er gibt zurueck, was genommen wird; verschmelzen, und er behaelt, was er nimmt; oder ueberlass die Wahl dem Ring selbst und sieh, was er aus dir macht. Ich werde das nicht rueckgaengig machen koennen. Du auch nicht.",
+        "completion": "Es hat sich gesetzt. Was immer er war, bevor du den Damm heraufkamst, das ist er nun nicht mehr. Geh vorsichtig, {playerName}. Er kennt jetzt deinen Namen, und ich habe ihn ihm nicht genannt.",
+        "objectives": {}
       },
       "q_tokens_alignment": {
         "title": "Zeichen der Ausrichtung",

@@ -2528,6 +2528,19 @@ export const fr_CA: EnTranslations = {
       "pairsHeld": "Paires détenues : {count}",
       "returnsLabel": "Retours : {count}"
     },
+    "ring": {
+      "path": {
+        "restore": "Restaurer",
+        "merge": "Fusionner",
+        "chaos": "Chaos"
+      },
+      "preview": {
+        "restore": "L'anneau rend ce qui est pris.",
+        "merge": "L'anneau garde ce qu'il prend.",
+        "chaos": "L'anneau decide. Personne n'a songe a lui demander pourquoi."
+      },
+      "permanent": "Ceci est irreversible."
+    },
     "crafting": {
       "title": "Artisanat",
       "close": "Fermer la fabrication",
@@ -11769,6 +11782,12 @@ export const fr_CA: EnTranslations = {
             "label": "Graisse d'enfle fondue"
           }
         }
+      },
+      "q_spire_attunement": {
+        "title": "Ce que l'anneau deviendra",
+        "text": "Je ne peux pas te dire ce qu'est ton anneau, {playerName}. Je peux te dire qu'il ecoute, et qu'il attendait qu'on le lui dise. Alors dis-le lui. Choisis, et tiens ton choix: restaurer, et il rend ce qui est pris; fusionner, et il garde ce qu'il prend; ou laisse le choix a l'anneau lui-meme et vois ce qu'il fera de toi. Je ne pourrai pas defaire cela. Toi non plus.",
+        "completion": "Il s'est fixe. Quoi qu'il fut avant que tu ne remontes la chaussee, il ne l'est plus. Va prudemment, {playerName}. Il connait ton nom maintenant, et ce n'est pas moi qui le lui ai dit.",
+        "objectives": {}
       },
       "q_tokens_alignment": {
         "title": "Jetons d'Alignement",

@@ -10985,4 +10985,17 @@ export const pl_PL: Partial<Record<TranslationKey, string>> = {
   'entities.quests.q_spire_reading.objectives.0.label': 'Wdowi jedwab zebrany',
   'entities.quests.q_spire_reading.objectives.1.label': 'Tluszcz wzdec wytopiony',
   'entities.zones.mirefen_marsh.pois.8.label': 'Iglica Odczytu',
+  'hudChrome.ring.path.restore': 'Przywrocenie',
+  'hudChrome.ring.path.merge': 'Scalenie',
+  'hudChrome.ring.path.chaos': 'Chaos',
+  'hudChrome.ring.preview.restore': 'Pierscien oddaje to, co zostalo zabrane.',
+  'hudChrome.ring.preview.merge': 'Pierscien zatrzymuje to, co zabierze.',
+  'hudChrome.ring.preview.chaos':
+    'Pierscien decyduje. Nikomu nie przyszlo do glowy go zapytac dlaczego.',
+  'hudChrome.ring.permanent': 'Tego nie da sie cofnac.',
+  'entities.quests.q_spire_attunement.title': 'Czym stanie sie pierscien',
+  'entities.quests.q_spire_attunement.text':
+    'Nie moge ci powiedziec, czym jest twoj pierscien, {playerName}. Moge ci powiedziec, ze slucha i ze czekal, az mu sie to powie. Wiec powiedz. Wybierz i trzymaj sie wyboru: przywrocenie, a odda to, co zostalo zabrane; scalenie, a zatrzyma to, co zabierze; albo pozostaw wybor samemu pierscieniowi i zobacz, co z ciebie zrobi. Nie bede mogl tego cofnac. Ty rowniez nie.',
+  'entities.quests.q_spire_attunement.completion':
+    'Ustalilo sie. Czymkolwiek byl, zanim wszedles grobla, juz tym nie jest. Idz ostroznie, {playerName}. Zna teraz twoje imie, a to nie ja mu je podalem.',
 };

@@ -11186,4 +11186,16 @@ export const fr_FR: Partial<Record<TranslationKey, string>> = {
   'entities.quests.q_spire_reading.objectives.0.label': 'Soie de veuve prelevee',
   'entities.quests.q_spire_reading.objectives.1.label': "Graisse d'enfle fondue",
   'entities.zones.mirefen_marsh.pois.8.label': 'La Fleche de la Lecture',
+  'hudChrome.ring.path.restore': 'Restaurer',
+  'hudChrome.ring.path.merge': 'Fusionner',
+  'hudChrome.ring.path.chaos': 'Chaos',
+  'hudChrome.ring.preview.restore': "L'anneau rend ce qui est pris.",
+  'hudChrome.ring.preview.merge': "L'anneau garde ce qu'il prend.",
+  'hudChrome.ring.preview.chaos': "L'anneau decide. Personne n'a songe a lui demander pourquoi.",
+  'hudChrome.ring.permanent': 'Ceci est irreversible.',
+  'entities.quests.q_spire_attunement.title': "Ce que l'anneau deviendra",
+  'entities.quests.q_spire_attunement.text':
+    "Je ne peux pas te dire ce qu'est ton anneau, {playerName}. Je peux te dire qu'il ecoute, et qu'il attendait qu'on le lui dise. Alors dis-le lui. Choisis, et tiens ton choix: restaurer, et il rend ce qui est pris; fusionner, et il garde ce qu'il prend; ou laisse le choix a l'anneau lui-meme et vois ce qu'il fera de toi. Je ne pourrai pas defaire cela. Toi non plus.",
+  'entities.quests.q_spire_attunement.completion':
+    "Il s'est fixe. Quoi qu'il fut avant que tu ne remontes la chaussee, il ne l'est plus. Va prudemment, {playerName}. Il connait ton nom maintenant, et ce n'est pas moi qui le lui ai dit.",
 };

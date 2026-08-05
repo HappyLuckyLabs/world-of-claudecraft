@@ -2528,6 +2528,19 @@ export const nl_NL: EnTranslations = {
       "pairsHeld": "Behouden paren: {count}",
       "returnsLabel": "Teruggaven: {count}"
     },
+    "ring": {
+      "path": {
+        "restore": "Herstellen",
+        "merge": "Versmelten",
+        "chaos": "Chaos"
+      },
+      "preview": {
+        "restore": "De ring geeft terug wat genomen wordt.",
+        "merge": "De ring houdt wat hij neemt.",
+        "chaos": "De ring beslist. Niemand is op het idee gekomen hem te vragen waarom."
+      },
+      "permanent": "Dit kan niet ongedaan worden gemaakt."
+    },
     "crafting": {
       "title": "Knutselen",
       "close": "Sluit het maken",
@@ -11769,6 +11782,12 @@ export const nl_NL: EnTranslations = {
             "label": "Bultenvet uitgesmolten"
           }
         }
+      },
+      "q_spire_attunement": {
+        "title": "Wat de ring zal zijn",
+        "text": "Ik kan je niet zeggen wat je ring is, {playerName}. Ik kan je zeggen dat hij luistert, en dat hij erop wachtte het te horen. Zeg het hem dus. Kies, en houd die keuze vast: herstellen, en hij geeft terug wat genomen wordt; versmelten, en hij houdt wat hij neemt; of laat de keuze aan de ring zelf en zie wat hij van je maakt. Ik zal dit niet ongedaan kunnen maken. Jij evenmin.",
+        "completion": "Het heeft zich gezet. Wat hij ook was voor je de dijkweg opkwam, dat is hij niet langer. Ga voorzichtig, {playerName}. Hij kent nu je naam, en ik heb het hem niet verteld.",
+        "objectives": {}
       },
       "q_tokens_alignment": {
         "title": "Tekens van Uitlijning",

@@ -10902,4 +10902,16 @@ export const da_DK: Partial<Record<TranslationKey, string>> = {
   'entities.quests.q_spire_reading.objectives.0.label': 'Enkesilke taget',
   'entities.quests.q_spire_reading.objectives.1.label': 'Mosepusterfedt smeltet',
   'entities.zones.mirefen_marsh.pois.8.label': 'Laesningens Spir',
+  'hudChrome.ring.path.restore': 'Genoprette',
+  'hudChrome.ring.path.merge': 'Sammensmelte',
+  'hudChrome.ring.path.chaos': 'Kaos',
+  'hudChrome.ring.preview.restore': 'Ringen giver tilbage, hvad der tages.',
+  'hudChrome.ring.preview.merge': 'Ringen beholder, hvad den tager.',
+  'hudChrome.ring.preview.chaos': 'Ringen bestemmer. Ingen har taenkt paa at spoerge den hvorfor.',
+  'hudChrome.ring.permanent': 'Dette kan ikke fortrydes.',
+  'entities.quests.q_spire_attunement.title': 'Hvad ringen bliver',
+  'entities.quests.q_spire_attunement.text':
+    'Jeg kan ikke sige dig, hvad din ring er, {playerName}. Jeg kan sige dig, at den lytter, og at den har ventet paa at faa det at vide. Saa sig det til den. Vaelg, og hold fast ved valget: genoprette, og den giver tilbage, hvad der tages; sammensmelte, og den beholder, hvad den tager; eller overlad valget til ringen selv og se, hvad den goer af dig. Jeg vil ikke kunne fortryde dette. Det vil du heller ikke.',
+  'entities.quests.q_spire_attunement.completion':
+    'Den har sat sig. Hvad den end var, foer du kom op ad daemningsvejen, er den det ikke laengere. Gaa forsigtigt, {playerName}. Den kender dit navn nu, og det var ikke mig, der sagde det.',
 };

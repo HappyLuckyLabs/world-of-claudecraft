@@ -2528,6 +2528,19 @@ export const id_ID: EnTranslations = {
       "pairsHeld": "Pasangan yang dimiliki: {count}",
       "returnsLabel": "Pengembalian: {count}"
     },
+    "ring": {
+      "path": {
+        "restore": "Memulihkan",
+        "merge": "Melebur",
+        "chaos": "Kekacauan"
+      },
+      "preview": {
+        "restore": "Cincin mengembalikan apa yang diambil.",
+        "merge": "Cincin menyimpan apa yang diambilnya.",
+        "chaos": "Cincin yang memutuskan. Tak ada yang terpikir untuk bertanya mengapa."
+      },
+      "permanent": "Ini tidak dapat dibatalkan."
+    },
     "crafting": {
       "title": "kerajinan",
       "close": "Tutup kerajinan",
@@ -11769,6 +11782,12 @@ export const id_ID: EnTranslations = {
             "label": "Lemak kembung dilelehkan"
           }
         }
+      },
+      "q_spire_attunement": {
+        "title": "Apa yang akan menjadi cincin itu",
+        "text": "Aku tidak bisa memberitahumu cincinmu itu apa, {playerName}. Aku bisa memberitahumu bahwa ia mendengarkan, dan bahwa ia telah menunggu untuk diberi tahu. Jadi katakanlah padanya. Pilih, dan pegang pilihan itu: memulihkan, dan ia mengembalikan apa yang diambil; melebur, dan ia menyimpan apa yang diambilnya; atau serahkan pilihan pada cincin itu sendiri, dan lihat ia menjadikanmu apa. Aku tidak akan bisa membatalkan ini. Kau pun tidak.",
+        "completion": "Sudah menetap. Apa pun ia sebelum kau naik lewat jalan tanggul, kini ia bukan itu lagi. Berjalanlah dengan hati-hati, {playerName}. Ia tahu namamu sekarang, dan bukan aku yang memberitahunya.",
+        "objectives": {}
       },
       "q_tokens_alignment": {
         "title": "Token Penyelarasan",

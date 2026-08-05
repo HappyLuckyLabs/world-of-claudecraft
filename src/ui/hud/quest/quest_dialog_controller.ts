@@ -11,6 +11,7 @@ import {
 } from '../../../sim/types';
 import type { IWorld } from '../../../world_api';
 import { archetypeTitleText, craftNameText } from '../../char_window';
+import { ringPathNameText, ringPathPreviewText } from '../../ring_text';
 import { decorativeArtImg } from '../../decorative_art';
 import { markDialogRoot } from '../../dialog_root';
 import { itemDisplayName } from '../../entity_i18n';
@@ -452,8 +453,12 @@ export class QuestDialogController {
         switchCount: identity.switchCount,
         amendsProgress: identity.amendsProgress,
       });
+      const isRingChoice = quest.completionEffect?.type === 'attuneRing';
       const options = professionTargets
         .map((target) => {
+          if (isRingChoice) {
+            return `<option value="${esc(target)}">${esc(ringPathNameText(target))}</option>`;
+          }
           const pair = craftsForPairTarget(target);
           // A pair target leads with its archetype name and keeps both craft
           // names visible so the choice stays informative, e.g.
@@ -470,6 +475,12 @@ export class QuestDialogController {
         })
         .join('');
       professionPreviewContent = (target) => {
+        if (isRingChoice) {
+          return {
+            text: `${ringPathPreviewText(target)} ${t('hudChrome.ring.permanent')}`,
+            crestUrl: null,
+          };
+        }
         if (quest.completionEffect?.type === 'switchHobby') {
           return {
             text: t('hudChrome.crafting.hobbyPreview', { hobby: craftNameText(target) }),

@@ -2528,6 +2528,19 @@ export const da_DK: EnTranslations = {
       "pairsHeld": "Afholdte par: {count}",
       "returnsLabel": "Returnerer: {count}"
     },
+    "ring": {
+      "path": {
+        "restore": "Genoprette",
+        "merge": "Sammensmelte",
+        "chaos": "Kaos"
+      },
+      "preview": {
+        "restore": "Ringen giver tilbage, hvad der tages.",
+        "merge": "Ringen beholder, hvad den tager.",
+        "chaos": "Ringen bestemmer. Ingen har taenkt paa at spoerge den hvorfor."
+      },
+      "permanent": "Dette kan ikke fortrydes."
+    },
     "crafting": {
       "title": "Håndværk",
       "close": "Tæt håndværk",
@@ -11769,6 +11782,12 @@ export const da_DK: EnTranslations = {
             "label": "Mosepusterfedt smeltet"
           }
         }
+      },
+      "q_spire_attunement": {
+        "title": "Hvad ringen bliver",
+        "text": "Jeg kan ikke sige dig, hvad din ring er, {playerName}. Jeg kan sige dig, at den lytter, og at den har ventet paa at faa det at vide. Saa sig det til den. Vaelg, og hold fast ved valget: genoprette, og den giver tilbage, hvad der tages; sammensmelte, og den beholder, hvad den tager; eller overlad valget til ringen selv og se, hvad den goer af dig. Jeg vil ikke kunne fortryde dette. Det vil du heller ikke.",
+        "completion": "Den har sat sig. Hvad den end var, foer du kom op ad daemningsvejen, er den det ikke laengere. Gaa forsigtigt, {playerName}. Den kender dit navn nu, og det var ikke mig, der sagde det.",
+        "objectives": {}
       },
       "q_tokens_alignment": {
         "title": "Retningstegn",

@@ -10857,4 +10857,16 @@ export const cs_CZ: Partial<Record<TranslationKey, string>> = {
   'entities.quests.q_spire_reading.objectives.0.label': 'Vdovi hedvabi ziskano',
   'entities.quests.q_spire_reading.objectives.1.label': 'Tuk nadmutcu vyskvaren',
   'entities.zones.mirefen_marsh.pois.8.label': 'Spice Cteni',
+  'hudChrome.ring.path.restore': 'Obnovit',
+  'hudChrome.ring.path.merge': 'Splynout',
+  'hudChrome.ring.path.chaos': 'Chaos',
+  'hudChrome.ring.preview.restore': 'Prsten vraci to, co je vzato.',
+  'hudChrome.ring.preview.merge': 'Prsten si nechava to, co vezme.',
+  'hudChrome.ring.preview.chaos': 'Prsten rozhoduje. Nikoho nenapadlo se ho zeptat proc.',
+  'hudChrome.ring.permanent': 'Toto nelze vzit zpet.',
+  'entities.quests.q_spire_attunement.title': 'Cim prsten bude',
+  'entities.quests.q_spire_attunement.text':
+    'Nemohu ti rici, co tvuj prsten je, {playerName}. Mohu ti rici, ze poslouchá a ze cekal, az mu to nekdo rekne. Tak mu to rekni. Vyber si a drz se toho: obnovit, a vraci to, co je vzato; splynout, a nechava si to, co vezme; nebo prenech volbu samotnemu prstenu a uvidis, co z tebe udela. Nebudu to moci vzit zpet. Ty take ne.',
+  'entities.quests.q_spire_attunement.completion':
+    'Usadilo se to. At uz to bylo cimkoli, nez jsi vysel po hrazi, uz to neni. Jdi opatrne, {playerName}. Zna ted tve jmeno, a ja jsem mu ho nerekl.',
 };
