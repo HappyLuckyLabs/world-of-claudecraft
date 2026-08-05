@@ -21,9 +21,8 @@
 // `pendingQuestCommands` (see `ClientWorld.applySnapshot`); the server still
 // authoritatively resolves the turn-in itself.
 import type { ArchetypeState } from '../sim/professions/archetype';
-import type { RingPath } from '../sim/types';
 import { computeQuestState } from '../sim/sim';
-import type { QuestProgress, QuestState } from '../sim/types';
+import type { QuestProgress, QuestState, RingPath } from '../sim/types';
 
 export function optimisticQuestState(
   questId: string,
