@@ -10,6 +10,7 @@ import {
 } from '../professions/archetype';
 import { announceAttunement } from '../professions/attunement_events';
 import { baselineActivePairTierMail } from '../professions/tier_mail';
+import { attuneRing, canAttuneRing, RING_PATHS } from '../ring';
 import type { PlayerMeta } from '../sim';
 import type { SimContext } from '../sim_context';
 import type { QuestDef, QuestProgress } from '../types';
@@ -28,6 +29,10 @@ export function professionQuestSelectionTargets(quest: QuestDef, state: Archetyp
         canAttuneArchetypePair(state, target, effect.mode),
     );
   }
+  // The ring's legality is ringPath, which this profession-scoped view cannot
+  // see; computeQuestState gates it. Offer every path so the shared
+  // empty-targets gate never marks the quest unavailable.
+  if (effect.type === 'attuneRing') return [...RING_PATHS];
   if (!state.activeArchetype || !state.pairedMajor) return [];
   return hobbyCandidatesForPair(state.activeArchetype, state.pairedMajor).filter(
     (target) => target !== state.hobbyCraft,
@@ -42,6 +47,7 @@ export function validateProfessionQuestSelection(
   const effect = quest.completionEffect;
   if (!effect) return selection === undefined;
   if (!selection) return false;
+  if (effect.type === 'attuneRing') return canAttuneRing(meta, selection);
   if (effect.type === 'attunePair') {
     // A per-pair quest accepts and turns in ONLY its pinned pair,
     // over and above the shared mode-legality gate.
@@ -70,6 +76,7 @@ export function applyProfessionQuestEffect(
   const effect = quest.completionEffect;
   if (!effect) return true;
   if (!validateProfessionQuestSelection(quest, meta, progress.selection)) return false;
+  if (effect.type === 'attuneRing') return attuneRing(meta, progress.selection);
   if (effect.type === 'attunePair') {
     const target = progress.selection as string;
     if (!attuneArchetypePair(ctx, meta.entityId, target, effect.mode)) return false;

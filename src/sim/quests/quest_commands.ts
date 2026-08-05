@@ -40,6 +40,7 @@ import {
   type QuestState,
   questObjectiveRequired,
   questTurnInNpcIds,
+  type RingPath,
 } from '../types';
 import {
   applyProfessionQuestEffect,
@@ -62,6 +63,9 @@ export function computeQuestState(
   // ctx.tickCount, the online client from the server-computed cprof mirror), so
   // this shared decision point never reasons about tick domains itself.
   withinCadence?: ReadonlySet<string>,
+  // The ring's attunement, when the caller has it. The choice is permanent, so
+  // an attuned character can never see the attunement quest offered again.
+  ringPath?: RingPath | null,
 ): QuestState {
   const qp = questLog.get(questId);
   if (qp) return qp.state === 'ready' ? 'ready' : 'active';
@@ -85,6 +89,7 @@ export function computeQuestState(
   // raised switchCount, dodging the 5 + 3 * switchCount escalation. The gate
   // lives here so both hosts and the server accept path share it (the quest
   // already in the log returned 'active' above, so it never gates itself).
+  if (quest.completionEffect?.type === 'attuneRing' && ringPath) return 'unavailable';
   if (quest.completionEffect?.type === 'attunePair') {
     for (const activeId of questLog.keys()) {
       if (QUESTS[activeId]?.completionEffect?.type === 'attunePair') return 'unavailable';

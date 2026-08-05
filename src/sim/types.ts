@@ -2949,7 +2949,9 @@ export interface QuestDef {
   // (the pair id vocabulary is CRAFT_RING-derived at runtime, not a literal union).
   completionEffect?:
     | { type: 'attunePair'; mode: 'new' | 'return'; pairId?: string }
-    | { type: 'switchHobby' };
+    | { type: 'switchHobby' }
+    // The ring's one permanent choice; selection is a RingPath.
+    | { type: 'attuneRing' };
   // Resolve the first objective's count from the character's return history at
   // acceptance time. The snapshotted value stays stable while the quest is active.
   resolvedObjectiveCounts?: 'archetypeAmends';
@@ -2964,6 +2966,10 @@ export function questTurnInNpcIds(quest: QuestDef): readonly string[] {
 export function isQuestTurnInNpc(quest: QuestDef, templateId: string): boolean {
   return questTurnInNpcIds(quest).includes(templateId);
 }
+
+// The Corrupted Neural Core's three attunements (src/sim/ring.ts). Chosen once
+// at the Inference Spire and never changed: there is no return quest for it.
+export type RingPath = 'restore' | 'merge' | 'chaos';
 
 export type QuestState = 'unavailable' | 'available' | 'active' | 'ready' | 'done';
 

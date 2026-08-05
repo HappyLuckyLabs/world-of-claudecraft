@@ -616,6 +616,7 @@ import {
   REVENGE_FREE_CHANCE,
   REVENGE_FREE_DURATION,
   type ReadyCheck,
+  type RingPath,
   type RiteIntensity,
   RUN_SPEED,
   type SetProc,
@@ -1172,6 +1173,9 @@ export interface PlayerMeta {
   known: ResolvedAbility[];
   questLog: Map<string, QuestProgress>;
   questsDone: Set<string>;
+  // The Corrupted Neural Core's attunement, or null while it is still just a
+  // warm ring nobody can name (src/sim/ring.ts). Permanent once set.
+  ringPath: RingPath | null;
   counters: RewardCounters;
   autoEquip: boolean;
   // sim.time when this character entered the world; powers /played. Session-only
@@ -1430,6 +1434,7 @@ export interface CharacterState {
   vendorBuyback?: InvSlot[];
   questLog: QuestProgress[];
   questsDone: string[];
+  ringPath?: RingPath | null;
   // Legacy arenaRating/Wins/Losses are treated as 1v1 data. The explicit
   // 1v1 fields are written by new saves, while old saves fall back cleanly.
   arenaRating?: number;
@@ -2488,6 +2493,7 @@ export class Sim {
       known: [],
       questLog: new Map(),
       questsDone: new Set(),
+      ringPath: null,
       counters: freshCounters(),
       autoEquip: opts?.autoEquip ?? false,
       joinedAt: this.time,
@@ -2677,6 +2683,7 @@ export class Sim {
           });
       }
       for (const q of s.questsDone) meta.questsDone.add(q);
+      meta.ringPath = s.ringPath ?? null;
       if (s.talents)
         // Revalidate the persisted build against the current rules + level budget
         // before it is baked into the flat mods below. A stored allocation replays
@@ -3387,6 +3394,7 @@ export class Sim {
         ...(q.resolvedCounts === undefined ? {} : { resolvedCounts: [...q.resolvedCounts] }),
       })),
       questsDone: [...meta.questsDone],
+      ringPath: meta.ringPath,
       arenaRating: meta.arenaRating,
       arenaWins: meta.arenaWins,
       arenaLosses: meta.arenaLosses,
